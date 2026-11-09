@@ -877,3 +877,29 @@ a.bk-varrow:active{transform:translateY(1px)}
 @media (min-width:1181px) and (max-width:1520px){
   .header-menu-1 .menu>li>.ct-menu-link{padding-inline:10px!important;font-size:15px!important}
 }
+
+/* ===== Resep halal: kelompok varian, kartu, dan tag bahan ===== */
+.bk-rgroup{margin:0 0 54px}
+.bk-rgroup__head{display:flex;align-items:center;gap:16px;flex-wrap:wrap;border-bottom:1px solid #E6E6E6;padding-bottom:14px;margin-bottom:22px}
+.bk-rtile{font-size:12px;font-weight:700;letter-spacing:1.5px;border:1.5px solid #B87333;color:#B87333;padding:6px 10px;border-radius:4px;background:#fff;white-space:nowrap}
+.bk-rgroup__head .bk-h3{margin:0;font-size:clamp(20px,2.1vw,27px)}
+.bk-rgroup__sub{margin:2px 0 0;color:#666;font-size:13px}
+.bk-rbuy{margin-left:auto;background:#B87333;color:#fff;text-decoration:none;padding:10px 18px;border-radius:999px;font-size:13px;font-weight:700;white-space:nowrap}
+.bk-rbuy:hover{background:#96602A;color:#fff}
+.bk-rgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.bk-rcard{border:1px solid #E6E6E6;border-radius:14px;padding:20px 20px 18px;background:#fff}
+.bk-rcard__title{font-size:19px;line-height:1.25;margin:0 0 4px}
+.bk-rmeta{margin:0 0 10px;color:#666;font-size:13px}
+.bk-rcard summary{cursor:pointer;font-weight:700;font-size:13px;padding:6px 0;color:#333}
+.bk-ing--one{columns:1}
+.bk-tag{display:inline-block;margin-left:5px;padding:2px 8px;border-radius:999px;background:#F7EFE7;color:#8A5A1E;border:1px solid #E7D3BE;font-size:11px;font-weight:700;text-decoration:none;white-space:nowrap}
+.bk-tag:hover{background:#B87333;color:#fff;border-color:#B87333}
+.bk-rtips{margin:12px 0 0;font-size:13px;color:#555;background:#F7F7F7;border-left:3px solid #B87333;padding:10px 12px;border-radius:0 8px 8px 0}
+@media (max-width:760px){.bk-rgrid{grid-template-columns:1fr}.bk-rbuy{margin-left:0}}
+
+/* Kartu resep beranda memakai ikon elemen: tampil utuh, bukan dipotong */
+.bk-recipe--ikon img{object-fit:contain;background:#fff;padding:26px 26px 46px}
+.bk-recipe--ikon .bk-recipe__cap{background:linear-gradient(transparent,rgba(51,51,51,.92))}
+
+/* Label varian pada kartu resep beranda: chip solid agar selalu terbaca */
+.bk-recipe--ikon .bk-recipe__cap span{display:inline-block;background:#B87333;color:#fff;padding:3px 10px;border-radius:999px}

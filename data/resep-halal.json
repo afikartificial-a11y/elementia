@@ -1,0 +1,3096 @@
+{
+ "sumber": "Resep_Halal_Elementia_Top2.md",
+ "jumlah": 50,
+ "resep": [
+  {
+   "slug": "lada-putih-butir-sup-iga-sapi-lada-putih-ala-bak-kut-teh-halal",
+   "judul": "Sup Iga Sapi Lada Putih (ala Bak Kut Teh, halal)",
+   "varian_nama": "Lada Putih Butir",
+   "komoditas": "lada-putih",
+   "varian": "Butir",
+   "waktu": "±45 menit (presto) / 2 jam (panci biasa)",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "400 g",
+     "nama": "iga sapi",
+     "tags": []
+    },
+    {
+     "q": "1,5 sdm",
+     "nama": "Lada Putih Butir Elementia, digeprek",
+     "tags": [
+      {
+       "label": "Lada Putih Butir",
+       "komoditas": "lada-putih",
+       "varian": "Butir"
+      }
+     ]
+    },
+    {
+     "q": "8 siung",
+     "nama": "bawang putih, utuh, dikupas",
+     "tags": []
+    },
+    {
+     "q": "2 ruas",
+     "nama": "jahe, digeprek",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "kecap asin",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "garam",
+     "tags": []
+    },
+    {
+     "q": "1 liter",
+     "nama": "air",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Pelengkap: nasi, cabai rawit, irisan bawang putih goreng",
+     "tags": [
+      {
+       "label": "Bawang Putih Goreng",
+       "komoditas": "bawang-putih",
+       "varian": "Goreng"
+      }
+     ]
+    }
+   ],
+   "langkah": [
+    "Rebus iga sebentar 5 menit, buang air rebusan pertama, bilas iga.",
+    "Masukkan iga, lada, bawang putih, jahe, dan air ke panci. Rebus dengan api kecil.",
+    "Presto 30 menit, atau panci biasa 1,5 sampai 2 jam hingga empuk.",
+    "Tambahkan kecap asin dan garam. Koreksi rasa.",
+    "Sajikan panas dengan nasi dan cabai rawit."
+   ],
+   "tips": "Kuah sebaiknya tajam di lada. Tambahkan lada putih segar gerus saat disajikan."
+  },
+  {
+   "slug": "lada-putih-butir-ikan-kukus-jahe-lada-putih",
+   "judul": "Ikan Kukus Jahe Lada Putih",
+   "varian_nama": "Lada Putih Butir",
+   "komoditas": "lada-putih",
+   "varian": "Butir",
+   "waktu": "±15 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "2 potong",
+     "nama": "fillet ikan kakap atau dori (±250 g)",
+     "tags": []
+    },
+    {
+     "q": "1 ruas",
+     "nama": "jahe, iris korek api",
+     "tags": []
+    },
+    {
+     "q": "2 siung",
+     "nama": "bawang putih, iris tipis",
+     "tags": []
+    },
+    {
+     "q": "1 batang",
+     "nama": "daun bawang",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "kecap asin",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "minyak wijen",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "Lada Putih Butir Elementia, gerus segar",
+     "tags": [
+      {
+       "label": "Lada Putih Butir",
+       "komoditas": "lada-putih",
+       "varian": "Butir"
+      }
+     ]
+    },
+    {
+     "q": "",
+     "nama": "Sejumput garam",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Lumuri ikan dengan garam dan lada putih. Diamkan 5 menit.",
+    "Taruh jahe di atas ikan, kukus 8 sampai 10 menit hingga matang.",
+    "Panaskan minyak wijen, tumis bawang putih sebentar.",
+    "Tuang kecap asin dan minyak ke atas ikan. Taburi daun bawang."
+   ],
+   "tips": "Jangan kukus terlalu lama agar ikan tidak keras."
+  },
+  {
+   "slug": "lada-putih-bubuk-nugget-ayam-rumahan",
+   "judul": "Nugget Ayam Rumahan",
+   "varian_nama": "Lada Putih Bubuk",
+   "komoditas": "lada-putih",
+   "varian": "Bubuk",
+   "waktu": "±35 menit (20 menit kerja)",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "300 g",
+     "nama": "dada ayam tanpa tulang, giling",
+     "tags": []
+    },
+    {
+     "q": "2 sdm",
+     "nama": "tepung terigu",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "tepung maizena",
+     "tags": []
+    },
+    {
+     "q": "2 siung",
+     "nama": "bawang putih, haluskan",
+     "tags": []
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "Lada Putih Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Lada Putih Bubuk",
+       "komoditas": "lada-putih",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "garam",
+     "tags": []
+    },
+    {
+     "q": "1 butir",
+     "nama": "putih telur",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Tepung panir secukupnya",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Minyak untuk menggoreng atau semprot minyak",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Campur ayam giling, terigu, maizena, bawang putih, lada putih, garam, dan putih telur.",
+    "Cetak dalam loyang, kukus 20 menit. Dinginkan lalu potong.",
+    "Gulingkan ke tepung panir.",
+    "Goreng sampai kecokelatan, atau air fryer 190°C selama 8 menit."
+   ],
+   "tips": "Simpan nugget mentah di freezer hingga 1 bulan."
+  },
+  {
+   "slug": "lada-putih-bubuk-sup-krim-jamur",
+   "judul": "Sup Krim Jamur",
+   "varian_nama": "Lada Putih Bubuk",
+   "komoditas": "lada-putih",
+   "varian": "Bubuk",
+   "waktu": "±20 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "200 g",
+     "nama": "jamur kancing, iris",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "mentega",
+     "tags": []
+    },
+    {
+     "q": "1 siung",
+     "nama": "bawang putih, cincang",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "tepung terigu",
+     "tags": []
+    },
+    {
+     "q": "300 ml",
+     "nama": "susu cair",
+     "tags": []
+    },
+    {
+     "q": "150 ml",
+     "nama": "kaldu ayam",
+     "tags": []
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "Lada Putih Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Lada Putih Bubuk",
+       "komoditas": "lada-putih",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "",
+     "nama": "Garam secukupnya",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Tumis bawang putih dan jamur dengan mentega hingga layu.",
+    "Taburkan terigu, aduk 1 menit.",
+    "Tuang susu dan kaldu sedikit demi sedikit sambil diaduk.",
+    "Masak hingga mengental, beri lada putih dan garam.",
+    "Blender sebagian jika suka tekstur halus."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "lada-hitam-butir-cacio-e-pepe",
+   "judul": "Cacio e Pepe",
+   "varian_nama": "Lada Hitam Butir",
+   "komoditas": "lada-hitam",
+   "varian": "Butir",
+   "waktu": "±15 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "200 g",
+     "nama": "spaghetti",
+     "tags": []
+    },
+    {
+     "q": "2 sdt",
+     "nama": "Lada Hitam Butir Elementia",
+     "tags": [
+      {
+       "label": "Lada Hitam Butir",
+       "komoditas": "lada-hitam",
+       "varian": "Butir"
+      }
+     ]
+    },
+    {
+     "q": "60 g",
+     "nama": "keju pecorino atau parmesan halal, parut halus",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "mentega",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Garam untuk air rebusan",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Rebus spaghetti dalam air bergaram hingga al dente. Sisakan 1 gelas air rebusan.",
+    "Sangrai lada butir di wajan kering 1 menit, tumbuk kasar.",
+    "Masukkan lada dan mentega ke wajan dengan 100 ml air rebusan.",
+    "Masukkan pasta, aduk sambil menambah keju sedikit demi sedikit hingga licin berkrim."
+   ],
+   "tips": "Matikan api sebelum menambah keju agar tidak menggumpal."
+  },
+  {
+   "slug": "lada-hitam-butir-steak-sirloin-saus-peppercorn-tanpa-alkohol",
+   "judul": "Steak Sirloin Saus Peppercorn (tanpa alkohol)",
+   "varian_nama": "Lada Hitam Butir",
+   "komoditas": "lada-hitam",
+   "varian": "Butir",
+   "waktu": "±25 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "2 potong",
+     "nama": "sirloin (±200 g per potong), suhu ruang",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "Lada Hitam Butir Elementia, tumbuk kasar",
+     "tags": [
+      {
+       "label": "Lada Hitam Butir",
+       "komoditas": "lada-hitam",
+       "varian": "Butir"
+      }
+     ]
+    },
+    {
+     "q": "1 sdm",
+     "nama": "mentega",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "minyak",
+     "tags": []
+    },
+    {
+     "q": "1 siung",
+     "nama": "bawang putih, cincang",
+     "tags": []
+    },
+    {
+     "q": "100 ml",
+     "nama": "kaldu sapi",
+     "tags": []
+    },
+    {
+     "q": "100 ml",
+     "nama": "krim masak",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Garam secukupnya",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Bumbui steak dengan garam dan sedikit lada. Panaskan wajan hingga sangat panas.",
+    "Sear 2 sampai 3 menit tiap sisi untuk medium. Istirahatkan 5 menit.",
+    "Di wajan yang sama, tumis bawang putih dan sisa lada. Tuang kaldu, kecilkan api 3 menit.",
+    "Masukkan krim dan mentega, masak hingga mengental.",
+    "Siram saus ke steak."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "lada-hitam-pecah-sapi-lada-hitam",
+   "judul": "Sapi Lada Hitam",
+   "varian_nama": "Lada Hitam Pecah",
+   "komoditas": "lada-hitam",
+   "varian": "Pecah",
+   "waktu": "±15 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "200 g",
+     "nama": "daging sapi has dalam, iris tipis",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "maizena",
+     "tags": []
+    },
+    {
+     "q": "1",
+     "nama": "bawang bombay, iris",
+     "tags": []
+    },
+    {
+     "q": "2 siung",
+     "nama": "bawang putih, cincang",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "Lada Hitam Pecah Elementia",
+     "tags": [
+      {
+       "label": "Lada Hitam Pecah",
+       "komoditas": "lada-hitam",
+       "varian": "Pecah"
+      }
+     ]
+    },
+    {
+     "q": "1 sdm",
+     "nama": "saus tiram halal",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "kecap manis",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "minyak",
+     "tags": []
+    },
+    {
+     "q": "2 sdm",
+     "nama": "air",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Lumuri daging dengan maizena dan 1 sdt kecap manis.",
+    "Tumis bawang putih dan bawang bombay hingga harum.",
+    "Masukkan daging, masak cepat dengan api besar.",
+    "Tambahkan lada pecah, saus tiram, sisa kecap, dan air. Aduk 1 sampai 2 menit."
+   ],
+   "tips": "Jangan terlalu lama agar daging tetap empuk."
+  },
+  {
+   "slug": "lada-hitam-pecah-kentang-wedges-lada-hitam",
+   "judul": "Kentang Wedges Lada Hitam",
+   "varian_nama": "Lada Hitam Pecah",
+   "komoditas": "lada-hitam",
+   "varian": "Pecah",
+   "waktu": "±30 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "3 kentang",
+     "nama": "sedang, potong wedges",
+     "tags": []
+    },
+    {
+     "q": "1,5 sdm",
+     "nama": "minyak zaitun",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "Lada Hitam Pecah Elementia",
+     "tags": [
+      {
+       "label": "Lada Hitam Pecah",
+       "komoditas": "lada-hitam",
+       "varian": "Pecah"
+      }
+     ]
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "bawang putih bubuk",
+     "tags": [
+      {
+       "label": "Bawang Putih Bubuk",
+       "komoditas": "bawang-putih",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "garam",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Rendam kentang dalam air 10 menit, tiriskan dan keringkan.",
+    "Campur dengan minyak, lada, bawang putih bubuk, dan garam.",
+    "Panggang oven 200°C selama 25 menit, atau air fryer 200°C selama 18 menit. Balik di tengah waktu."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "lada-hitam-bubuk-telur-scramble-lada-hitam",
+   "judul": "Telur Scramble Lada Hitam",
+   "varian_nama": "Lada Hitam Bubuk",
+   "komoditas": "lada-hitam",
+   "varian": "Bubuk",
+   "waktu": "±5 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "3 butir",
+     "nama": "telur",
+     "tags": []
+    },
+    {
+     "q": "2 sdm",
+     "nama": "susu cair",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "mentega",
+     "tags": []
+    },
+    {
+     "q": "1/4 sdt",
+     "nama": "Lada Hitam Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Lada Hitam Bubuk",
+       "komoditas": "lada-hitam",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "",
+     "nama": "Garam secukupnya",
+     "tags": []
+    },
+    {
+     "q": "2 lembar",
+     "nama": "roti tawar, panggang",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Kocok telur dengan susu, garam, dan separuh lada.",
+    "Lelehkan mentega, tuang telur. Aduk perlahan dengan api kecil hingga lembut.",
+    "Sajikan di atas roti panggang, taburi sisa lada."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "lada-hitam-bubuk-tumis-jamur-lada-hitam",
+   "judul": "Tumis Jamur Lada Hitam",
+   "varian_nama": "Lada Hitam Bubuk",
+   "komoditas": "lada-hitam",
+   "varian": "Bubuk",
+   "waktu": "±10 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "250 g",
+     "nama": "jamur (kancing, tiram, atau campur)",
+     "tags": []
+    },
+    {
+     "q": "3 siung",
+     "nama": "bawang putih, cincang",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "saus tiram halal",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "kecap manis",
+     "tags": []
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "Lada Hitam Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Lada Hitam Bubuk",
+       "komoditas": "lada-hitam",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1 sdm",
+     "nama": "minyak",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Tumis bawang putih hingga harum.",
+    "Masukkan jamur, masak api besar hingga airnya menguap.",
+    "Tambahkan saus tiram, kecap, dan lada. Aduk rata."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "kunyit-kering-kunyit-asam",
+   "judul": "Kunyit Asam",
+   "varian_nama": "Kunyit Kering",
+   "komoditas": "kunyit",
+   "varian": "Kering",
+   "waktu": "±30 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "30 g",
+     "nama": "Kunyit Kering Elementia",
+     "tags": [
+      {
+       "label": "Kunyit Kering",
+       "komoditas": "kunyit",
+       "varian": "Kering"
+      }
+     ]
+    },
+    {
+     "q": "1 sdm",
+     "nama": "asam jawa",
+     "tags": []
+    },
+    {
+     "q": "3 sdm",
+     "nama": "gula aren (Gula Aren Semut atau serut Gula Aren Balok)",
+     "tags": [
+      {
+       "label": "Gula Aren Balok",
+       "komoditas": "gula-aren",
+       "varian": "Balok"
+      },
+      {
+       "label": "Gula Aren Semut",
+       "komoditas": "gula-aren",
+       "varian": "Semut"
+      }
+     ]
+    },
+    {
+     "q": "750 ml",
+     "nama": "air",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Sejumput garam",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Rebus kunyit kering dengan air 15 menit.",
+    "Tambahkan asam jawa, gula aren, dan garam. Rebus 5 menit lagi.",
+    "Saring, sajikan hangat atau dengan es."
+   ],
+   "tips": "Simpan di kulkas hingga 4 hari. Cocok dibuat sekali untuk stok."
+  },
+  {
+   "slug": "kunyit-kering-wedang-kunyit-jahe",
+   "judul": "Wedang Kunyit Jahe",
+   "varian_nama": "Kunyit Kering",
+   "komoditas": "kunyit",
+   "varian": "Kering",
+   "waktu": "±15 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "10 g",
+     "nama": "Kunyit Kering Elementia",
+     "tags": [
+      {
+       "label": "Kunyit Kering",
+       "komoditas": "kunyit",
+       "varian": "Kering"
+      }
+     ]
+    },
+    {
+     "q": "1 ruas",
+     "nama": "jahe, geprek",
+     "tags": []
+    },
+    {
+     "q": "1 batang",
+     "nama": "sereh, geprek",
+     "tags": []
+    },
+    {
+     "q": "2",
+     "nama": "gelas air",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "madu atau gula kelapa",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Rebus kunyit, jahe, dan sereh dengan air selama 10 menit.",
+    "Saring, tambahkan madu atau gula kelapa. Sajikan hangat."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "kunyit-bubuk-golden-milk-latte",
+   "judul": "Golden Milk Latte",
+   "varian_nama": "Kunyit Bubuk",
+   "komoditas": "kunyit",
+   "varian": "Bubuk",
+   "waktu": "±5 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "1/2 sdt",
+     "nama": "Kunyit Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Kunyit Bubuk",
+       "komoditas": "kunyit",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "",
+     "nama": "Sejumput Lada Hitam Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Lada Hitam Bubuk",
+       "komoditas": "lada-hitam",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "250 ml",
+     "nama": "susu (sapi atau nabati)",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "madu atau Gula Aren Semut",
+     "tags": [
+      {
+       "label": "Gula Aren Semut",
+       "komoditas": "gula-aren",
+       "varian": "Semut"
+      }
+     ]
+    },
+    {
+     "q": "",
+     "nama": "Kayu manis bubuk (opsional)",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Hangatkan susu dengan kunyit dan lada.",
+    "Aduk hingga tercampur, jangan sampai mendidih.",
+    "Tambahkan madu atau gula aren. Sajikan hangat."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "kunyit-bubuk-nasi-kuning-rice-cooker",
+   "judul": "Nasi Kuning Rice Cooker",
+   "varian_nama": "Kunyit Bubuk",
+   "komoditas": "kunyit",
+   "varian": "Bubuk",
+   "waktu": "±10 menit kerja + waktu rice cooker",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "2 cangkir",
+     "nama": "beras",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "Kunyit Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Kunyit Bubuk",
+       "komoditas": "kunyit",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "200 ml",
+     "nama": "santan encer",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Air secukupnya sesuai takaran beras",
+     "tags": []
+    },
+    {
+     "q": "1 batang",
+     "nama": "sereh, geprek",
+     "tags": []
+    },
+    {
+     "q": "2 lembar",
+     "nama": "Daun Salam Kering Elementia",
+     "tags": [
+      {
+       "label": "Daun Salam Kering",
+       "komoditas": "daun-salam",
+       "varian": "Kering"
+      }
+     ]
+    },
+    {
+     "q": "1 sdt",
+     "nama": "garam",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Cuci beras, masukkan ke rice cooker.",
+    "Larutkan kunyit dengan santan dan air, tuang ke beras. Tambahkan sereh, daun salam, dan garam.",
+    "Masak seperti biasa. Aduk saat matang."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "sereh-kering-teh-sereh-lemon",
+   "judul": "Teh Sereh Lemon",
+   "varian_nama": "Sereh Kering",
+   "komoditas": "sereh",
+   "varian": "Kering",
+   "waktu": "±10 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "10 g",
+     "nama": "Sereh Kering Elementia",
+     "tags": [
+      {
+       "label": "Sereh Kering",
+       "komoditas": "sereh",
+       "varian": "Kering"
+      }
+     ]
+    },
+    {
+     "q": "500 ml",
+     "nama": "air panas",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "madu atau gula",
+     "tags": []
+    },
+    {
+     "q": "2 iris",
+     "nama": "lemon atau jeruk nipis",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Es batu",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Seduh sereh dengan air panas 8 menit.",
+    "Saring, tambahkan madu dan lemon.",
+    "Sajikan hangat atau dingin dengan es."
+   ],
+   "tips": "Untuk cold brew, rendam sereh dalam air dingin semalam di kulkas."
+  },
+  {
+   "slug": "sereh-kering-tom-yum-seafood",
+   "judul": "Tom Yum Seafood",
+   "varian_nama": "Sereh Kering",
+   "komoditas": "sereh",
+   "varian": "Kering",
+   "waktu": "±25 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "150 g",
+     "nama": "udang kupas",
+     "tags": []
+    },
+    {
+     "q": "100 g",
+     "nama": "cumi, iris cincin",
+     "tags": []
+    },
+    {
+     "q": "8 g",
+     "nama": "Sereh Kering Elementia",
+     "tags": [
+      {
+       "label": "Sereh Kering",
+       "komoditas": "sereh",
+       "varian": "Kering"
+      }
+     ]
+    },
+    {
+     "q": "3 lembar",
+     "nama": "daun jeruk",
+     "tags": []
+    },
+    {
+     "q": "2 ruas",
+     "nama": "lengkuas, geprek",
+     "tags": []
+    },
+    {
+     "q": "3 siung",
+     "nama": "bawang merah",
+     "tags": []
+    },
+    {
+     "q": "3",
+     "nama": "cabai rawit, geprek",
+     "tags": []
+    },
+    {
+     "q": "100 g",
+     "nama": "jamur",
+     "tags": []
+    },
+    {
+     "q": "1",
+     "nama": "tomat, potong",
+     "tags": []
+    },
+    {
+     "q": "2 sdm",
+     "nama": "saus ikan halal atau garam",
+     "tags": []
+    },
+    {
+     "q": "2 sdm",
+     "nama": "perasan jeruk nipis",
+     "tags": []
+    },
+    {
+     "q": "800 ml",
+     "nama": "air atau kaldu",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Didihkan air dengan sereh, lengkuas, daun jeruk, dan bawang merah selama 10 menit.",
+    "Masukkan jamur, tomat, dan cabai rawit.",
+    "Masukkan udang dan cumi, masak 3 menit.",
+    "Tambahkan saus ikan dan jeruk nipis setelah api dimatikan."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "sereh-bubuk-ayam-bakar-sereh",
+   "judul": "Ayam Bakar Sereh",
+   "varian_nama": "Sereh Bubuk",
+   "komoditas": "sereh",
+   "varian": "Bubuk",
+   "waktu": "±40 menit (marinasi +30 menit)",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "500 g",
+     "nama": "ayam potong",
+     "tags": []
+    },
+    {
+     "q": "2 sdm",
+     "nama": "Sereh Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Sereh Bubuk",
+       "komoditas": "sereh",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "4 siung",
+     "nama": "bawang putih",
+     "tags": []
+    },
+    {
+     "q": "3 siung",
+     "nama": "bawang merah",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "Kunyit Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Kunyit Bubuk",
+       "komoditas": "kunyit",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1 sdm",
+     "nama": "kecap manis",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "perasan jeruk nipis",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "garam",
+     "tags": []
+    },
+    {
+     "q": "100 ml",
+     "nama": "air",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Haluskan bawang putih dan bawang merah. Campur dengan sereh bubuk, kunyit, dan garam.",
+    "Lumuri ayam, diamkan 30 menit.",
+    "Ungkep ayam dengan air hingga air menyusut.",
+    "Olesi kecap manis dan jeruk nipis. Bakar atau air fryer 190°C selama 12 menit."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "sereh-bubuk-sambal-matah",
+   "judul": "Sambal Matah",
+   "varian_nama": "Sereh Bubuk",
+   "komoditas": "sereh",
+   "varian": "Bubuk",
+   "waktu": "±5 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "5 siung",
+     "nama": "bawang merah, iris tipis",
+     "tags": []
+    },
+    {
+     "q": "5",
+     "nama": "cabai rawit, iris",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "Sereh Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Sereh Bubuk",
+       "komoditas": "sereh",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "2",
+     "nama": "daun jeruk, iris sangat tipis",
+     "tags": []
+    },
+    {
+     "q": "3 sdm",
+     "nama": "minyak kelapa panas",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "garam",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "perasan jeruk nipis",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Campur bawang merah, cabai, sereh bubuk, dan daun jeruk.",
+    "Siram minyak panas.",
+    "Tambahkan garam dan jeruk nipis. Aduk rata."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "daun-salam-kering-nasi-liwet-sunda",
+   "judul": "Nasi Liwet Sunda",
+   "varian_nama": "Daun Salam Kering",
+   "komoditas": "daun-salam",
+   "varian": "Kering",
+   "waktu": "±10 menit kerja + waktu rice cooker",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "2 cangkir",
+     "nama": "beras",
+     "tags": []
+    },
+    {
+     "q": "3 lembar",
+     "nama": "Daun Salam Kering Elementia",
+     "tags": [
+      {
+       "label": "Daun Salam Kering",
+       "komoditas": "daun-salam",
+       "varian": "Kering"
+      }
+     ]
+    },
+    {
+     "q": "1 batang",
+     "nama": "sereh, geprek",
+     "tags": []
+    },
+    {
+     "q": "4 siung",
+     "nama": "bawang merah, iris",
+     "tags": []
+    },
+    {
+     "q": "3 siung",
+     "nama": "bawang putih, iris",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "Gula Kelapa Cair (opsional)",
+     "tags": [
+      {
+       "label": "Gula Kelapa Cair",
+       "komoditas": "gula-kelapa",
+       "varian": "Cair"
+      }
+     ]
+    },
+    {
+     "q": "1 sdt",
+     "nama": "garam",
+     "tags": []
+    },
+    {
+     "q": "100 g",
+     "nama": "teri medan atau ayam suwir (opsional)",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Tumis bawang merah dan bawang putih hingga harum.",
+    "Masukkan beras, air, daun salam, sereh, dan garam ke rice cooker.",
+    "Tambahkan tumisan bawang dan teri. Masak seperti biasa.",
+    "Aduk, sajikan dengan lalapan dan sambal."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "daun-salam-kering-ayam-ungkep",
+   "judul": "Ayam Ungkep",
+   "varian_nama": "Daun Salam Kering",
+   "komoditas": "daun-salam",
+   "varian": "Kering",
+   "waktu": "±40 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "600 g",
+     "nama": "ayam potong",
+     "tags": []
+    },
+    {
+     "q": "3 lembar",
+     "nama": "Daun Salam Kering Elementia",
+     "tags": [
+      {
+       "label": "Daun Salam Kering",
+       "komoditas": "daun-salam",
+       "varian": "Kering"
+      }
+     ]
+    },
+    {
+     "q": "1 batang",
+     "nama": "sereh, geprek",
+     "tags": []
+    },
+    {
+     "q": "5 siung",
+     "nama": "bawang putih",
+     "tags": []
+    },
+    {
+     "q": "4 siung",
+     "nama": "bawang merah",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "Kunyit Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Kunyit Bubuk",
+       "komoditas": "kunyit",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1 sdt",
+     "nama": "Ketumbar Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Ketumbar Bubuk",
+       "komoditas": "ketumbar",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1 sdt",
+     "nama": "garam",
+     "tags": []
+    },
+    {
+     "q": "400 ml",
+     "nama": "air",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Haluskan bawang putih dan bawang merah, campur dengan kunyit, ketumbar, dan garam.",
+    "Tumis bumbu hingga harum, masukkan daun salam dan sereh.",
+    "Masukkan ayam dan air, masak hingga air menyusut.",
+    "Dinginkan. Simpan di freezer dan goreng saat dibutuhkan."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "daun-salam-bubuk-tempe-goreng-bumbu-salam",
+   "judul": "Tempe Goreng Bumbu Salam",
+   "varian_nama": "Daun Salam Bubuk",
+   "komoditas": "daun-salam",
+   "varian": "Bubuk",
+   "waktu": "±20 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "1 papan",
+     "nama": "tempe, iris tipis",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "Daun Salam Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Daun Salam Bubuk",
+       "komoditas": "daun-salam",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "2 siung",
+     "nama": "bawang putih, haluskan",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "Ketumbar Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Ketumbar Bubuk",
+       "komoditas": "ketumbar",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "garam",
+     "tags": []
+    },
+    {
+     "q": "3 sdm",
+     "nama": "air",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Minyak untuk menggoreng",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Campur bumbu halus dengan daun salam bubuk, ketumbar, garam, dan air.",
+    "Lumuri tempe, diamkan 10 menit.",
+    "Goreng hingga kecokelatan, atau air fryer 180°C selama 10 menit."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "daun-salam-bubuk-teh-daun-salam",
+   "judul": "Teh Daun Salam",
+   "varian_nama": "Daun Salam Bubuk",
+   "komoditas": "daun-salam",
+   "varian": "Bubuk",
+   "waktu": "±8 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "1 sdt",
+     "nama": "Daun Salam Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Daun Salam Bubuk",
+       "komoditas": "daun-salam",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "250 ml",
+     "nama": "air panas",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "madu atau gula (opsional)",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Seduh bubuk dengan air panas 5 menit.",
+    "Saring, tambahkan madu bila suka."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "gula-aren-balok-kolak-pisang-ubi",
+   "judul": "Kolak Pisang Ubi",
+   "varian_nama": "Gula Aren Balok",
+   "komoditas": "gula-aren",
+   "varian": "Balok",
+   "waktu": "±30 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "3 pisang",
+     "nama": "kepok, potong",
+     "tags": []
+    },
+    {
+     "q": "1",
+     "nama": "ubi jalar, potong dadu",
+     "tags": []
+    },
+    {
+     "q": "100 g",
+     "nama": "Gula Aren Balok Elementia, sisir",
+     "tags": [
+      {
+       "label": "Gula Aren Balok",
+       "komoditas": "gula-aren",
+       "varian": "Balok"
+      }
+     ]
+    },
+    {
+     "q": "400 ml",
+     "nama": "santan",
+     "tags": []
+    },
+    {
+     "q": "500 ml",
+     "nama": "air",
+     "tags": []
+    },
+    {
+     "q": "2 lembar",
+     "nama": "daun pandan",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Sejumput garam",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Rebus air, gula aren, dan pandan hingga larut.",
+    "Masukkan ubi, masak hingga setengah empuk.",
+    "Tambahkan pisang dan santan, aduk perlahan. Masak 5 sampai 7 menit.",
+    "Beri garam sejumput."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "gula-aren-balok-klepon",
+   "judul": "Klepon",
+   "varian_nama": "Gula Aren Balok",
+   "komoditas": "gula-aren",
+   "varian": "Balok",
+   "waktu": "±45 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "150 g",
+     "nama": "tepung ketan",
+     "tags": []
+    },
+    {
+     "q": "3 sdm",
+     "nama": "tepung beras",
+     "tags": []
+    },
+    {
+     "q": "100 ml",
+     "nama": "air hangat + 1 sdt pasta pandan",
+     "tags": []
+    },
+    {
+     "q": "50 g",
+     "nama": "Gula Aren Balok Elementia, serut kasar",
+     "tags": [
+      {
+       "label": "Gula Aren Balok",
+       "komoditas": "gula-aren",
+       "varian": "Balok"
+      }
+     ]
+    },
+    {
+     "q": "100 g",
+     "nama": "kelapa parut",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Sejumput garam",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Campur tepung dengan air pandan hingga adonan kalis dan tidak lengket.",
+    "Ambil sedikit adonan, pipihkan, isi gula aren, bulatkan.",
+    "Rebus dalam air mendidih hingga mengapung, angkat.",
+    "Kukus kelapa parut dengan garam 5 menit, gulingkan klepon di atasnya."
+   ],
+   "tips": "Gula aren harus kering dan serut agar tidak bocor saat direbus."
+  },
+  {
+   "slug": "gula-aren-semut-es-kopi-susu-gula-aren",
+   "judul": "Es Kopi Susu Gula Aren",
+   "varian_nama": "Gula Aren Semut",
+   "komoditas": "gula-aren",
+   "varian": "Semut",
+   "waktu": "±3 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "1",
+     "nama": "shot espresso atau 60 ml kopi kuat",
+     "tags": []
+    },
+    {
+     "q": "1,5 sdm",
+     "nama": "Gula Aren Semut Elementia",
+     "tags": [
+      {
+       "label": "Gula Aren Semut",
+       "komoditas": "gula-aren",
+       "varian": "Semut"
+      }
+     ]
+    },
+    {
+     "q": "150 ml",
+     "nama": "susu segar dingin",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Es batu",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Larutkan gula aren dalam kopi panas.",
+    "Isi gelas dengan es batu dan susu.",
+    "Tuang kopi ke atas susu."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "gula-aren-semut-oatmeal-gula-aren",
+   "judul": "Oatmeal Gula Aren",
+   "varian_nama": "Gula Aren Semut",
+   "komoditas": "gula-aren",
+   "varian": "Semut",
+   "waktu": "±8 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "50 g",
+     "nama": "oat",
+     "tags": []
+    },
+    {
+     "q": "250 ml",
+     "nama": "susu atau air",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "Gula Aren Semut Elementia",
+     "tags": [
+      {
+       "label": "Gula Aren Semut",
+       "komoditas": "gula-aren",
+       "varian": "Semut"
+      }
+     ]
+    },
+    {
+     "q": "1",
+     "nama": "pisang, iris",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Kayu manis bubuk, sejumput",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Kacang cincang (opsional)",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Masak oat dengan susu hingga mengental, 4 sampai 5 menit.",
+    "Tambahkan gula aren dan kayu manis.",
+    "Taruh pisang dan kacang di atasnya."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "gula-aren-cair-latte-gula-aren-panas",
+   "judul": "Latte Gula Aren Panas",
+   "varian_nama": "Gula Aren Cair",
+   "komoditas": "gula-aren",
+   "varian": "Cair",
+   "waktu": "±3 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "1",
+     "nama": "shot espresso atau 60 ml kopi kuat",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "Gula Aren Cair Elementia",
+     "tags": [
+      {
+       "label": "Gula Aren Cair",
+       "komoditas": "gula-aren",
+       "varian": "Cair"
+      }
+     ]
+    },
+    {
+     "q": "200 ml",
+     "nama": "susu panas",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Campur kopi dan gula aren cair.",
+    "Tuang susu panas, aduk."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "gula-aren-cair-pancake-atau-waffle-gula-aren",
+   "judul": "Pancake atau Waffle Gula Aren",
+   "varian_nama": "Gula Aren Cair",
+   "komoditas": "gula-aren",
+   "varian": "Cair",
+   "waktu": "±20 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "150 g",
+     "nama": "tepung terigu",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "baking powder",
+     "tags": []
+    },
+    {
+     "q": "1 butir",
+     "nama": "telur",
+     "tags": []
+    },
+    {
+     "q": "150 ml",
+     "nama": "susu",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "gula pasir atau Gula Aren Semut",
+     "tags": [
+      {
+       "label": "Gula Aren Semut",
+       "komoditas": "gula-aren",
+       "varian": "Semut"
+      }
+     ]
+    },
+    {
+     "q": "1 sdm",
+     "nama": "mentega leleh",
+     "tags": []
+    },
+    {
+     "q": "3 sdm",
+     "nama": "Gula Aren Cair Elementia untuk siraman",
+     "tags": [
+      {
+       "label": "Gula Aren Cair",
+       "komoditas": "gula-aren",
+       "varian": "Cair"
+      }
+     ]
+    },
+    {
+     "q": "",
+     "nama": "Buah (pisang atau stroberi)",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Campur bahan kering, tambahkan telur, susu, dan mentega. Aduk hingga rata.",
+    "Tuang adonan ke wajan antilengket atau cetakan waffle, masak hingga kecokelatan.",
+    "Siram gula aren cair, tambahkan buah."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "gula-kelapa-balok-semur-ayam",
+   "judul": "Semur Ayam",
+   "varian_nama": "Gula Kelapa Balok",
+   "komoditas": "gula-kelapa",
+   "varian": "Balok",
+   "waktu": "±35 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "500 g",
+     "nama": "ayam potong",
+     "tags": []
+    },
+    {
+     "q": "2 sdm",
+     "nama": "Gula Kelapa Balok Elementia, serut",
+     "tags": [
+      {
+       "label": "Gula Kelapa Balok",
+       "komoditas": "gula-kelapa",
+       "varian": "Balok"
+      }
+     ]
+    },
+    {
+     "q": "3 sdm",
+     "nama": "kecap manis",
+     "tags": []
+    },
+    {
+     "q": "4 siung",
+     "nama": "bawang merah, iris",
+     "tags": []
+    },
+    {
+     "q": "3 siung",
+     "nama": "bawang putih, iris",
+     "tags": []
+    },
+    {
+     "q": "2 lembar",
+     "nama": "Daun Salam Kering Elementia",
+     "tags": [
+      {
+       "label": "Daun Salam Kering",
+       "komoditas": "daun-salam",
+       "varian": "Kering"
+      }
+     ]
+    },
+    {
+     "q": "1/4 sdt",
+     "nama": "pala bubuk",
+     "tags": []
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "Lada Putih Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Lada Putih Bubuk",
+       "komoditas": "lada-putih",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "300 ml",
+     "nama": "air",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "minyak",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Kentang atau tomat (opsional)",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Tumis bawang merah dan bawang putih hingga harum.",
+    "Masukkan ayam, aduk hingga berubah warna.",
+    "Tambahkan air, gula kelapa, kecap manis, daun salam, pala, dan lada.",
+    "Masak dengan api kecil hingga bumbu meresap dan kuah menyusut."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "gula-kelapa-balok-wedang-jahe-gula-kelapa",
+   "judul": "Wedang Jahe Gula Kelapa",
+   "varian_nama": "Gula Kelapa Balok",
+   "komoditas": "gula-kelapa",
+   "varian": "Balok",
+   "waktu": "±15 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "2 ruas",
+     "nama": "jahe, geprek",
+     "tags": []
+    },
+    {
+     "q": "500 ml",
+     "nama": "air",
+     "tags": []
+    },
+    {
+     "q": "2 sdm",
+     "nama": "Gula Kelapa Balok Elementia, serut",
+     "tags": [
+      {
+       "label": "Gula Kelapa Balok",
+       "komoditas": "gula-kelapa",
+       "varian": "Balok"
+      }
+     ]
+    },
+    {
+     "q": "1 batang",
+     "nama": "sereh (opsional)",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Rebus jahe, sereh, dan air selama 10 menit.",
+    "Masukkan gula kelapa hingga larut. Saring dan sajikan hangat."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "gula-kelapa-semut-granola-panggang",
+   "judul": "Granola Panggang",
+   "varian_nama": "Gula Kelapa Semut",
+   "komoditas": "gula-kelapa",
+   "varian": "Semut",
+   "waktu": "±35 menit",
+   "porsi": "2 porsi",
+   "bahan": [],
+   "langkah": [
+    "Campur semua bahan dalam mangkuk.",
+    "Ratakan di loyang beralas kertas baking.",
+    "Panggang 150°C selama 25 menit, aduk di tengah waktu.",
+    "Dinginkan hingga renyah. Simpan di toples kedap udara."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "gula-kelapa-semut-gado-gado-bumbu-kacang",
+   "judul": "Gado-gado Bumbu Kacang",
+   "varian_nama": "Gula Kelapa Semut",
+   "komoditas": "gula-kelapa",
+   "varian": "Semut",
+   "waktu": "±20 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "100 g",
+     "nama": "kacang tanah sangrai",
+     "tags": []
+    },
+    {
+     "q": "1 siung",
+     "nama": "bawang putih",
+     "tags": []
+    },
+    {
+     "q": "2",
+     "nama": "cabai rawit",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "Gula Kelapa Semut Elementia",
+     "tags": [
+      {
+       "label": "Gula Kelapa Semut",
+       "komoditas": "gula-kelapa",
+       "varian": "Semut"
+      }
+     ]
+    },
+    {
+     "q": "1 sdt",
+     "nama": "kencur",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "air asam jawa",
+     "tags": []
+    },
+    {
+     "q": "100 ml",
+     "nama": "air hangat",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Sayuran rebus: kol, kacang panjang, tauge, kentang",
+     "tags": []
+    },
+    {
+     "q": "2",
+     "nama": "telur rebus, tahu goreng",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Haluskan kacang, bawang putih, cabai, dan kencur.",
+    "Tambahkan gula kelapa, asam jawa, garam, dan air hangat hingga halus.",
+    "Susun sayuran dan telur, siram saus."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "gula-kelapa-cair-ayam-teriyaki-nusantara",
+   "judul": "Ayam Teriyaki Nusantara",
+   "varian_nama": "Gula Kelapa Cair",
+   "komoditas": "gula-kelapa",
+   "varian": "Cair",
+   "waktu": "±25 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "300 g",
+     "nama": "paha ayam fillet",
+     "tags": []
+    },
+    {
+     "q": "2 sdm",
+     "nama": "Gula Kelapa Cair Elementia",
+     "tags": [
+      {
+       "label": "Gula Kelapa Cair",
+       "komoditas": "gula-kelapa",
+       "varian": "Cair"
+      }
+     ]
+    },
+    {
+     "q": "2 sdm",
+     "nama": "kecap manis",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "kecap asin",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "perasan jeruk nipis",
+     "tags": []
+    },
+    {
+     "q": "1 siung",
+     "nama": "bawang putih, parut",
+     "tags": []
+    },
+    {
+     "q": "1 ruas",
+     "nama": "jahe, parut",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "minyak",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Biji wijen sangrai",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Nasi hangat, brokoli",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Campur gula kelapa cair, kedua kecap, jeruk nipis, bawang putih, dan jahe.",
+    "Goreng ayam hingga kecokelatan.",
+    "Tuang saus, masak hingga mengental dan mengilap.",
+    "Sajikan di atas nasi dengan brokoli dan wijen."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "gula-kelapa-cair-sate-ayam-madura",
+   "judul": "Sate Ayam Madura",
+   "varian_nama": "Gula Kelapa Cair",
+   "komoditas": "gula-kelapa",
+   "varian": "Cair",
+   "waktu": "±40 menit (marinasi +30 menit)",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "400 g",
+     "nama": "dada atau paha ayam, potong dadu",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Tusuk sate",
+     "tags": []
+    },
+    {
+     "q": "2 sdm",
+     "nama": "Gula Kelapa Cair Elementia",
+     "tags": [
+      {
+       "label": "Gula Kelapa Cair",
+       "komoditas": "gula-kelapa",
+       "varian": "Cair"
+      }
+     ]
+    },
+    {
+     "q": "3 sdm",
+     "nama": "kecap manis",
+     "tags": []
+    },
+    {
+     "q": "2 siung",
+     "nama": "bawang putih, haluskan",
+     "tags": []
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "Ketumbar Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Ketumbar Bubuk",
+       "komoditas": "ketumbar",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "",
+     "nama": "Saus kacang: 80 g kacang sangrai, 1 siung bawang putih, 2 cabai, 1 sdm gula kelapa cair, air hangat, garam",
+     "tags": [
+      {
+       "label": "Gula Kelapa Cair",
+       "komoditas": "gula-kelapa",
+       "varian": "Cair"
+      }
+     ]
+    }
+   ],
+   "langkah": [
+    "Marinasi ayam dengan bawang putih, ketumbar, dan 1 sdm kecap selama 30 menit.",
+    "Tusuk ayam, bakar atau air fryer 190°C selama 12 menit. Olesi campuran gula kelapa cair dan kecap manis.",
+    "Haluskan bahan saus kacang, tambah air hangat.",
+    "Sajikan dengan saus, irisan bawang merah dan cabai rawit."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "cabai-kasar-chili-oil-rumahan",
+   "judul": "Chili Oil Rumahan",
+   "varian_nama": "Cabai Kasar",
+   "komoditas": "cabai",
+   "varian": "Kasar",
+   "waktu": "±15 menit",
+   "porsi": "2 porsi",
+   "bahan": [],
+   "langkah": [
+    "Campur cabai, wijen, bawang putih, garam, dan gula dalam mangkuk tahan panas.",
+    "Panaskan minyak hingga ±150°C (sedikit berasap).",
+    "Tuang perlahan ke campuran sambil diaduk.",
+    "Dinginkan, simpan di toples bersih dalam kulkas hingga 3 minggu."
+   ],
+   "tips": "Cocok untuk mie, nasi, dimsum, telur, dan pizza."
+  },
+  {
+   "slug": "cabai-kasar-ayam-geprek",
+   "judul": "Ayam Geprek",
+   "varian_nama": "Cabai Kasar",
+   "komoditas": "cabai",
+   "varian": "Kasar",
+   "waktu": "±30 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "300 g",
+     "nama": "dada ayam fillet, potong",
+     "tags": []
+    },
+    {
+     "q": "100 g",
+     "nama": "tepung terigu + 2 sdm tepung maizena",
+     "tags": []
+    },
+    {
+     "q": "1 butir",
+     "nama": "telur",
+     "tags": []
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "Bawang Putih Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Bawang Putih Bubuk",
+       "komoditas": "bawang-putih",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "",
+     "nama": "Sambal: 2 sdm Cabai Kasar Elementia, 3 siung bawang putih, 1 sdm minyak panas, 1 sdt gula, garam, 1 sdm jeruk limau",
+     "tags": [
+      {
+       "label": "Cabai Kasar",
+       "komoditas": "cabai",
+       "varian": "Kasar"
+      }
+     ]
+    },
+    {
+     "q": "",
+     "nama": "Minyak untuk menggoreng",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Bumbui ayam dengan garam, lumuri telur, lalu campuran tepung dan bawang putih bubuk.",
+    "Goreng hingga kecokelatan dan renyah.",
+    "Ulek cabai kasar, bawang putih, gula, dan garam. Siram minyak panas.",
+    "Geprek ayam di atas sambal, tambahkan jeruk limau."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "cabai-bubuk-mie-pedas-level-1-5",
+   "judul": "Mie Pedas Level 1-5",
+   "varian_nama": "Cabai Bubuk",
+   "komoditas": "cabai",
+   "varian": "Bubuk",
+   "waktu": "±10 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "1 bungkus",
+     "nama": "mie telur atau mie instan (tanpa bumbu)",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "minyak",
+     "tags": []
+    },
+    {
+     "q": "2 siung",
+     "nama": "bawang putih, cincang",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "kecap manis",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "saus tiram halal",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Cabai Bubuk Elementia: 1/2 sdt (level 1) hingga 2 sdt (level 5)",
+     "tags": [
+      {
+       "label": "Cabai Bubuk",
+       "komoditas": "cabai",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1 butir",
+     "nama": "telur, ayam suwir, sawi",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Rebus mie, tiriskan.",
+    "Tumis bawang putih, tambahkan cabai bubuk, kecap, dan saus tiram.",
+    "Masukkan mie dan sawi, aduk rata.",
+    "Tambahkan telur dan ayam suwir."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "cabai-bubuk-kentang-goreng-taburan-pedas",
+   "judul": "Kentang Goreng Taburan Pedas",
+   "varian_nama": "Cabai Bubuk",
+   "komoditas": "cabai",
+   "varian": "Bubuk",
+   "waktu": "±25 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "3",
+     "nama": "kentang, potong stik",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "Cabai Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Cabai Bubuk",
+       "komoditas": "cabai",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "Bawang Putih Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Bawang Putih Bubuk",
+       "komoditas": "bawang-putih",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "garam",
+     "tags": []
+    },
+    {
+     "q": "1/4 sdt",
+     "nama": "gula",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Minyak untuk menggoreng",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Rendam kentang 10 menit, tiriskan dan keringkan.",
+    "Goreng hingga kekuningan, atau air fryer 200°C selama 15 menit.",
+    "Campur cabai bubuk, bawang putih bubuk, garam, dan gula.",
+    "Taburkan saat kentang masih panas, kocok dalam wadah tertutup."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "bawang-putih-goreng-bubur-ayam",
+   "judul": "Bubur Ayam",
+   "varian_nama": "Bawang Putih Goreng",
+   "komoditas": "bawang-putih",
+   "varian": "Goreng",
+   "waktu": "±30 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "1 cangkir",
+     "nama": "nasi putih",
+     "tags": []
+    },
+    {
+     "q": "700 ml",
+     "nama": "kaldu ayam",
+     "tags": []
+    },
+    {
+     "q": "100 g",
+     "nama": "ayam rebus, suwir",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "Lada Putih Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Lada Putih Bubuk",
+       "komoditas": "lada-putih",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1 sdt",
+     "nama": "garam",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Topping: 2 sdm Bawang Putih Goreng Elementia, kerupuk, seledri, daun bawang, kecap manis, sambal, cakwe",
+     "tags": [
+      {
+       "label": "Bawang Putih Goreng",
+       "komoditas": "bawang-putih",
+       "varian": "Goreng"
+      }
+     ]
+    }
+   ],
+   "langkah": [
+    "Masak nasi dengan kaldu hingga lembut dan mengental (15 sampai 20 menit), beri garam dan lada.",
+    "Tuang ke mangkuk, tambahkan ayam suwir.",
+    "Taburi bawang putih goreng dan topping lain."
+   ],
+   "tips": "Gunakan sisa nasi semalam untuk hasil lebih cepat lembut."
+  },
+  {
+   "slug": "bawang-putih-goreng-sambal-bawang-goreng",
+   "judul": "Sambal Bawang Goreng",
+   "varian_nama": "Bawang Putih Goreng",
+   "komoditas": "bawang-putih",
+   "varian": "Goreng",
+   "waktu": "±10 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "3 sdm",
+     "nama": "Bawang Putih Goreng Elementia",
+     "tags": [
+      {
+       "label": "Bawang Putih Goreng",
+       "komoditas": "bawang-putih",
+       "varian": "Goreng"
+      }
+     ]
+    },
+    {
+     "q": "6",
+     "nama": "cabai rawit",
+     "tags": []
+    },
+    {
+     "q": "2",
+     "nama": "cabai merah",
+     "tags": []
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "garam",
+     "tags": []
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "gula",
+     "tags": []
+    },
+    {
+     "q": "2 sdm",
+     "nama": "minyak panas",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Ulek cabai dan garam hingga kasar.",
+    "Masukkan bawang putih goreng, ulek ringan agar tetap renyah.",
+    "Siram minyak panas, aduk."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "bawang-putih-bubuk-garlic-bread",
+   "judul": "Garlic Bread",
+   "varian_nama": "Bawang Putih Bubuk",
+   "komoditas": "bawang-putih",
+   "varian": "Bubuk",
+   "waktu": "±10 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "4 iris",
+     "nama": "roti tawar atau baguette",
+     "tags": []
+    },
+    {
+     "q": "3 sdm",
+     "nama": "mentega, lunak",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "Bawang Putih Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Bawang Putih Bubuk",
+       "komoditas": "bawang-putih",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1 sdt",
+     "nama": "peterseli kering",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Sejumput garam",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Campur mentega, bawang putih bubuk, peterseli, dan garam.",
+    "Oleskan ke roti.",
+    "Panggang di toaster, oven, atau air fryer 180°C selama 4 sampai 5 menit."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "bawang-putih-bubuk-ayam-goreng-crispy",
+   "judul": "Ayam Goreng Crispy",
+   "varian_nama": "Bawang Putih Bubuk",
+   "komoditas": "bawang-putih",
+   "varian": "Bubuk",
+   "waktu": "±30 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "400 g",
+     "nama": "ayam potong kecil",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "Bawang Putih Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Bawang Putih Bubuk",
+       "komoditas": "bawang-putih",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "Lada Hitam Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Lada Hitam Bubuk",
+       "komoditas": "lada-hitam",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1 sdt",
+     "nama": "garam",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Pelapis kering: 100 g tepung terigu, 2 sdm maizena, 1 sdt Bawang Putih Bubuk Elementia, 1/2 sdt garam",
+     "tags": [
+      {
+       "label": "Bawang Putih Bubuk",
+       "komoditas": "bawang-putih",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1 butir",
+     "nama": "telur, kocok",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Minyak untuk menggoreng",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Lumuri ayam dengan bawang putih bubuk, lada, dan garam. Diamkan 15 menit.",
+    "Celup ke telur, lalu gulingkan ke pelapis kering. Ulangi untuk lapisan renyah.",
+    "Goreng dalam minyak panas hingga kecokelatan, atau air fryer 190°C selama 15 menit."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "ketumbar-butir-ayam-ungkep-bumbu-kuning",
+   "judul": "Ayam Ungkep Bumbu Kuning",
+   "varian_nama": "Ketumbar Butir",
+   "komoditas": "ketumbar",
+   "varian": "Butir",
+   "waktu": "±45 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "600 g",
+     "nama": "ayam potong",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "Ketumbar Butir Elementia, sangrai lalu tumbuk kasar",
+     "tags": [
+      {
+       "label": "Ketumbar Butir",
+       "komoditas": "ketumbar",
+       "varian": "Butir"
+      }
+     ]
+    },
+    {
+     "q": "1 sdt",
+     "nama": "Kunyit Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Kunyit Bubuk",
+       "komoditas": "kunyit",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "5 siung",
+     "nama": "bawang putih",
+     "tags": []
+    },
+    {
+     "q": "4 siung",
+     "nama": "bawang merah",
+     "tags": []
+    },
+    {
+     "q": "2 lembar",
+     "nama": "Daun Salam Kering Elementia",
+     "tags": [
+      {
+       "label": "Daun Salam Kering",
+       "komoditas": "daun-salam",
+       "varian": "Kering"
+      }
+     ]
+    },
+    {
+     "q": "1 batang",
+     "nama": "sereh, geprek",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "garam",
+     "tags": []
+    },
+    {
+     "q": "400 ml",
+     "nama": "air",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Haluskan bawang putih, bawang merah, ketumbar, kunyit, dan garam.",
+    "Tumis bumbu hingga harum, masukkan salam dan sereh.",
+    "Masukkan ayam dan air, masak hingga bumbu meresap dan air menyusut.",
+    "Dinginkan, simpan di freezer, dan goreng saat dibutuhkan."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "ketumbar-butir-acar-kuning",
+   "judul": "Acar Kuning",
+   "varian_nama": "Ketumbar Butir",
+   "komoditas": "ketumbar",
+   "varian": "Butir",
+   "waktu": "±25 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "1",
+     "nama": "wortel, 1 mentimun, 100 g kembang kol atau kol, potong korek api",
+     "tags": []
+    },
+    {
+     "q": "5",
+     "nama": "cabai rawit utuh",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Bumbu halus: 4 siung bawang merah, 2 siung bawang putih, 1 sdm Ketumbar Butir Elementia sangrai, 1 sdt Kunyit Bubuk Elementia, 2 butir Kemiri Utuh Elementia",
+     "tags": [
+      {
+       "label": "Ketumbar Butir",
+       "komoditas": "ketumbar",
+       "varian": "Butir"
+      },
+      {
+       "label": "Kunyit Bubuk",
+       "komoditas": "kunyit",
+       "varian": "Bubuk"
+      },
+      {
+       "label": "Kemiri Utuh",
+       "komoditas": "kemiri",
+       "varian": "Utuh"
+      }
+     ]
+    },
+    {
+     "q": "100 ml",
+     "nama": "cuka masak",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "gula",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "garam",
+     "tags": []
+    },
+    {
+     "q": "100 ml",
+     "nama": "air",
+     "tags": []
+    },
+    {
+     "q": "2 sdm",
+     "nama": "minyak",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Tumis bumbu halus hingga harum.",
+    "Tambahkan air, cuka, gula, dan garam, didihkan.",
+    "Masukkan sayuran, masak sebentar 2 menit agar tetap renyah.",
+    "Dinginkan, simpan di toples. Lebih enak setelah 1 hari."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "ketumbar-bubuk-bakwan-jagung",
+   "judul": "Bakwan Jagung",
+   "varian_nama": "Ketumbar Bubuk",
+   "komoditas": "ketumbar",
+   "varian": "Bubuk",
+   "waktu": "±25 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "2 bonggol",
+     "nama": "jagung manis, pipil",
+     "tags": []
+    },
+    {
+     "q": "3 sdm",
+     "nama": "tepung terigu",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "tepung beras",
+     "tags": []
+    },
+    {
+     "q": "1 butir",
+     "nama": "telur",
+     "tags": []
+    },
+    {
+     "q": "2 siung",
+     "nama": "bawang putih, haluskan",
+     "tags": []
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "Ketumbar Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Ketumbar Bubuk",
+       "komoditas": "ketumbar",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1 batang",
+     "nama": "daun bawang",
+     "tags": []
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "garam",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Minyak untuk menggoreng",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Campur semua bahan hingga rata.",
+    "Goreng sesendok demi sesendok hingga kecokelatan, atau air fryer 180°C selama 10 menit."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "ketumbar-bubuk-ayam-goreng-bumbu-kuning",
+   "judul": "Ayam Goreng Bumbu Kuning",
+   "varian_nama": "Ketumbar Bubuk",
+   "komoditas": "ketumbar",
+   "varian": "Bubuk",
+   "waktu": "±40 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "500 g",
+     "nama": "ayam potong",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "Ketumbar Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Ketumbar Bubuk",
+       "komoditas": "ketumbar",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1 sdt",
+     "nama": "Kunyit Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Kunyit Bubuk",
+       "komoditas": "kunyit",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "4 siung",
+     "nama": "bawang putih, haluskan",
+     "tags": []
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "Lada Putih Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Lada Putih Bubuk",
+       "komoditas": "lada-putih",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1 sdt",
+     "nama": "garam",
+     "tags": []
+    },
+    {
+     "q": "300 ml",
+     "nama": "air",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Minyak untuk menggoreng",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Campur bumbu halus dengan semua bubuk dan garam.",
+    "Ungkep ayam dengan bumbu dan air hingga air habis.",
+    "Goreng hingga kekuningan dan harum."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "kemiri-utuh-opor-ayam",
+   "judul": "Opor Ayam",
+   "varian_nama": "Kemiri Utuh",
+   "komoditas": "kemiri",
+   "varian": "Utuh",
+   "waktu": "±45 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "600 g",
+     "nama": "ayam potong",
+     "tags": []
+    },
+    {
+     "q": "400 ml",
+     "nama": "santan",
+     "tags": []
+    },
+    {
+     "q": "300 ml",
+     "nama": "air",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Bumbu halus: 6 siung bawang merah, 4 siung bawang putih, 4 butir Kemiri Utuh Elementia (sangrai), 1 sdt Ketumbar Bubuk Elementia, 1/2 sdt Lada Putih Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Lada Putih Bubuk",
+       "komoditas": "lada-putih",
+       "varian": "Bubuk"
+      },
+      {
+       "label": "Ketumbar Bubuk",
+       "komoditas": "ketumbar",
+       "varian": "Bubuk"
+      },
+      {
+       "label": "Kemiri Utuh",
+       "komoditas": "kemiri",
+       "varian": "Utuh"
+      }
+     ]
+    },
+    {
+     "q": "2 lembar",
+     "nama": "Daun Salam Kering Elementia",
+     "tags": [
+      {
+       "label": "Daun Salam Kering",
+       "komoditas": "daun-salam",
+       "varian": "Kering"
+      }
+     ]
+    },
+    {
+     "q": "1 batang",
+     "nama": "sereh, geprek",
+     "tags": []
+    },
+    {
+     "q": "2 ruas",
+     "nama": "lengkuas, geprek",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "garam",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "minyak",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Tumis bumbu halus hingga harum, masukkan salam, sereh, dan lengkuas.",
+    "Masukkan ayam, aduk hingga berubah warna.",
+    "Tuang air dan santan, masak dengan api kecil sambil sesekali diaduk hingga ayam empuk dan kuah mengental."
+   ],
+   "tips": "Pakai pressure cooker 15 menit untuk memangkas waktu."
+  },
+  {
+   "slug": "kemiri-utuh-sambal-goreng-kentang",
+   "judul": "Sambal Goreng Kentang",
+   "varian_nama": "Kemiri Utuh",
+   "komoditas": "kemiri",
+   "varian": "Utuh",
+   "waktu": "±30 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "3",
+     "nama": "kentang, potong dadu, goreng setengah matang",
+     "tags": []
+    },
+    {
+     "q": "100 g",
+     "nama": "ati ampela ayam, rebus (opsional)",
+     "tags": []
+    },
+    {
+     "q": "200 ml",
+     "nama": "santan",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Bumbu halus: 5 siung bawang merah, 3 siung bawang putih, 3 butir Kemiri Utuh Elementia (sangrai), 3 cabai merah, 1 cabai rawit, 1 sdt Ketumbar Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Ketumbar Bubuk",
+       "komoditas": "ketumbar",
+       "varian": "Bubuk"
+      },
+      {
+       "label": "Kemiri Utuh",
+       "komoditas": "kemiri",
+       "varian": "Utuh"
+      }
+     ]
+    },
+    {
+     "q": "2 lembar",
+     "nama": "Daun Salam Kering Elementia",
+     "tags": [
+      {
+       "label": "Daun Salam Kering",
+       "komoditas": "daun-salam",
+       "varian": "Kering"
+      }
+     ]
+    },
+    {
+     "q": "1 ruas",
+     "nama": "lengkuas, geprek",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "gula",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "garam",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Tumis bumbu halus bersama salam dan lengkuas hingga harum.",
+    "Masukkan kentang dan ati ampela, aduk.",
+    "Tuang santan, masak hingga bumbu meresap dan mengental."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "kemiri-bubuk-mie-aceh-goreng",
+   "judul": "Mie Aceh Goreng",
+   "varian_nama": "Kemiri Bubuk",
+   "komoditas": "kemiri",
+   "varian": "Bubuk",
+   "waktu": "±20 menit",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "200 g",
+     "nama": "mie kuning tebal, rebus sebentar",
+     "tags": []
+    },
+    {
+     "q": "100 g",
+     "nama": "daging sapi atau udang",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "Kemiri Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Kemiri Bubuk",
+       "komoditas": "kemiri",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "3 siung",
+     "nama": "bawang putih",
+     "tags": []
+    },
+    {
+     "q": "4 siung",
+     "nama": "bawang merah",
+     "tags": []
+    },
+    {
+     "q": "2",
+     "nama": "cabai merah",
+     "tags": []
+    },
+    {
+     "q": "1 sdt",
+     "nama": "Ketumbar Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Ketumbar Bubuk",
+       "komoditas": "ketumbar",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1 sdt",
+     "nama": "Kunyit Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Kunyit Bubuk",
+       "komoditas": "kunyit",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "jinten bubuk (opsional)",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "kecap manis",
+     "tags": []
+    },
+    {
+     "q": "1",
+     "nama": "tomat, 1 sawi",
+     "tags": []
+    },
+    {
+     "q": "150 ml",
+     "nama": "kaldu",
+     "tags": []
+    },
+    {
+     "q": "",
+     "nama": "Garam dan minyak",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Haluskan bawang putih, bawang merah, dan cabai merah.",
+    "Tumis bumbu halus bersama kemiri bubuk, ketumbar, kunyit, dan jinten hingga harum.",
+    "Masukkan daging atau udang, masak hingga berubah warna.",
+    "Tambahkan mie, kaldu, kecap, tomat, dan sawi. Aduk hingga bumbu meresap dan kuah menyusut."
+   ],
+   "tips": ""
+  },
+  {
+   "slug": "kemiri-bubuk-bumbu-dasar-putih",
+   "judul": "Bumbu Dasar Putih",
+   "varian_nama": "Kemiri Bubuk",
+   "komoditas": "kemiri",
+   "varian": "Bubuk",
+   "waktu": "±10 menit (menghasilkan ±6 porsi tumisan)",
+   "porsi": "2 porsi",
+   "bahan": [
+    {
+     "q": "8 siung",
+     "nama": "bawang putih",
+     "tags": []
+    },
+    {
+     "q": "6 siung",
+     "nama": "bawang merah",
+     "tags": []
+    },
+    {
+     "q": "1 sdm",
+     "nama": "Kemiri Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Kemiri Bubuk",
+       "komoditas": "kemiri",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "Lada Putih Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Lada Putih Bubuk",
+       "komoditas": "lada-putih",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1/2 sdt",
+     "nama": "Ketumbar Bubuk Elementia",
+     "tags": [
+      {
+       "label": "Ketumbar Bubuk",
+       "komoditas": "ketumbar",
+       "varian": "Bubuk"
+      }
+     ]
+    },
+    {
+     "q": "1 sdt",
+     "nama": "garam",
+     "tags": []
+    },
+    {
+     "q": "4 sdm",
+     "nama": "minyak",
+     "tags": []
+    }
+   ],
+   "langkah": [
+    "Haluskan bawang putih dan bawang merah bersama kemiri, lada, ketumbar, dan garam.",
+    "Tumis dengan minyak 5 sampai 7 menit hingga harum dan matang.",
+    "Dinginkan, bagi dalam wadah. Simpan di kulkas 1 minggu atau freezer 1 bulan.",
+    "Pakai 2 sampai 3 sdm per masakan untuk capcay, sup, atau tumis ayam."
+   ],
+   "tips": ""
+  }
+ ]
+}
