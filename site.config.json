@@ -1,0 +1,68 @@
+{
+  "_catatan": "Proyek Elementia — duplikat dari Elementia. Nilai bertanda (ganti) adalah placeholder: isi dulu sebelum situs dipublikasikan. Setelah mengubah, jalankan python build.py.",
+  "brand": {
+    "name": "ELEMENTIA",
+    "legal_name": "PT Origin Eka Manufaktur",
+    "tagline": "Pure & Essential",
+    "domain": "elementia.id",
+    "tagline_long": "Pure Elements for Your Daily Dish"
+  },
+  "contact": {
+    "admin_wa_e164": "6280000000000",
+    "admin_wa_display": "0800-0000-0000",
+    "phone": "000-0000-0000",
+    "email": "halo@elementia.id",
+    "hours": "Senin – Sabtu : 9 pagi – 4 sore"
+  },
+  "origin": {
+    "address": "Kawasan Industri De Prima Terra Blok A1 No. 1A, Kel. Tegalluar, Kec. Bojongsoang, Kab. Bandung, Jawa Barat 40288",
+    "postal_code": "40288",
+    "maps": "https://maps.app.goo.gl/iXgv6vH6ZpSrdFup8"
+  },
+  "marketplaces": {
+    "shopee": "https://shopee.co.id/elementia_100",
+    "tokopedia": "",
+    "instagram": "https://www.instagram.com/elementiaofficial/"
+  },
+  "palette": {
+    "primary": "#A3231E",
+    "primary_dark": "#7A1A16",
+    "secondary_dark": "#0F3A20",
+    "secondary": "#1B5E32",
+    "accent_light": "#7DB52A",
+    "gold": "#C9A13B",
+    "text": "#2A3A2F",
+    "muted": "#59655A",
+    "border": "#DFE6D2",
+    "surface": "#EEF4E3",
+    "bg": "#FBFAF5"
+  },
+  "fonts": {
+    "heading": "Staatliches",
+    "body": "Noto Sans"
+  },
+  "cloudflare": {
+    "worker": "elementia-preview",
+    "d1_name": "elementia-preview-db",
+    "public_url": "https://elementia-preview.afik-artificial.workers.dev",
+    "cron": "*/15 * * * *"
+  },
+  "files_to_edit": {
+    "build.py": "header/footer/nav, kontak, marketplace, teks halaman statis, link aset ?v=",
+    "shop_pages.py": "halaman toko (keranjang, checkout, masuk, akun, admin, bayar)",
+    "data/pricelist-*.json + assets/data/catalog.json": "produk, varian, harga, berat (gram), sku",
+    "assets/css/elementia.css": "blok ':root' tema (palette) di bagian akhir file",
+    "assets/css/blocksy/global.css": "palette default tema + footer/offcanvas bg",
+    "assets/js/shop.js": "nomor WA fallback, label teks",
+    "worker/worker.src.js": "adminWa() fallback, baseUrl() fallback, teks pesan WA, ORIGIN_POSTAL_CODE default",
+    "worker/labels.js": "SENDER (nama, HP, alamat asal), logo-label.b64.js",
+    "worker/wrangler.jsonc": "nama worker, D1 id, vars",
+    "assets/img/*": "logo.png/webp, favicon.svg, logo-og.png, foto/*, produk/*"
+  },
+  "_todo": [
+    "Isi nomor WhatsApp & telepon asli (sekarang 000-0000-0000).",
+    "Ganti alamat gudang bila berbeda dari Tegalluar (menentukan tarif ongkir).",
+    "Foto produk per SKU masih ikon elemen (placeholder resmi).",
+    "Pastikan domain elementia.id sudah benar sebelum publikasi."
+  ]
+}

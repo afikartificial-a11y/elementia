@@ -1,0 +1,18 @@
+{
+  "name": "elementia-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Toko rempah tumpangsari Elementia — statis + Cloudflare Worker + D1. Bisa dipanggil lewat CLI dan MCP.",
+  "engines": { "node": ">=22" },
+  "bin": { "elementia": "tools/agent-cli.mjs" },
+  "scripts": {
+    "info": "node tools/agent-cli.mjs info --pretty",
+    "products": "node tools/agent-cli.mjs catalog search",
+    "rates": "node tools/agent-cli.mjs rates",
+    "orders": "node tools/agent-cli.mjs orders --pretty",
+    "dev": "node tools-dev.mjs",
+    "build": "python build.py && python assemble.py dist",
+    "mcp": "node tools/mcp-server.mjs",
+    "check": "node --check dist/worker.js && node tools/agent-cli.mjs info"
+  }
+}

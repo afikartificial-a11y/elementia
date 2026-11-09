@@ -1,0 +1,36 @@
+// Konfigurasi deploy produksi. Dipakai `npx wrangler deploy` dari akar repo.
+// Hasil build ada di dist/ (dibuat oleh CI: python build.py && python assemble.py dist).
+{
+  "name": "elementia-preview",
+  "main": "dist/worker.js",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "dist/public",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "none",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "elementia-preview-db",
+      // Id dibuat dengan: npx wrangler d1 create elementia-preview-db
+      // lalu tempel (atau biarkan CI mengisinya dari secret CLOUDFLARE_D1_ID).
+      // dd6b9bfd-4082-4f34-8dbf-81388ad15d47 diganti otomatis oleh workflow dari secret CLOUDFLARE_D1_ID.
+      // Untuk deploy manual: `npx wrangler d1 create elementia-preview-db` lalu tempel id-nya.
+      "database_id": "53fd1f4e-240f-4601-809b-55f0576d045d"
+    }
+  ],
+  "observability": { "enabled": true },
+  "triggers": { "crons": ["*/15 * * * *"] },
+  "vars": {
+    "ADMIN_WA": "6280000000000",
+    "PUBLIC_URL": "https://elementia-preview.afik-artificial.workers.dev"
+  }
+  // Secrets (set sekali, tidak ikut repo):
+  //   npx wrangler secret put ADMIN_PASSWORD
+  //   npx wrangler secret put BITESHIP_API_KEY      (opsional — ongkir asli + SPX)
+  //   npx wrangler secret put MIDTRANS_SERVER_KEY    (opsional — pembayaran)
+  //   npx wrangler secret put FONNTE_TOKEN           (opsional — notifikasi WA)
+}

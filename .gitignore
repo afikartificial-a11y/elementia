@@ -1,0 +1,37 @@
+# dependensi & hasil build (dibangun ulang saat deploy)
+worker/build/node_modules/
+dist/
+worker/_entry.js
+
+# data lokal & rahasia
+data/local.db
+data/local.db-*
+data/rates-snapshot.json
+.env
+.env.*
+*.pem
+ADMIN_PASSWORD.txt
+
+# state wrangler
+.wrangler/
+.dev.vars
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# skrip tambal sekali pakai
+_patch_*.py
+
+# skrip bantu sekali pakai (kecuali alat build yang dipakai ulang)
+_*.py
+!_build_wilayah.py
+!_build_tarif.py
+!_xlsx_to_json.py
+!_gen_dummy.py
+
+_wilayah/
+_dev.log
+_dev.err

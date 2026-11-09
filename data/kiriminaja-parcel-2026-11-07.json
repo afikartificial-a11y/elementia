@@ -1,0 +1,92 @@
+{
+  "asal": "Tegalluar, Bojongsoang, Bandung",
+  "berat_g": 1000,
+  "tanggal": "2026-11-07",
+  "sumber": "https://kiriminaja.com/cekaja (tab Domestik: Reguler / Next Day / Kargo)",
+  "tujuan": [
+    {
+      "kota": "Bandung",
+      "provinsi": "Jawa Barat",
+      "tujuan_terpilih": "Cihapit, Bandung Wetan, Bandung, Jawa Barat",
+      "layanan": [
+        {"ekspedisi": "JNE", "layanan": "City to City", "harga": 7650, "etd": "1-2 Hari", "catatan": "JNE Reguler tidak ditampilkan untuk rute ini; produk reguler yang muncul adalah City to City"},
+        {"ekspedisi": "JNE", "layanan": "City to City YES", "harga": 12000, "etd": "1 Hari"},
+        {"ekspedisi": "J&T", "layanan": "EZ", "harga": 7600, "etd": null},
+        {"ekspedisi": "J&T", "layanan": "JND", "harga": 15000, "etd": null},
+        {"ekspedisi": "SiCepat", "layanan": "REGULER", "harga": 6300, "etd": "1-2 Hari"},
+        {"ekspedisi": "SiCepat", "layanan": "CARGO", "harga": 35000, "etd": "3-5 Hari", "catatan": "label tampil: Sicepat KARGO (per kg, minimal 10 kg)"},
+        {"ekspedisi": "SPX", "layanan": "Standard", "harga": 7100, "etd": "1 Hari"},
+        {"ekspedisi": "Ninja", "layanan": "Standard", "harga": 6400, "etd": "1-2 Hari"}
+      ]
+    },
+    {
+      "kota": "Jakarta Selatan",
+      "provinsi": "DKI Jakarta",
+      "tujuan_terpilih": "Cipete Selatan, Cilandak, Jakarta Selatan, DKI Jakarta",
+      "layanan": [
+        {"ekspedisi": "JNE", "layanan": "Reguler", "harga": 11050, "etd": "1-2 Hari"},
+        {"ekspedisi": "JNE", "layanan": "YES", "harga": 17000, "etd": "1 Hari"},
+        {"ekspedisi": "J&T", "layanan": "EZ", "harga": 10450, "etd": null},
+        {"ekspedisi": "J&T", "layanan": "JND", "harga": 20000, "etd": null},
+        {"ekspedisi": "SiCepat", "layanan": "REGULER", "harga": 9900, "etd": "1-2 Hari"},
+        {"ekspedisi": "SPX", "layanan": "Standard", "harga": 9728, "etd": "1-2 Hari"},
+        {"ekspedisi": "Ninja", "layanan": "Standard", "harga": 8000, "etd": "1-2 Hari"}
+      ]
+    },
+    {
+      "kota": "Semarang",
+      "provinsi": "Jawa Tengah",
+      "tujuan_terpilih": "Bandarharjo, Semarang Utara, Semarang, Jawa Tengah",
+      "layanan": [
+        {"ekspedisi": "JNE", "layanan": "Reguler", "harga": 15300, "etd": "1-2 Hari"},
+        {"ekspedisi": "JNE", "layanan": "YES", "harga": 22000, "etd": "1 Hari"},
+        {"ekspedisi": "J&T", "layanan": "EZ", "harga": 15200, "etd": null},
+        {"ekspedisi": "SiCepat", "layanan": "REGULER", "harga": 14400, "etd": "2-3 Hari"},
+        {"ekspedisi": "SiCepat", "layanan": "CARGO", "harga": 45000, "etd": "3-5 Hari", "catatan": "label tampil: Sicepat CARGO PER KG (MINIMAL 10KG)"},
+        {"ekspedisi": "SPX", "layanan": "Standard", "harga": 14546, "etd": "1-2 Hari"},
+        {"ekspedisi": "Ninja", "layanan": "Standard", "harga": 12800, "etd": "1-3 Hari"}
+      ]
+    },
+    {
+      "kota": "Surabaya",
+      "provinsi": "Jawa Timur",
+      "tujuan_terpilih": "Gubeng, Gubeng, Surabaya, Jawa Timur",
+      "layanan": [
+        {"ekspedisi": "JNE", "layanan": "Reguler", "harga": 17850, "etd": "1-2 Hari"},
+        {"ekspedisi": "JNE", "layanan": "YES", "harga": 41000, "etd": "1 Hari"},
+        {"ekspedisi": "J&T", "layanan": "EZ", "harga": 17100, "etd": null},
+        {"ekspedisi": "SiCepat", "layanan": "REGULER", "harga": 16200, "etd": "2-3 Hari"},
+        {"ekspedisi": "SiCepat", "layanan": "CARGO", "harga": 55000, "etd": "2-4 Hari", "catatan": "label tampil: Sicepat CARGO PER KG (MINIMAL 10KG)"},
+        {"ekspedisi": "SPX", "layanan": "Standard", "harga": 16091, "etd": "1-2 Hari"},
+        {"ekspedisi": "Ninja", "layanan": "Standard", "harga": 14400, "etd": "2-4 Hari"}
+      ]
+    },
+    {
+      "kota": "Medan",
+      "provinsi": "Sumatera Utara",
+      "tujuan_terpilih": "Babura, Medan Baru, Medan, Sumatera Utara",
+      "layanan": [
+        {"ekspedisi": "JNE", "layanan": "Reguler", "harga": 42000, "etd": "3-4 Hari"},
+        {"ekspedisi": "JNE", "layanan": "YES", "harga": 78000, "etd": "1 Hari"},
+        {"ekspedisi": "J&T", "layanan": "EZ", "harga": 31350, "etd": null},
+        {"ekspedisi": "SiCepat", "layanan": "REGULER", "harga": 29700, "etd": "4-6 Hari"},
+        {"ekspedisi": "SiCepat", "layanan": "CARGO", "harga": 80000, "etd": "6-8 Hari", "catatan": "label tampil: Sicepat CARGO PER KG (MINIMAL 10KG)"},
+        {"ekspedisi": "SPX", "layanan": "Standard", "harga": 29728, "etd": "2-6 Hari"},
+        {"ekspedisi": "Ninja", "layanan": "Standard", "harga": 28000, "etd": "4-6 Hari"}
+      ]
+    },
+    {
+      "kota": "Makassar",
+      "provinsi": "Sulawesi Selatan",
+      "tujuan_terpilih": "Karampuang, Panakkukang, Makassar, Sulawesi Selatan",
+      "layanan": [
+        {"ekspedisi": "JNE", "layanan": "Reguler", "harga": 51000, "etd": "3-4 Hari"},
+        {"ekspedisi": "JNE", "layanan": "YES", "harga": 89000, "etd": "1 Hari"},
+        {"ekspedisi": "J&T", "layanan": "EZ", "harga": 46550, "etd": null},
+        {"ekspedisi": "SiCepat", "layanan": "REGULER", "harga": 48000, "etd": "3-5 Hari"},
+        {"ekspedisi": "SiCepat", "layanan": "CARGO", "harga": 140000, "etd": "8-11 Hari", "catatan": "label tampil: Sicepat KARGO (per kg, minimal 10 kg)"},
+        {"ekspedisi": "SPX", "layanan": "Standard", "harga": 44000, "etd": "2-5 Hari"}
+      ]
+    }
+  ]
+}

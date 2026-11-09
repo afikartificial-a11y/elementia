@@ -1,0 +1,1046 @@
+{
+ "sumber": "https://kiriminaja.com/cekaja",
+ "asal": "Tegalluar, Bojongsoang, Bandung 40288",
+ "tanggal": "2026-11-08",
+ "catatan": "harga = tarif tampil (setelah diskon kampanye); r1 = 1 kg, r3 = 3 kg, inc = biaya tiap kg tambahan",
+ "provinsi": {
+  "Aceh": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 53000,
+     "r3": 169000,
+     "inc": 58000,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 38950,
+     "r3": 118000,
+     "inc": 39500,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 49200,
+     "r3": 157600,
+     "inc": 54200,
+     "etd": "5-7",
+     "est": false
+    }
+   }
+  },
+  "Bali": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 22100,
+     "r3": 73000,
+     "inc": 25450,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 19950,
+     "r3": 59850,
+     "inc": 19950,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 26100,
+     "r3": 82000,
+     "inc": 27950,
+     "etd": "3-5",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 19091,
+     "r3": 57273,
+     "inc": 19100,
+     "etd": "2-4",
+     "est": false
+    }
+   }
+  },
+  "Banten": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 13600,
+     "r3": 43000,
+     "inc": 14700,
+     "etd": "1-2",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 12350,
+     "r3": 37050,
+     "inc": 12350,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 12600,
+     "r3": 37800,
+     "inc": 12600,
+     "etd": "2-3",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 11819,
+     "r3": 35455,
+     "inc": 11800,
+     "etd": "1-2",
+     "est": false
+    }
+   }
+  },
+  "Bengkulu": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 37000,
+     "r3": 121000,
+     "inc": 42000,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 34200,
+     "r3": 103000,
+     "inc": 34400,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 37800,
+     "r3": 121000,
+     "inc": 41600,
+     "etd": "3-5",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 32728,
+     "r3": 98182,
+     "inc": 32750,
+     "etd": "3-4",
+     "est": false
+    }
+   }
+  },
+  "DI Yogyakarta": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 15300,
+     "r3": 49000,
+     "inc": 16850,
+     "etd": "1-2",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 15200,
+     "r3": 45600,
+     "inc": 15200,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 14400,
+     "r3": 43200,
+     "inc": 14400,
+     "etd": "2-4",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 14546,
+     "r3": 43637,
+     "inc": 14550,
+     "etd": "1-2",
+     "est": false
+    }
+   }
+  },
+  "DKI Jakarta": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 11050,
+     "r3": 34000,
+     "inc": 11500,
+     "etd": "1-2",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 10450,
+     "r3": 31350,
+     "inc": 10450,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 9900,
+     "r3": 29700,
+     "inc": 9900,
+     "etd": "1-2",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 9728,
+     "r3": 32100,
+     "inc": 11200,
+     "etd": "1-2",
+     "est": false
+    }
+   }
+  },
+  "Gorontalo": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 102000,
+     "r3": 316000,
+     "inc": 107000,
+     "etd": "7-10",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 69350,
+     "r3": 214000,
+     "inc": 72300,
+     "etd": "",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 66364,
+     "r3": 199091,
+     "inc": 66350,
+     "etd": "4-7",
+     "est": false
+    }
+   }
+  },
+  "Jambi": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 26350,
+     "r3": 88000,
+     "inc": 30800,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 24700,
+     "r3": 74100,
+     "inc": 24700,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 27900,
+     "r3": 88000,
+     "inc": 30050,
+     "etd": "3-5",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 23637,
+     "r3": 70910,
+     "inc": 23650,
+     "etd": "2-3",
+     "est": false
+    }
+   }
+  },
+  "Jawa Barat": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 7650,
+     "r3": 22950,
+     "inc": 7650,
+     "etd": "1-2",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 7600,
+     "r3": 22800,
+     "inc": 7600,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 6300,
+     "r3": 18900,
+     "inc": 6300,
+     "etd": "1-2",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 7100,
+     "r3": 19364,
+     "inc": 6150,
+     "etd": "1",
+     "est": false
+    }
+   }
+  },
+  "Jawa Tengah": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 15300,
+     "r3": 49000,
+     "inc": 16850,
+     "etd": "1-2",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 15200,
+     "r3": 45600,
+     "inc": 15200,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 14400,
+     "r3": 43200,
+     "inc": 14400,
+     "etd": "2-3",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 14546,
+     "r3": 43637,
+     "inc": 14550,
+     "etd": "1-2",
+     "est": false
+    }
+   }
+  },
+  "Jawa Timur": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 17850,
+     "r3": 58000,
+     "inc": 20100,
+     "etd": "1-2",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 17100,
+     "r3": 51300,
+     "inc": 17100,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 16200,
+     "r3": 49000,
+     "inc": 16400,
+     "etd": "2-3",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 16091,
+     "r3": 48273,
+     "inc": 16100,
+     "etd": "1-2",
+     "est": false
+    }
+   }
+  },
+  "Kalimantan Barat": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 48000,
+     "r3": 154000,
+     "inc": 53000,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 36100,
+     "r3": 109000,
+     "inc": 36450,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 34200,
+     "r3": 109000,
+     "inc": 37400,
+     "etd": "4-6",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 34546,
+     "r3": 103637,
+     "inc": 34550,
+     "etd": "2-5",
+     "est": false
+    }
+   }
+  },
+  "Kalimantan Selatan": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 47000,
+     "r3": 151000,
+     "inc": 52000,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 35150,
+     "r3": 106000,
+     "inc": 35400,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 33300,
+     "r3": 106000,
+     "inc": 36350,
+     "etd": "3-5",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 33637,
+     "r3": 100910,
+     "inc": 33650,
+     "etd": "2-3",
+     "est": false
+    }
+   }
+  },
+  "Kalimantan Tengah": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 48000,
+     "r3": 154000,
+     "inc": 53000,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 36100,
+     "r3": 109000,
+     "inc": 36450,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 41400,
+     "r3": 133000,
+     "inc": 45800,
+     "etd": "4-6",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 34546,
+     "r3": 103637,
+     "inc": 34550,
+     "etd": "3-6",
+     "est": false
+    }
+   }
+  },
+  "Kalimantan Timur": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 52000,
+     "r3": 166000,
+     "inc": 57000,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 38000,
+     "r3": 115000,
+     "inc": 38500,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 36000,
+     "r3": 115000,
+     "inc": 39500,
+     "etd": "4-6",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 36364,
+     "r3": 109091,
+     "inc": 36350,
+     "etd": "2-4",
+     "est": false
+    }
+   }
+  },
+  "Kalimantan Utara": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 67000,
+     "r3": 211000,
+     "inc": 72000,
+     "etd": "3-5",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 61750,
+     "r3": 190000,
+     "inc": 64100,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 67000,
+     "r3": 211000,
+     "inc": 72000,
+     "etd": "4-6",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 56819,
+     "r3": 170455,
+     "inc": 56800,
+     "etd": "3-17",
+     "est": false
+    }
+   }
+  },
+  "Kepulauan Bangka Belitung": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 33000,
+     "r3": 109000,
+     "inc": 38000,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 31350,
+     "r3": 94050,
+     "inc": 31350,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 34200,
+     "r3": 109000,
+     "inc": 37400,
+     "etd": "4-6",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 30000,
+     "r3": 90000,
+     "inc": 30000,
+     "etd": "4-6",
+     "est": false
+    }
+   }
+  },
+  "Kepulauan Riau": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 39000,
+     "r3": 127000,
+     "inc": 44000,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 29450,
+     "r3": 88350,
+     "inc": 29450,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 37080,
+     "r3": 118600,
+     "inc": 40750,
+     "etd": "3-5",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 28182,
+     "r3": 84546,
+     "inc": 28200,
+     "etd": "2-4",
+     "est": false
+    }
+   }
+  },
+  "Lampung": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 18700,
+     "r3": 61000,
+     "inc": 21150,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 19950,
+     "r3": 59850,
+     "inc": 19950,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 19800,
+     "r3": 61000,
+     "inc": 20600,
+     "etd": "2-4",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 19091,
+     "r3": 57273,
+     "inc": 19100,
+     "etd": "1-2",
+     "est": false
+    }
+   }
+  },
+  "Maluku": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 105000,
+     "r3": 325000,
+     "inc": 110000,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 68400,
+     "r3": 211000,
+     "inc": 71300,
+     "etd": "",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 65455,
+     "r3": 196364,
+     "inc": 65450,
+     "etd": "3-11",
+     "est": false
+    }
+   }
+  },
+  "Maluku Utara": {
+   "kota_uji": null,
+   "rates": {
+    "jnt:ez": {
+     "r1": 64600,
+     "r3": 199000,
+     "inc": 67200,
+     "etd": "",
+     "est": false
+    }
+   }
+  },
+  "Nusa Tenggara Barat": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 45000,
+     "r3": 145000,
+     "inc": 50000,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 32300,
+     "r3": 97000,
+     "inc": 32350,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 38700,
+     "r3": 124000,
+     "inc": 42650,
+     "etd": "3-5",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 30910,
+     "r3": 92728,
+     "inc": 30900,
+     "etd": "3-4",
+     "est": false
+    }
+   }
+  },
+  "Nusa Tenggara Timur": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 89000,
+     "r3": 277000,
+     "inc": 94000,
+     "etd": "5-7",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 57950,
+     "r3": 178000,
+     "inc": 60000,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 152000,
+     "r3": 466000,
+     "inc": 157000,
+     "etd": "13-16",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 55455,
+     "r3": 166364,
+     "inc": 55450,
+     "etd": "2-4",
+     "est": false
+    }
+   }
+  },
+  "Papua": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 139000,
+     "r3": 427000,
+     "inc": 144000,
+     "etd": "4-5",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 90250,
+     "r3": 280000,
+     "inc": 94900,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 116300,
+     "r3": 358900,
+     "inc": 121300,
+     "etd": "18-21",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 86364,
+     "r3": 259091,
+     "inc": 86350,
+     "etd": "3-4",
+     "est": false
+    }
+   }
+  },
+  "Papua Barat": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 145000,
+     "r3": 445000,
+     "inc": 150000,
+     "etd": "4-5",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 122000,
+     "r3": 376000,
+     "inc": 127000,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 245300,
+     "r3": 606100,
+     "inc": 180400,
+     "etd": "11-14",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 115455,
+     "r3": 346364,
+     "inc": 115450,
+     "etd": "4-7",
+     "est": false
+    }
+   }
+  },
+  "Riau": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 40000,
+     "r3": 130000,
+     "inc": 45000,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 30400,
+     "r3": 91200,
+     "inc": 30400,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 38160,
+     "r3": 122200,
+     "inc": 42000,
+     "etd": "3-5",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 29091,
+     "r3": 87273,
+     "inc": 29100,
+     "etd": "3-5",
+     "est": false
+    }
+   }
+  },
+  "Sulawesi Barat": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 62000,
+     "r3": 196000,
+     "inc": 67000,
+     "etd": "5-7",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 57950,
+     "r3": 178000,
+     "inc": 60000,
+     "etd": "",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 55455,
+     "r3": 166364,
+     "inc": 55450,
+     "etd": "3-6",
+     "est": false
+    }
+   }
+  },
+  "Sulawesi Selatan": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 51000,
+     "r3": 163000,
+     "inc": 56000,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 46550,
+     "r3": 109000,
+     "inc": 31200,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 48000,
+     "r3": 154000,
+     "inc": 53000,
+     "etd": "3-5",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 44000,
+     "r3": 103637,
+     "inc": 29800,
+     "etd": "2-5",
+     "est": false
+    }
+   }
+  },
+  "Sulawesi Tengah": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 81000,
+     "r3": 253000,
+     "inc": 86000,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 56050,
+     "r3": 172000,
+     "inc": 58000,
+     "etd": "",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 53637,
+     "r3": 160910,
+     "inc": 53650,
+     "etd": "3-5",
+     "est": false
+    }
+   }
+  },
+  "Sulawesi Tenggara": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 81000,
+     "r3": 253000,
+     "inc": 86000,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 56050,
+     "r3": 172000,
+     "inc": 58000,
+     "etd": "",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 53637,
+     "r3": 160910,
+     "inc": 53650,
+     "etd": "3-5",
+     "est": false
+    }
+   }
+  },
+  "Sulawesi Utara": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 75000,
+     "r3": 235000,
+     "inc": 80000,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 52250,
+     "r3": 160000,
+     "inc": 53900,
+     "etd": "",
+     "est": false
+    }
+   }
+  },
+  "Sumatera Barat": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 40000,
+     "r3": 130000,
+     "inc": 45000,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 30400,
+     "r3": 91200,
+     "inc": 30400,
+     "etd": "",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 29091,
+     "r3": 87273,
+     "inc": 29100,
+     "etd": "2-6",
+     "est": false
+    }
+   }
+  },
+  "Sumatera Selatan": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 21250,
+     "r3": 70000,
+     "inc": 24400,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 20900,
+     "r3": 62700,
+     "inc": 20900,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 22500,
+     "r3": 70000,
+     "inc": 23750,
+     "etd": "3-5",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 20000,
+     "r3": 60000,
+     "inc": 20000,
+     "etd": "2-3",
+     "est": false
+    }
+   }
+  },
+  "Sumatera Utara": {
+   "kota_uji": null,
+   "rates": {
+    "jne:reg": {
+     "r1": 42000,
+     "r3": 136000,
+     "inc": 47000,
+     "etd": "3-4",
+     "est": false
+    },
+    "jnt:ez": {
+     "r1": 31350,
+     "r3": 94050,
+     "inc": 31350,
+     "etd": "",
+     "est": false
+    },
+    "sicepat:reg": {
+     "r1": 29700,
+     "r3": 94000,
+     "inc": 32150,
+     "etd": "4-6",
+     "est": false
+    },
+    "spx:std": {
+     "r1": 29728,
+     "r3": 89182,
+     "inc": 29750,
+     "etd": "2-6",
+     "est": false
+    }
+   }
+  }
+ }
+}

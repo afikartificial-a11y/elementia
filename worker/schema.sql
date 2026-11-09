@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, email TEXT NOT NULL UNIQUE, phone TEXT, pass_hash TEXT NOT NULL, cart_json TEXT DEFAULT '{}', created_at INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS sessions (id_hash TEXT PRIMARY KEY, user_id INTEGER NOT NULL, expires_at INTEGER NOT NULL, remember INTEGER NOT NULL DEFAULT 0, created_at INTEGER NOT NULL);
+CREATE INDEX IF NOT EXISTS idx_sessions_user ON sessions(user_id);
+CREATE TABLE IF NOT EXISTS addresses (id INTEGER PRIMARY KEY AUTOINCREMENT, user_id INTEGER NOT NULL, name TEXT, phone TEXT, provinsi TEXT, kota TEXT, kecamatan TEXT, kode_pos TEXT, alamat TEXT, catatan TEXT, created_at INTEGER NOT NULL);
+CREATE INDEX IF NOT EXISTS idx_addr_user ON addresses(user_id);
+CREATE TABLE IF NOT EXISTS orders (id TEXT PRIMARY KEY, user_id INTEGER, name TEXT, phone TEXT, email TEXT, provinsi TEXT, kota TEXT, kecamatan TEXT, kode_pos TEXT, alamat TEXT, catatan TEXT, penerima TEXT, hp_penerima TEXT, courier TEXT, courier_service TEXT, shipping_cost INTEGER, shipping_mode TEXT, weight_g INTEGER, subtotal INTEGER, total INTEGER, status TEXT NOT NULL DEFAULT 'baru', payment_method TEXT, payment_mode TEXT, payment_ref TEXT, resi TEXT, view_token TEXT NOT NULL, created_at INTEGER NOT NULL, paid_at INTEGER, updated_at INTEGER NOT NULL, channel TEXT NOT NULL DEFAULT 'web', reminded_at INTEGER, reminder_count INTEGER NOT NULL DEFAULT 0);
+CREATE INDEX IF NOT EXISTS idx_orders_user ON orders(user_id, created_at);
+CREATE TABLE IF NOT EXISTS order_items (id INTEGER PRIMARY KEY AUTOINCREMENT, order_id TEXT NOT NULL, sku TEXT NOT NULL, name TEXT NOT NULL, price INTEGER NOT NULL, qty INTEGER NOT NULL, weight_g INTEGER NOT NULL, line_total INTEGER NOT NULL);
+CREATE INDEX IF NOT EXISTS idx_items_order ON order_items(order_id);
+CREATE TABLE IF NOT EXISTS login_attempts (k TEXT NOT NULL, ts INTEGER NOT NULL);
+CREATE INDEX IF NOT EXISTS idx_attempts ON login_attempts(k, ts);
+CREATE TABLE IF NOT EXISTS notifications (id INTEGER PRIMARY KEY AUTOINCREMENT, order_id TEXT, kind TEXT NOT NULL, provider TEXT NOT NULL, target TEXT, message TEXT, status TEXT NOT NULL, error TEXT, response TEXT, created_at INTEGER NOT NULL);
+CREATE INDEX IF NOT EXISTS idx_notif_order ON notifications(order_id);
+CREATE TABLE IF NOT EXISTS leads (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, company TEXT NOT NULL, role TEXT, phone TEXT NOT NULL, email TEXT, city TEXT, commodities TEXT, volume TEXT, note TEXT, source TEXT NOT NULL DEFAULT 'bisnis', ip TEXT, status TEXT NOT NULL DEFAULT 'baru', created_at INTEGER NOT NULL);
+CREATE INDEX IF NOT EXISTS idx_leads_created ON leads(created_at);

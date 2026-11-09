@@ -1,0 +1,44 @@
+{
+  "berat_g": 25000,
+  "tanggal": "2026-11-07",
+  "asal": "Tegalluar, Bojongsoang, Bandung, Jawa Barat",
+  "tujuan": [
+    {
+      "kota": "Jakarta Selatan",
+      "layanan": [
+        {"ekspedisi": "SentralCargo", "layanan": "Darat Non-Elektronik", "harga": 60000, "etd": "1-3 Hari", "catatan": ""},
+        {"ekspedisi": "J&T Cargo", "layanan": "Reguler", "harga": 73500, "etd": "1-3 Hari", "catatan": ""},
+        {"ekspedisi": "ID Express", "layanan": "iDtruck", "harga": 84875, "etd": "3-5 Hari", "catatan": ""},
+        {"ekspedisi": "Sicepat", "layanan": "KARGO", "harga": 87500, "etd": "2-4 Hari", "catatan": ""},
+        {"ekspedisi": "JNE Express", "layanan": "JTR", "harga": 112500, "etd": "3-4 Hari", "catatan": ""},
+        {"ekspedisi": "BIGPACK", "layanan": "", "harga": 125000, "etd": "2-4 Hari", "catatan": ""},
+        {"ekspedisi": "SAP", "layanan": "Satria Cargo", "harga": 150000, "etd": "3-5 Hari", "catatan": ""}
+      ]
+    },
+    {
+      "kota": "Bandung",
+      "layanan": [
+        {"ekspedisi": "SentralCargo", "layanan": "Darat Non-Elektronik", "harga": 52500, "etd": "1-3 Hari", "catatan": ""},
+        {"ekspedisi": "BIGPACK", "layanan": "", "harga": 62500, "etd": "2-4 Hari", "catatan": ""},
+        {"ekspedisi": "J&T Cargo", "layanan": "Reguler", "harga": 73500, "etd": "1-3 Hari", "catatan": ""},
+        {"ekspedisi": "ID Express", "layanan": "iDtruck", "harga": 84875, "etd": "3-4 Hari", "catatan": ""},
+        {"ekspedisi": "Sicepat", "layanan": "KARGO", "harga": 87500, "etd": "3-5 Hari", "catatan": ""},
+        {"ekspedisi": "JNE Express", "layanan": "Trucking", "harga": 100000, "etd": "3-4 Hari", "catatan": ""},
+        {"ekspedisi": "SAP", "layanan": "Satria Cargo", "harga": 112500, "etd": "2-4 Hari", "catatan": ""}
+      ]
+    },
+    {
+      "kota": "Surabaya",
+      "layanan": [
+        {"ekspedisi": "SentralCargo", "layanan": "Darat Non-Elektronik", "harga": 85000, "etd": "2-4 Hari", "catatan": ""},
+        {"ekspedisi": "J&T Cargo", "layanan": "Reguler", "harga": 98000, "etd": "1-3 Hari", "catatan": ""},
+        {"ekspedisi": "ID Express", "layanan": "iDtruck", "harga": 121250, "etd": "3-6 Hari", "catatan": ""},
+        {"ekspedisi": "Sicepat", "layanan": "KARGO", "harga": 137500, "etd": "2-4 Hari", "catatan": ""},
+        {"ekspedisi": "JNE Express", "layanan": "JTR", "harga": 150000, "etd": "4-5 Hari", "catatan": ""},
+        {"ekspedisi": "BIGPACK", "layanan": "", "harga": 175000, "etd": "4-6 Hari", "catatan": ""},
+        {"ekspedisi": "SAP", "layanan": "Satria Cargo", "harga": 262500, "etd": "3-5 Hari", "catatan": ""},
+        {"ekspedisi": "SentralCargo", "layanan": "Udara Non-Elektronik", "harga": 612500, "etd": "1-3 Hari", "catatan": ""}
+      ]
+    }
+  ]
+}

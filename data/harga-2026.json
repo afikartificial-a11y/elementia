@@ -1,0 +1,436 @@
+{
+ "sumber": "elementia_product_summary.md (harga ritel, 2 kemasan per varian)",
+ "catatan_berat": "berat_g = isi bersih; berat_bruto_g = netto + 10% kemasan (dummy). Produk cair (150/500 ml) dihitung 1 ml = 1 g.",
+ "komoditas": [
+  {
+   "nama": "Lada Putih",
+   "varian": [
+    {
+     "nama": "Butir",
+     "kemasan": [
+      {
+       "jenis": "Botol Grinder",
+       "gram": 55,
+       "harga": 45000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 125000
+      }
+     ]
+    },
+    {
+     "nama": "Bubuk",
+     "kemasan": [
+      {
+       "jenis": "Botol Shaker",
+       "gram": 70,
+       "harga": 30000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 140000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nama": "Lada Hitam",
+   "varian": [
+    {
+     "nama": "Butir",
+     "kemasan": [
+      {
+       "jenis": "Botol Grinder",
+       "gram": 50,
+       "harga": 45000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 120000
+      }
+     ]
+    },
+    {
+     "nama": "Pecah",
+     "kemasan": [
+      {
+       "jenis": "Botol Shaker",
+       "gram": 65,
+       "harga": 30000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 130000
+      }
+     ]
+    },
+    {
+     "nama": "Bubuk",
+     "kemasan": [
+      {
+       "jenis": "Botol Shaker",
+       "gram": 65,
+       "harga": 30000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 130000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nama": "Kunyit",
+   "varian": [
+    {
+     "nama": "Kering",
+     "kemasan": [
+      {
+       "jenis": "Pouch",
+       "gram": 50,
+       "harga": 10000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 20000
+      }
+     ]
+    },
+    {
+     "nama": "Bubuk",
+     "kemasan": [
+      {
+       "jenis": "Pouch",
+       "gram": 50,
+       "harga": 10000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 20000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nama": "Sereh",
+   "varian": [
+    {
+     "nama": "Kering",
+     "kemasan": [
+      {
+       "jenis": "Pouch",
+       "gram": 50,
+       "harga": 10000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 20000
+      }
+     ]
+    },
+    {
+     "nama": "Bubuk",
+     "kemasan": [
+      {
+       "jenis": "Pouch",
+       "gram": 50,
+       "harga": 10000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 20000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nama": "Daun Salam",
+   "varian": [
+    {
+     "nama": "Kering",
+     "kemasan": [
+      {
+       "jenis": "Pouch",
+       "gram": 50,
+       "harga": 10000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 20000
+      }
+     ]
+    },
+    {
+     "nama": "Bubuk",
+     "kemasan": [
+      {
+       "jenis": "Pouch",
+       "gram": 50,
+       "harga": 10000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 20000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nama": "Gula Aren",
+   "varian": [
+    {
+     "nama": "Balok",
+     "kemasan": [
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 10000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 1000,
+       "harga": 35000
+      }
+     ]
+    },
+    {
+     "nama": "Semut",
+     "kemasan": [
+      {
+       "jenis": "Pouch",
+       "gram": 50,
+       "harga": 7500
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 15000
+      }
+     ]
+    },
+    {
+     "nama": "Cair",
+     "kemasan": [
+      {
+       "jenis": "Botol",
+       "gram": 150,
+       "harga": 7500
+      },
+      {
+       "jenis": "Botol",
+       "gram": 500,
+       "harga": 35000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nama": "Gula Kelapa",
+   "varian": [
+    {
+     "nama": "Balok",
+     "kemasan": [
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 10000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 1000,
+       "harga": 35000
+      }
+     ]
+    },
+    {
+     "nama": "Semut",
+     "kemasan": [
+      {
+       "jenis": "Pouch",
+       "gram": 50,
+       "harga": 7500
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 15000
+      }
+     ]
+    },
+    {
+     "nama": "Cair",
+     "kemasan": [
+      {
+       "jenis": "Botol",
+       "gram": 150,
+       "harga": 7500
+      },
+      {
+       "jenis": "Botol",
+       "gram": 500,
+       "harga": 35000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nama": "Cabai",
+   "varian": [
+    {
+     "nama": "Kasar",
+     "kemasan": [
+      {
+       "jenis": "Pouch",
+       "gram": 50,
+       "harga": 12500
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 22000
+      }
+     ]
+    },
+    {
+     "nama": "Bubuk",
+     "kemasan": [
+      {
+       "jenis": "Pouch",
+       "gram": 50,
+       "harga": 12500
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 22000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nama": "Bawang Putih",
+   "varian": [
+    {
+     "nama": "Goreng",
+     "kemasan": [
+      {
+       "jenis": "Pouch",
+       "gram": 50,
+       "harga": 15000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 25000
+      }
+     ]
+    },
+    {
+     "nama": "Bubuk",
+     "kemasan": [
+      {
+       "jenis": "Pouch",
+       "gram": 50,
+       "harga": 15000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 25000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nama": "Ketumbar",
+   "varian": [
+    {
+     "nama": "Butir",
+     "kemasan": [
+      {
+       "jenis": "Pouch",
+       "gram": 50,
+       "harga": 10000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 20000
+      }
+     ]
+    },
+    {
+     "nama": "Bubuk",
+     "kemasan": [
+      {
+       "jenis": "Pouch",
+       "gram": 50,
+       "harga": 10000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 20000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nama": "Kemiri",
+   "varian": [
+    {
+     "nama": "Utuh",
+     "kemasan": [
+      {
+       "jenis": "Pouch",
+       "gram": 50,
+       "harga": 12000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 22000
+      }
+     ]
+    },
+    {
+     "nama": "Bubuk",
+     "kemasan": [
+      {
+       "jenis": "Pouch",
+       "gram": 50,
+       "harga": 12000
+      },
+      {
+       "jenis": "Pouch",
+       "gram": 250,
+       "harga": 22000
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

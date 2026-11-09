@@ -1,0 +1,836 @@
+{
+ "_catatan": "Katalog ELEMENTIA: 11 komoditas, 25 varian, 50 SKU. Simbol periodik mengikuti elementia_product_summary.md.",
+ "positioning": {
+  "tagline": "Rempah yang tumbuh bersama komunitas.",
+  "sub": "Rempah kering dari kebun tumpangsari di Nusantara: ditanam bersama pohon, dipanen petani mitra, dikeringkan tanpa pengawet."
+ },
+ "komoditas": [
+  {
+   "slug": "lada-putih",
+   "nama": "Lada Putih",
+   "latin": "Piper nigrum",
+   "ringkas": "Lada putih Bangka yang lebih pedas dan beraroma — cukup setengah takaran biasa.",
+   "asal": "Bangka Belitung",
+   "aksen": "#B8A88C",
+   "status": "tersedia",
+   "img": "elemen-lada-putih",
+   "harga_mulai": 30000,
+   "bentuk": [
+    "Butir",
+    "Bubuk"
+   ],
+   "kemasan": [
+    "55 g",
+    "250 g",
+    "70 g"
+   ],
+   "varian": [
+    {
+     "nama": "Butir",
+     "img": "elemen-lada-putih",
+     "ket": "Butir utuh, digiling saat dipakai",
+     "nama_en": "White Pepper Whole",
+     "nomor": 1
+    },
+    {
+     "nama": "Bubuk",
+     "img": "elemen-lada-putih",
+     "ket": "Halus siap tabur",
+     "nama_en": "White Pepper Powder",
+     "nomor": 2
+    }
+   ],
+   "deskripsi": [
+    "Lada putih ELEMENTIA berasal dari Bangka Belitung. 100% murni tanpa campuran, pengawet, maupun pewarna.",
+    "Kandungan piperine yang tinggi membuat rasanya lebih pedas, sehingga cukup setengah takaran biasa untuk hasil yang sama.",
+    "Tersedia butir dan bubuk, dari pouch 50 g untuk dapur rumah sampai karung 25 kg untuk dapur produksi."
+   ],
+   "citarasa": "Pedes hangat, aromatik. Putih lebih menyatu di masakan.",
+   "pakai": [
+    "Masakan harian: sup, tumis, rendang",
+    "Bumbu dasar putih",
+    "Produksi: sosis, marinasi"
+   ],
+   "pasangan": [
+    "Mushroom Corn Soup",
+    "Soto Lamongan"
+   ],
+   "galeri": [
+    {
+     "img": "elemen-lada-putih.webp",
+     "cap": "01 Wp — kartu elemen White Pepper"
+    },
+    {
+     "img": "elemen-lada-putih.webp",
+     "cap": "Simbol Wp · White Pepper — 100% murni"
+    },
+    {
+     "img": "elemen-lada-putih.webp",
+     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+    }
+   ],
+   "nama_en": "White Pepper",
+   "simbol": "Wp",
+   "nomor": 1
+  },
+  {
+   "slug": "lada-hitam",
+   "nama": "Lada Hitam",
+   "latin": "Piper nigrum",
+   "ringkas": "Lada hitam Lampung dengan aroma tajam dan wangi — untuk steak sampai bumbu dasar.",
+   "asal": "Lampung",
+   "aksen": "#2A3B45",
+   "status": "tersedia",
+   "img": "elemen-lada-hitam",
+   "harga_mulai": 30000,
+   "bentuk": [
+    "Butir",
+    "Pecah",
+    "Bubuk"
+   ],
+   "kemasan": [
+    "50 g",
+    "250 g",
+    "65 g"
+   ],
+   "varian": [
+    {
+     "nama": "Butir",
+     "img": "elemen-lada-hitam",
+     "ket": "Untuk digiling segar",
+     "nama_en": "Black Pepper Whole",
+     "nomor": 3
+    },
+    {
+     "nama": "Pecah",
+     "img": "elemen-lada-hitam",
+     "ket": "Pecahan kasar, aroma keluar perlahan",
+     "nama_en": "Black Pepper Cracked",
+     "nomor": 4
+    },
+    {
+     "nama": "Bubuk",
+     "img": "elemen-lada-hitam",
+     "ket": "Halus, siap pakai",
+     "nama_en": "Black Pepper Powder",
+     "nomor": 5
+    }
+   ],
+   "deskripsi": [
+    "Lada hitam ELEMENTIA berasal dari Lampung, dipanen petani mitra dan dikeringkan tanpa pengawet.",
+    "Aromanya lebih tajam dan wangi dibanding lada putih — paling pas untuk steak, panggang, dan bumbu yang dimasak sebentar.",
+    "Tersedia butir, pecah, dan bubuk dalam kemasan 50 g sampai karung 25 kg."
+   ],
+   "citarasa": "Tajam, wangi, sedikit earthy. Pecah menyimpan aroma paling lama.",
+   "pakai": [
+    "Steak & western",
+    "Bumbu dasar hitam",
+    "Marinasi dan saus"
+   ],
+   "pasangan": [
+    "Beef Brisket Dry Rub",
+    "Spaghetti Carbonara"
+   ],
+   "galeri": [
+    {
+     "img": "elemen-lada-hitam.webp",
+     "cap": "03 Bp — kartu elemen Black Pepper"
+    },
+    {
+     "img": "elemen-lada-hitam.webp",
+     "cap": "Simbol Bp · Black Pepper — 100% murni"
+    },
+    {
+     "img": "elemen-lada-hitam.webp",
+     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+    }
+   ],
+   "nama_en": "Black Pepper",
+   "simbol": "Bp",
+   "nomor": 3
+  },
+  {
+   "slug": "kunyit",
+   "nama": "Kunyit",
+   "latin": "Curcuma longa",
+   "ringkas": "Kunyit kering dari kebun tumpangsari: warna jingga pekat, aroma earthy, tanpa pewarna tambahan.",
+   "asal": "Kebun mitra tumpangsari",
+   "aksen": "#C98A2E",
+   "status": "segera",
+   "img": "elemen-kunyit",
+   "harga_mulai": 10000,
+   "bentuk": [
+    "Kering",
+    "Bubuk"
+   ],
+   "kemasan": [
+    "50 g",
+    "250 g"
+   ],
+   "varian": [
+    {
+     "nama": "Kering",
+     "img": "elemen-kunyit",
+     "ket": "Irisan kering, direndam atau ditumbuk",
+     "nama_en": "Turmeric Dried",
+     "nomor": 6
+    },
+    {
+     "nama": "Bubuk",
+     "img": "elemen-kunyit",
+     "ket": "Bubuk halus, siap masak",
+     "nama_en": "Turmeric Powder",
+     "nomor": 7
+    }
+   ],
+   "deskripsi": [
+    "Kunyit kami dikeringkan di bawah sinar matahari sampai kadar airnya rendah, lalu diiris atau digiling.",
+    "Warnanya berasal dari kunyit itu sendiri — bukan pewarna makanan, jadi warnanya lebih kalem tapi rasanya utuh."
+   ],
+   "citarasa": "Earthy, sedikit pahit, warna kuat. Sedikit sudah cukup.",
+   "pakai": [
+    "Bumbu dasar kuning",
+    "Rendang & kalio",
+    "Jamu dan minuman hangat",
+    "Marinasi ayam"
+   ],
+   "pasangan": [
+    "Soto Lamongan",
+    "Nasi goreng"
+   ],
+   "galeri": [
+    {
+     "img": "elemen-kunyit.webp",
+     "cap": "06 Tr — kartu elemen Turmeric"
+    },
+    {
+     "img": "elemen-kunyit.webp",
+     "cap": "Simbol Tr · Turmeric — 100% murni"
+    },
+    {
+     "img": "elemen-kunyit.webp",
+     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+    }
+   ],
+   "nama_en": "Turmeric",
+   "simbol": "Tr",
+   "nomor": 6
+  },
+  {
+   "slug": "sereh",
+   "nama": "Sereh",
+   "latin": "Cymbopogon citratus",
+   "ringkas": "Sereh dapur kering: aroma sitrus yang bersih, untuk kuah, teh, dan bumbu dasar.",
+   "asal": "Kebun mitra tumpangsari",
+   "aksen": "#7E9A5A",
+   "status": "segera",
+   "img": "elemen-sereh",
+   "harga_mulai": 10000,
+   "bentuk": [
+    "Kering",
+    "Bubuk"
+   ],
+   "kemasan": [
+    "50 g",
+    "250 g"
+   ],
+   "varian": [
+    {
+     "nama": "Kering",
+     "img": "elemen-sereh",
+     "ket": "Potongan 3–5 cm",
+     "nama_en": "Lemongrass Dried",
+     "nomor": 8
+    },
+    {
+     "nama": "Bubuk",
+     "img": "elemen-sereh",
+     "ket": "Bubuk halus untuk taburan",
+     "nama_en": "Lemongrass Powder",
+     "nomor": 9
+    }
+   ],
+   "deskripsi": [
+    "Sereh dipotong 3–5 cm lalu dikeringkan dengan suhu rendah agar minyak atsirinya tidak hilang.",
+    "Simpan di wadah tertutup, jauh dari cahaya, agar aromanya bertahan sampai beberapa bulan."
+   ],
+   "citarasa": "Sitrus segar, sedikit manis, ringan.",
+   "pakai": [
+    "Kuah dan sup",
+    "Teh dan minuman hangat",
+    "Rendang dan kari",
+    "Bumbu dasar"
+   ],
+   "pasangan": [
+    "Soto Lamongan",
+    "Mushroom Corn Soup"
+   ],
+   "galeri": [
+    {
+     "img": "elemen-sereh.webp",
+     "cap": "08 Lg — kartu elemen Lemongrass"
+    },
+    {
+     "img": "elemen-sereh.webp",
+     "cap": "Simbol Lg · Lemongrass — 100% murni"
+    },
+    {
+     "img": "elemen-sereh.webp",
+     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+    }
+   ],
+   "nama_en": "Lemongrass",
+   "simbol": "Lg",
+   "nomor": 8
+  },
+  {
+   "slug": "daun-salam",
+   "nama": "Daun Salam",
+   "latin": "Syzygium polyanthum",
+   "ringkas": "Daun salam kering dengan aroma lembut dan wangi — untuk semur, rendang, dan nasi uduk.",
+   "asal": "Kebun mitra tumpangsari",
+   "aksen": "#6B7F52",
+   "status": "segera",
+   "img": "elemen-daun-salam",
+   "harga_mulai": 10000,
+   "bentuk": [
+    "Kering",
+    "Bubuk"
+   ],
+   "kemasan": [
+    "50 g",
+    "250 g"
+   ],
+   "varian": [
+    {
+     "nama": "Kering",
+     "img": "elemen-daun-salam",
+     "ket": "Daun utuh kering",
+     "nama_en": "Bay Leaf Dried",
+     "nomor": 10
+    },
+    {
+     "nama": "Bubuk",
+     "img": "elemen-daun-salam",
+     "ket": "Bubuk halus",
+     "nama_en": "Bay Leaf Powder",
+     "nomor": 11
+    }
+   ],
+   "deskripsi": [
+    "Daun dipetik dari pohon yang tumbuh bersama tanaman keras di kebun mitra, lalu dikeringkan tanpa bahan kimia.",
+    "Daun utuh lebih tahan lama; bubuk lebih cepat mengeluarkan aroma saat ditumis."
+   ],
+   "citarasa": "Wangi lembut, sedikit woody, tidak tajam.",
+   "pakai": [
+    "Semur dan rendang",
+    "Nasi uduk dan nasi kebuli",
+    "Kaldu dan sup",
+    "Bumbu tumis"
+   ],
+   "pasangan": [
+    "Baso Tahu Bandung",
+    "Soto Lamongan"
+   ],
+   "galeri": [
+    {
+     "img": "elemen-daun-salam.webp",
+     "cap": "10 Bl — kartu elemen Bay Leaf"
+    },
+    {
+     "img": "elemen-daun-salam.webp",
+     "cap": "Simbol Bl · Bay Leaf — 100% murni"
+    },
+    {
+     "img": "elemen-daun-salam.webp",
+     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+    }
+   ],
+   "nama_en": "Bay Leaf",
+   "simbol": "Bl",
+   "nomor": 10
+  },
+  {
+   "slug": "gula-aren",
+   "nama": "Gula Aren",
+   "latin": "Arenga pinnata",
+   "ringkas": "Manis karamel dari nira pohon aren, dimasak tradisional tanpa pemutih.",
+   "asal": "Kebun mitra tumpangsari",
+   "aksen": "#A9713F",
+   "status": "segera",
+   "img": "elemen-gula-aren",
+   "harga_mulai": 7500,
+   "bentuk": [
+    "Balok",
+    "Semut",
+    "Cair"
+   ],
+   "kemasan": [
+    "250 g",
+    "1 kg",
+    "50 g",
+    "150 ml",
+    "500 ml"
+   ],
+   "varian": [
+    {
+     "nama": "Balok",
+     "img": "elemen-gula-aren",
+     "ket": "Cetakan tradisional",
+     "nama_en": "Palm Sugar Block",
+     "nomor": 12
+    },
+    {
+     "nama": "Semut",
+     "img": "elemen-gula-aren",
+     "ket": "Kristal kasar, mudah larut",
+     "nama_en": "Palm Sugar Granulated",
+     "nomor": 13
+    },
+    {
+     "nama": "Cair",
+     "img": "elemen-gula-aren",
+     "ket": "Siap tuang untuk minuman",
+     "nama_en": "Palm Sugar Liquid",
+     "nomor": 14
+    }
+   ],
+   "deskripsi": [
+    "Gula aren ELEMENTIA dibuat dari nira pohon aren yang disadap pagi dan dimasak hari itu juga, sehingga aroma karamelnya masih utuh.",
+    "Tersedia tiga bentuk: balok untuk masakan yang butuh larutan bertahap, semut untuk taburan dan kopi, serta cair untuk minuman dan saus."
+   ],
+   "citarasa": "Karamel gelap, sedikit smoky, manisnya dalam.",
+   "pakai": [
+    "Kopi susu dan minuman",
+    "Kecap manis rumahan",
+    "Semur dan sambal",
+    "Kue tradisional"
+   ],
+   "pasangan": [
+    "Nasi goreng",
+    "Soto Lamongan"
+   ],
+   "galeri": [
+    {
+     "img": "elemen-gula-aren.webp",
+     "cap": "12 Ps — kartu elemen Palm Sugar"
+    },
+    {
+     "img": "elemen-gula-aren.webp",
+     "cap": "Simbol Ps · Palm Sugar — 100% murni"
+    },
+    {
+     "img": "elemen-gula-aren.webp",
+     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+    }
+   ],
+   "nama_en": "Palm Sugar",
+   "simbol": "Ps",
+   "nomor": 12
+  },
+  {
+   "slug": "gula-kelapa",
+   "nama": "Gula Kelapa",
+   "latin": "Cocos nucifera",
+   "ringkas": "Gula kelapa berwarna lebih terang dengan aroma karamel lembut.",
+   "asal": "Kebun mitra tumpangsari",
+   "aksen": "#8C6239",
+   "status": "segera",
+   "img": "elemen-gula-kelapa",
+   "harga_mulai": 7500,
+   "bentuk": [
+    "Balok",
+    "Semut",
+    "Cair"
+   ],
+   "kemasan": [
+    "250 g",
+    "1 kg",
+    "50 g",
+    "150 ml",
+    "500 ml"
+   ],
+   "varian": [
+    {
+     "nama": "Balok",
+     "img": "elemen-gula-kelapa",
+     "ket": "Cetakan tradisional",
+     "nama_en": "Coconut Sugar Block",
+     "nomor": 15
+    },
+    {
+     "nama": "Semut",
+     "img": "elemen-gula-kelapa",
+     "ket": "Kristal, cepat larut",
+     "nama_en": "Coconut Sugar Granulated",
+     "nomor": 16
+    },
+    {
+     "nama": "Cair",
+     "img": "elemen-gula-kelapa",
+     "ket": "Untuk minuman dan saus",
+     "nama_en": "Coconut Sugar Liquid",
+     "nomor": 17
+    }
+   ],
+   "deskripsi": [
+    "Gula kelapa dibuat dari nira bunga kelapa yang dimasak perlahan sampai mengental.",
+    "Warnanya lebih terang dan rasanya lebih lembut dibanding gula aren — cocok untuk kue dan minuman yang tidak ingin terlalu pekat."
+   ],
+   "citarasa": "Karamel lembut, manis bersih, tidak menyengat.",
+   "pakai": [
+    "Kue dan jajanan",
+    "Minuman",
+    "Bumbu kecap",
+    "Sarapan"
+   ],
+   "pasangan": [
+    "Nasi goreng",
+    "Baso Tahu Bandung"
+   ],
+   "galeri": [
+    {
+     "img": "elemen-gula-kelapa.webp",
+     "cap": "15 Cs — kartu elemen Coconut Sugar"
+    },
+    {
+     "img": "elemen-gula-kelapa.webp",
+     "cap": "Simbol Cs · Coconut Sugar — 100% murni"
+    },
+    {
+     "img": "elemen-gula-kelapa.webp",
+     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+    }
+   ],
+   "nama_en": "Coconut Sugar",
+   "simbol": "Cs",
+   "nomor": 15
+  },
+  {
+   "slug": "cabai",
+   "nama": "Cabai",
+   "latin": "Capsicum annuum",
+   "ringkas": "Cabai kering pedas tajam, digiling kasar atau halus — tanpa pewarna.",
+   "asal": "Kebun mitra tumpangsari",
+   "aksen": "#C2452D",
+   "status": "segera",
+   "img": "elemen-cabai",
+   "harga_mulai": 12500,
+   "bentuk": [
+    "Kasar",
+    "Bubuk"
+   ],
+   "kemasan": [
+    "50 g",
+    "250 g"
+   ],
+   "varian": [
+    {
+     "nama": "Kasar",
+     "img": "elemen-cabai",
+     "ket": "Pecahan kasar, biji sebagian utuh",
+     "nama_en": "Chili Coarse",
+     "nomor": 18
+    },
+    {
+     "nama": "Bubuk",
+     "img": "elemen-cabai",
+     "ket": "Bubuk halus",
+     "nama_en": "Chili Powder",
+     "nomor": 19
+    }
+   ],
+   "deskripsi": [
+    "Cabai dikeringkan utuh lalu digiling sesuai pesanan agar aroma pedasnya tidak menguap.",
+    "Tersedia kasar untuk sambal yang ingin masih terasa teksturnya, dan bubuk untuk campuran bumbu."
+   ],
+   "citarasa": "Pedas tajam, sedikit asap, tidak pahit.",
+   "pakai": [
+    "Sambal dan bumbu",
+    "Taburan pizza dan pasta",
+    "Marinasi",
+    "Produksi saus"
+   ],
+   "pasangan": [
+    "Nasi goreng",
+    "Dimsum Ayam"
+   ],
+   "galeri": [
+    {
+     "img": "elemen-cabai.webp",
+     "cap": "18 Ch — kartu elemen Chili"
+    },
+    {
+     "img": "elemen-cabai.webp",
+     "cap": "Simbol Ch · Chili — 100% murni"
+    },
+    {
+     "img": "elemen-cabai.webp",
+     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+    }
+   ],
+   "nama_en": "Chili",
+   "simbol": "Ch",
+   "nomor": 18
+  },
+  {
+   "slug": "bawang-putih",
+   "nama": "Bawang Putih",
+   "latin": "Allium sativum",
+   "ringkas": "Bawang putih kering dan goreng: aroma tajam yang bertahan setelah dimasak.",
+   "asal": "Kebun mitra tumpangsari",
+   "aksen": "#C9B79A",
+   "status": "segera",
+   "img": "elemen-bawang-putih",
+   "harga_mulai": 15000,
+   "bentuk": [
+    "Goreng",
+    "Bubuk"
+   ],
+   "kemasan": [
+    "50 g",
+    "250 g"
+   ],
+   "varian": [
+    {
+     "nama": "Goreng",
+     "img": "elemen-bawang-putih",
+     "ket": "Irisan goreng renyah, siap tabur",
+     "nama_en": "Garlic Fried",
+     "nomor": 20
+    },
+    {
+     "nama": "Bubuk",
+     "img": "elemen-bawang-putih",
+     "ket": "Bubuk halus untuk bumbu dasar",
+     "nama_en": "Garlic Powder",
+     "nomor": 21
+    }
+   ],
+   "deskripsi": [
+    "Bawang putih dikupas, diiris, lalu digoreng tanpa tepung agar renyahnya datang dari bawang itu sendiri.",
+    "Versi bubuk digiling dari bawang kering, dipakai untuk bumbu yang butuh rasa merata."
+   ],
+   "citarasa": "Tajam, gurih, sedap. Goreng lebih wangi, bubuk lebih merata.",
+   "pakai": [
+    "Bumbu dasar putih",
+    "Taburan nasi dan sup",
+    "Marinasi",
+    "Bumbu instan"
+   ],
+   "pasangan": [
+    "Soto Lamongan",
+    "Nasi goreng"
+   ],
+   "galeri": [
+    {
+     "img": "elemen-bawang-putih.webp",
+     "cap": "20 Gf — kartu elemen Garlic"
+    },
+    {
+     "img": "elemen-bawang-putih.webp",
+     "cap": "Simbol Gf · Garlic — 100% murni"
+    },
+    {
+     "img": "elemen-bawang-putih.webp",
+     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+    }
+   ],
+   "nama_en": "Garlic",
+   "simbol": "Gf",
+   "nomor": 20
+  },
+  {
+   "slug": "ketumbar",
+   "nama": "Ketumbar",
+   "latin": "Coriandrum sativum",
+   "ringkas": "Ketumbar butir dan bubuk dengan aroma jeruk-pedas yang khas.",
+   "asal": "Kebun mitra tumpangsari",
+   "aksen": "#9AA37A",
+   "status": "segera",
+   "img": "elemen-ketumbar",
+   "harga_mulai": 10000,
+   "bentuk": [
+    "Butir",
+    "Bubuk"
+   ],
+   "kemasan": [
+    "50 g",
+    "250 g"
+   ],
+   "varian": [
+    {
+     "nama": "Butir",
+     "img": "elemen-ketumbar",
+     "ket": "Sangrai sebelum digiling",
+     "nama_en": "Coriander Whole",
+     "nomor": 22
+    },
+    {
+     "nama": "Bubuk",
+     "img": "elemen-ketumbar",
+     "ket": "Siap pakai untuk bumbu",
+     "nama_en": "Coriander Powder",
+     "nomor": 23
+    }
+   ],
+   "deskripsi": [
+    "Ketumbar dipanen saat buahnya matang, dijemur, lalu disortir sebelum digiling.",
+    "Butir disarankan disangrai sebentar sebelum digiling agar aromanya keluar penuh."
+   ],
+   "citarasa": "Jeruk, sedikit pedas, hangat. Paling wangi saat baru disangrai.",
+   "pakai": [
+    "Rendang dan gulai",
+    "Bumbu kacang",
+    "Marinasi ayam",
+    "Rempah kue"
+   ],
+   "pasangan": [
+    "Baso Tahu Bandung",
+    "Soto Lamongan"
+   ],
+   "galeri": [
+    {
+     "img": "elemen-ketumbar.webp",
+     "cap": "22 Co — kartu elemen Coriander"
+    },
+    {
+     "img": "elemen-ketumbar.webp",
+     "cap": "Simbol Co · Coriander — 100% murni"
+    },
+    {
+     "img": "elemen-ketumbar.webp",
+     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+    }
+   ],
+   "nama_en": "Coriander",
+   "simbol": "Co",
+   "nomor": 22
+  },
+  {
+   "slug": "kemiri",
+   "nama": "Kemiri",
+   "latin": "Aleurites moluccanus",
+   "ringkas": "Kemiri utuh dan bubuk untuk kuah yang lebih kental dan gurih.",
+   "asal": "Kebun mitra tumpangsari",
+   "aksen": "#B08968",
+   "status": "segera",
+   "img": "elemen-kemiri",
+   "harga_mulai": 12000,
+   "bentuk": [
+    "Utuh",
+    "Bubuk"
+   ],
+   "kemasan": [
+    "50 g",
+    "250 g"
+   ],
+   "varian": [
+    {
+     "nama": "Utuh",
+     "img": "elemen-kemiri",
+     "ket": "Disangrai dulu sebelum ditumbuk",
+     "nama_en": "Candlenut Whole",
+     "nomor": 24
+    },
+    {
+     "nama": "Bubuk",
+     "img": "elemen-kemiri",
+     "ket": "Bubuk halus, siap masak",
+     "nama_en": "Candlenut Powder",
+     "nomor": 25
+    }
+   ],
+   "deskripsi": [
+    "Kemiri dikeringkan lalu digiling. Karena berlemak, bubuk kemiri disarankan disimpan di wadah rapat.",
+    "Sangrai sebentar sebelum dipakai untuk mengurangi rasa langu."
+   ],
+   "citarasa": "Gurih, sedikit pahit di akhir, memberi tekstur kental.",
+   "pakai": [
+    "Rendang dan kalio",
+    "Sambal dan bumbu dasar",
+    "Kuah kental",
+    "Bumbu kacang"
+   ],
+   "pasangan": [
+    "Baso Tahu Bandung",
+    "Nasi goreng"
+   ],
+   "galeri": [
+    {
+     "img": "elemen-kemiri.webp",
+     "cap": "24 Cn — kartu elemen Candlenut"
+    },
+    {
+     "img": "elemen-kemiri.webp",
+     "cap": "Simbol Cn · Candlenut — 100% murni"
+    },
+    {
+     "img": "elemen-kemiri.webp",
+     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+    }
+   ],
+   "nama_en": "Candlenut",
+   "simbol": "Cn",
+   "nomor": 24
+  }
+ ],
+ "persona": {
+  "dapur": {
+   "judul": "Untuk dapur rumah",
+   "sub": "Kemasan kecil yang habis sebelum rusak, harga jelas, dan resep yang benar-benar dipakai.",
+   "poin": [
+    "Porsi 50–100 g — cocok untuk dua orang, tidak ada yang mengering di rak",
+    "Tanpa pengawet, tanpa campuran; keringkan dengan suhu rendah",
+    "Resep 15 menit untuk setiap komoditas",
+    "Checkout tanpa akun, atau simpan alamat untuk pesan ulang"
+   ]
+  },
+  "bisnis": {
+   "judul": "Untuk hotel, resto & kafe",
+   "sub": "Pasokan konsisten dengan spesifikasi tertulis, kemasan dapur, dan dokumen yang tim QC Anda butuhkan.",
+   "poin": [
+    "Kemasan 1 kg hingga 25 kg, butir atau bubuk sesuai standar resep",
+    "Sertifikat HALAL & proses HACCP; uji lab berkala (kadar air, piperine, mikrobiologi)",
+    "Sampel sebelum kontrak, spesifikasi tertulis per komoditas",
+    "PO, faktur, dan jadwal kirim berkala"
+   ]
+  },
+  "industri": {
+   "judul": "Industri & produksi",
+   "sub": "Bumbu untuk lini produksi: bumbu instan, saus, snack, dan makanan olahan.",
+   "poin": [
+    "Kontrak volume dengan harga tetap per periode",
+    "Spesifikasi tertulis dan sampel sebelum PO",
+    "Kemasan 25 kg food grade, siap masuk lini",
+    "Jadwal pengiriman mengikuti rencana produksi"
+   ]
+  }
+ },
+ "kebijakan": [
+  {
+   "judul": "Harga sama dengan toko resmi",
+   "isi": "Tidak ada harga naik karena dibeli langsung. Justru tanpa biaya layanan platform."
+  },
+  {
+   "judul": "Bisa minta sampel",
+   "isi": "Untuk dapur bisnis, sampel dikirim sebelum Anda memutuskan — hal yang tidak bisa dilakukan di marketplace."
+  },
+  {
+   "judul": "Satu keranjang, banyak komoditas",
+   "isi": "Campur lada, sereh, kunyit, cabai, dan daun salam dalam satu pengiriman."
+  },
+  {
+   "judul": "Spesifikasi tertulis",
+   "isi": "Kadar air, bentuk, dan asal per batch tercantum, bukan sekadar foto."
+  },
+  {
+   "judul": "Pesan ulang satu klik",
+   "isi": "Alamat dan riwayat tersimpan di akun — tidak perlu mengisi ulang formulir."
+  },
+  {
+   "judul": "Data Anda tidak dijual",
+   "isi": "Riwayat belanja hanya dipakai untuk memproses pesanan Anda."
+  }
+ ]
+}

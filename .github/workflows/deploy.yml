@@ -1,0 +1,75 @@
+name: Deploy ke Cloudflare Workers
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      SITE_URL: https://elementia-preview.CLOUDFLARE-SUBDOMAIN.workers.dev
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: worker/build/package-lock.json
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pasang dependensi build (esbuild, pdf-lib)
+        run: npm ci --no-audit --no-fund
+        working-directory: worker/build
+
+      - name: Bangun halaman & bundel worker
+        run: |
+          python build.py
+          python assemble.py dist
+          test -f dist/worker.js
+          test -d dist/public
+
+      - name: Isi ID database D1
+        run: |
+          if [ -z "${CLOUDFLARE_D1_ID}" ]; then
+            echo "::error::Secret CLOUDFLARE_D1_ID belum diisi."; exit 1
+          fi
+          sed -i "s/__D1_ID__/${CLOUDFLARE_D1_ID}/" wrangler.jsonc
+          grep -q "database_id" wrangler.jsonc
+        env:
+          CLOUDFLARE_D1_ID: ${{ secrets.CLOUDFLARE_D1_ID }}
+
+      - name: Terapkan skema & migrasi D1
+        run: |
+          npx --yes wrangler@4 d1 execute elementia-preview-db --remote --yes --file=worker/schema.sql
+          for f in worker/migrate-v*.sql; do
+            echo "→ $f"
+            npx --yes wrangler@4 d1 execute elementia-preview-db --remote --yes --file="$f" \
+              || echo "   dilewati (kolom/tabel kemungkinan sudah ada)"
+          done
+
+      - name: Deploy
+        run: npx --yes wrangler@4 deploy
+
+      - name: Uji asap (smoke test)
+        run: |
+          code=$(curl -s -o /tmp/home.html -w "%{http_code}" "$SITE_URL/")
+          echo "HTTP $code"
+          grep -q "Lima rempah" /tmp/home.html && echo "beranda v3 terpasang" || { echo "::error::Beranda tidak memuat penanda v3"; exit 1; }
+          api=$(curl -s "$SITE_URL/api/config")
+          echo "config: $api"
+          echo "$api" | grep -q '"ok":true' || { echo "::error::API tidak merespons"; exit 1; }

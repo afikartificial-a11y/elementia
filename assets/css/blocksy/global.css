@@ -1,0 +1,51 @@
+/* Blocksy dynamic global styles (output setara Customizer Blocksy) —
+   dikonfigurasi seperti starter "Catering", palet diganti ke warna ELEMENTIA. */
+:root{--theme-font-family:'Noto Sans',Sans-Serif;--theme-font-weight:400;--theme-text-transform:none;--theme-text-decoration:none;--theme-font-size:16px;--theme-line-height:1.65;--theme-letter-spacing:0em;--theme-button-font-weight:600;--theme-button-font-size:15px;--has-classic-forms:var(--false);--has-modern-forms:var(--true);--theme-form-field-height:60px;--theme-form-field-border-radius:0px;--theme-form-field-border-initial-color:var(--theme-border-color);--theme-form-field-border-focus-color:var(--theme-palette-color-1);--theme-form-field-border-width:0 0 2px 0;--form-selection-control-border-width:2px;--theme-form-selection-field-initial-color:var(--theme-border-color);--theme-form-selection-field-active-color:var(--theme-palette-color-1);
+--theme-palette-color-1:#b8332a;--theme-palette-color-2:#8d241e;--theme-palette-color-3:#3d1d19;--theme-palette-color-4:#2a0f0c;--theme-palette-color-5:#eadcc6;--theme-palette-color-6:#f6eee1;--theme-palette-color-7:#fbf7f0;--theme-palette-color-8:#ffffff;
+--theme-text-color:var(--theme-palette-color-3);--theme-link-initial-color:var(--theme-palette-color-1);--theme-link-hover-color:var(--theme-palette-color-2);--theme-selection-text-color:#ffffff;--theme-selection-background-color:var(--theme-palette-color-1);--theme-border-color:var(--theme-palette-color-5);--theme-headings-color:var(--theme-palette-color-4);--theme-content-spacing:1.5em;--theme-button-min-height:60px;--theme-button-shadow:none;--theme-button-transform:none;--theme-button-text-initial-color:#ffffff;--theme-button-text-hover-color:#ffffff;--theme-button-background-initial-color:var(--theme-palette-color-1);--theme-button-background-hover-color:var(--theme-palette-color-2);--theme-button-border:none;--theme-button-border-radius:0px;--theme-button-padding:5px 28px;--theme-normal-container-max-width:1290px;--theme-content-vertical-spacing:60px;--theme-container-edge-spacing:90vw;--theme-narrow-container-max-width:750px;--theme-wide-offset:130px;}
+h1{--theme-font-family:Staatliches,Sans-Serif;--theme-font-weight:400;--theme-font-size:40px;--theme-line-height:1.5;}
+h2{--theme-font-family:Staatliches,Sans-Serif;--theme-font-weight:400;--theme-font-size:35px;--theme-line-height:1.5;}
+h3{--theme-font-family:Staatliches,Sans-Serif;--theme-font-weight:400;--theme-font-size:30px;--theme-line-height:1.5;}
+h4{--theme-font-family:Staatliches,Sans-Serif;--theme-font-weight:400;--theme-font-size:25px;--theme-line-height:1.5;}
+h5{--theme-font-family:Staatliches,Sans-Serif;--theme-font-weight:400;--theme-font-size:20px;--theme-line-height:1.5;}
+h6{--theme-font-family:Staatliches,Sans-Serif;--theme-font-weight:400;--theme-font-size:16px;--theme-line-height:1.5;}
+figcaption{--theme-font-size:14px;}
+.ct-breadcrumbs{--theme-font-weight:600;--theme-text-transform:uppercase;--theme-font-size:12px;--theme-text-color:var(--theme-palette-color-8);--theme-link-initial-color:var(--theme-palette-color-8);}
+body{background-color:#ffffff;background-image:none;}
+[data-prefix="single_page"] [class*="ct-container"]>article[class*="post"]{--has-boxed:var(--false);--has-wide:var(--true);}
+/* Header type-1 */
+[data-header*="type-1"] .ct-header [data-id="button"] .ct-button-ghost{--theme-button-text-initial-color:var(--theme-button-background-initial-color);--theme-button-text-hover-color:#ffffff;}
+[data-header*="type-1"] .ct-header [data-transparent-row="yes"] [data-id="button"] .ct-button{--theme-button-text-initial-color:var(--theme-palette-color-4);--theme-button-text-hover-color:#ffffff;}
+[data-header*="type-1"] .ct-header [data-transparent-row="yes"] [data-id="button"]{--theme-button-background-initial-color:var(--theme-palette-color-8);--theme-button-background-hover-color:var(--theme-palette-color-1);}
+[data-header*="type-1"] .ct-header [data-id="logo"] .site-logo-container{--logo-max-height:62px;}
+[data-header*="type-1"] .ct-header [data-id="menu"]{--menu-items-spacing:34px;}
+[data-header*="type-1"] .ct-header [data-id="menu"]>ul>li>a{--theme-font-weight:700;--theme-text-transform:none;--theme-font-size:16px;--theme-line-height:1.3;--theme-link-initial-color:var(--theme-text-color);}
+[data-header*="type-1"] .ct-header [data-transparent-row="yes"] [data-id="menu"]>ul>li>a{--theme-link-initial-color:rgba(255,255,255,0.78);--theme-link-hover-color:var(--theme-palette-color-8);}
+[data-header*="type-1"] .ct-header [data-row*="middle"]{--height:110px;background-color:var(--theme-palette-color-7);background-image:none;--theme-border-top:none;--theme-border-bottom:none;--theme-box-shadow:none;}
+[data-header*="type-1"] .ct-header [data-transparent-row="yes"][data-row*="middle"]{background-color:rgba(255,255,255,0);background-image:none;}
+[data-header*="type-1"]{--has-transparent-header:1;--header-height:110px;}
+[data-header*="type-1"] [data-id="mobile-menu"]{--theme-font-weight:700;--theme-font-size:20px;--theme-link-initial-color:#ffffff;--theme-link-hover-color:#f1d27a;--mobile-menu-divider:none;}
+[data-header*="type-1"] #offcanvas{background-color:rgba(42,15,12,0.97);--vertical-alignment:center;--panel-content-height:auto;--horizontal-alignment:center;--text-horizontal-alignment:center;--has-indentation:0;}
+[data-header*="type-1"] [data-id="offcanvas-logo"]{--logo-max-height:56px;}
+[data-header*="type-1"] [data-id="trigger"]{--theme-icon-size:20px;}
+[data-header*="type-1"] [data-transparent-row="yes"] [data-id="trigger"]{--theme-icon-color:rgba(255,255,255,0.9);--theme-icon-hover-color:var(--theme-palette-color-8);}
+/* Footer type-1 */
+[data-footer*="type-1"] .ct-footer [data-row*="bottom"]>div{--container-spacing:40px;--theme-border:none;--theme-border-top:1px solid rgba(255,255,255,0.08);--grid-template-columns:initial;}
+[data-footer*="type-1"] [data-id="copyright"]{--theme-font-weight:400;--theme-font-size:15px;--theme-line-height:1.4;--theme-text-color:rgba(255,255,255,0.6);--theme-link-initial-color:var(--theme-palette-color-8);}
+[data-footer*="type-1"] [data-column="copyright"]{--horizontal-alignment:center;}
+[data-footer*="type-1"] .ct-footer [data-row*="middle"]>div{--container-spacing:120px;--columns-gap:70px;--theme-border:none;--grid-template-columns:1.3fr 1fr 1fr 1.3fr;}
+[data-footer*="type-1"] .ct-footer [data-row*="middle"] .ct-widget{--theme-text-color:rgba(255,255,255,0.72);--theme-link-initial-color:rgba(255,255,255,0.86);--theme-link-hover-color:#f1d27a;}
+[data-footer*="type-1"] .ct-footer{background-color:#1c0907;background-image:linear-gradient(rgba(28,9,7,0.9),rgba(28,9,7,0.94)),url(../../img/foto/sulur-lada.webp);background-size:cover;background-position:50% 50%;}
+@media (max-width:999.98px){
+[data-header*="type-1"] .ct-header [data-id="logo"] .site-logo-container{--logo-max-height:46px;}
+[data-header*="type-1"] .ct-header [data-row*="middle"]{--height:76px;}
+[data-header*="type-1"]{--header-height:76px;}
+[data-footer*="type-1"] .ct-footer [data-row*="bottom"]>div{--container-spacing:25px;}
+[data-footer*="type-1"] .ct-footer [data-row*="middle"]>div{--container-spacing:60px;--grid-template-columns:repeat(2,1fr);}
+}
+@media (max-width:689.98px){
+[data-header*="type-1"] .ct-header [data-id="logo"] .site-logo-container{--logo-max-height:42px;}
+[data-footer*="type-1"] .ct-footer [data-row*="middle"]>div{--container-spacing:50px;--grid-template-columns:initial;}
+[data-footer*="type-1"] .ct-footer [data-column^="widget-area"]{--text-horizontal-alignment:center;--horizontal-alignment:center;}
+:root{--theme-content-vertical-spacing:50px;--theme-container-edge-spacing:88vw;}
+}

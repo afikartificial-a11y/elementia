@@ -1,0 +1,13 @@
+// Konfigurasi referensi (deploy preview dilakukan via Cloudflare API dengan setelan yang sama).
+{
+  "name": "<brand>-preview",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./public", "binding": "ASSETS", "html_handling": "auto-trailing-slash", "not_found_handling": "none", "run_worker_first": ["/api/*"] },
+  "d1_databases": [{ "binding": "DB", "database_name": "<brand>-preview-db", "database_id": "<D1_DATABASE_ID>" }],
+  "observability": { "enabled": true },
+  "triggers": { "crons": ["*/15 * * * *"] },
+  "vars": { "ADMIN_WA": "<62NOMORWAADMIN>", "PUBLIC_URL": "https://<brand>-preview.<akun>.workers.dev" }
+  // Secrets: ADMIN_PASSWORD (wajib), MIDTRANS_SERVER_KEY, MIDTRANS_CLIENT_KEY, MIDTRANS_IS_PRODUCTION, BITESHIP_API_KEY, ORIGIN_POSTAL_CODE,
+  //          FONNTE_TOKEN  atau  WA_CLOUD_TOKEN + WA_PHONE_ID  (notifikasi WA admin otomatis)
+}

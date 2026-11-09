@@ -1,0 +1,487 @@
+{
+ "sumber": "elementia_product_summary.md",
+ "produk": [
+  {
+   "id": "lada-putih",
+   "jenis": "Lada Putih",
+   "jenis_en": "White Pepper",
+   "simbol": "Wp",
+   "asal": "",
+   "kemasan": "Botol / Pouch",
+   "judul_pdf": "Lada Putih — White Pepper",
+   "segmen": "eceran",
+   "varian": [
+    {
+     "bentuk": "Butir",
+     "ukuran": "55 g",
+     "kemasan": "Botol Grinder",
+     "harga": 45000,
+     "img": "elemen-lada-putih"
+    },
+    {
+     "bentuk": "Butir",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 125000,
+     "img": "elemen-lada-putih"
+    },
+    {
+     "bentuk": "Bubuk",
+     "ukuran": "70 g",
+     "kemasan": "Botol Shaker",
+     "harga": 30000,
+     "img": "elemen-lada-putih"
+    },
+    {
+     "bentuk": "Bubuk",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 140000,
+     "img": "elemen-lada-putih"
+    }
+   ]
+  },
+  {
+   "id": "lada-hitam",
+   "jenis": "Lada Hitam",
+   "jenis_en": "Black Pepper",
+   "simbol": "Bp",
+   "asal": "",
+   "kemasan": "Botol / Pouch",
+   "judul_pdf": "Lada Hitam — Black Pepper",
+   "segmen": "eceran",
+   "varian": [
+    {
+     "bentuk": "Butir",
+     "ukuran": "50 g",
+     "kemasan": "Botol Grinder",
+     "harga": 45000,
+     "img": "elemen-lada-hitam"
+    },
+    {
+     "bentuk": "Butir",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 120000,
+     "img": "elemen-lada-hitam"
+    },
+    {
+     "bentuk": "Pecah",
+     "ukuran": "65 g",
+     "kemasan": "Botol Shaker",
+     "harga": 30000,
+     "img": "elemen-lada-hitam"
+    },
+    {
+     "bentuk": "Pecah",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 130000,
+     "img": "elemen-lada-hitam"
+    },
+    {
+     "bentuk": "Bubuk",
+     "ukuran": "65 g",
+     "kemasan": "Botol Shaker",
+     "harga": 30000,
+     "img": "elemen-lada-hitam"
+    },
+    {
+     "bentuk": "Bubuk",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 130000,
+     "img": "elemen-lada-hitam"
+    }
+   ]
+  },
+  {
+   "id": "kunyit",
+   "jenis": "Kunyit",
+   "jenis_en": "Turmeric",
+   "simbol": "Tr",
+   "asal": "",
+   "kemasan": "Botol / Pouch",
+   "judul_pdf": "Kunyit — Turmeric",
+   "segmen": "eceran",
+   "varian": [
+    {
+     "bentuk": "Kering",
+     "ukuran": "50 g",
+     "kemasan": "Pouch",
+     "harga": 10000,
+     "img": "elemen-kunyit"
+    },
+    {
+     "bentuk": "Kering",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 20000,
+     "img": "elemen-kunyit"
+    },
+    {
+     "bentuk": "Bubuk",
+     "ukuran": "50 g",
+     "kemasan": "Pouch",
+     "harga": 10000,
+     "img": "elemen-kunyit"
+    },
+    {
+     "bentuk": "Bubuk",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 20000,
+     "img": "elemen-kunyit"
+    }
+   ]
+  },
+  {
+   "id": "sereh",
+   "jenis": "Sereh",
+   "jenis_en": "Lemongrass",
+   "simbol": "Lg",
+   "asal": "",
+   "kemasan": "Botol / Pouch",
+   "judul_pdf": "Sereh — Lemongrass",
+   "segmen": "eceran",
+   "varian": [
+    {
+     "bentuk": "Kering",
+     "ukuran": "50 g",
+     "kemasan": "Pouch",
+     "harga": 10000,
+     "img": "elemen-sereh"
+    },
+    {
+     "bentuk": "Kering",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 20000,
+     "img": "elemen-sereh"
+    },
+    {
+     "bentuk": "Bubuk",
+     "ukuran": "50 g",
+     "kemasan": "Pouch",
+     "harga": 10000,
+     "img": "elemen-sereh"
+    },
+    {
+     "bentuk": "Bubuk",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 20000,
+     "img": "elemen-sereh"
+    }
+   ]
+  },
+  {
+   "id": "daun-salam",
+   "jenis": "Daun Salam",
+   "jenis_en": "Bay Leaf",
+   "simbol": "Bl",
+   "asal": "",
+   "kemasan": "Botol / Pouch",
+   "judul_pdf": "Daun Salam — Bay Leaf",
+   "segmen": "eceran",
+   "varian": [
+    {
+     "bentuk": "Kering",
+     "ukuran": "50 g",
+     "kemasan": "Pouch",
+     "harga": 10000,
+     "img": "elemen-daun-salam"
+    },
+    {
+     "bentuk": "Kering",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 20000,
+     "img": "elemen-daun-salam"
+    },
+    {
+     "bentuk": "Bubuk",
+     "ukuran": "50 g",
+     "kemasan": "Pouch",
+     "harga": 10000,
+     "img": "elemen-daun-salam"
+    },
+    {
+     "bentuk": "Bubuk",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 20000,
+     "img": "elemen-daun-salam"
+    }
+   ]
+  },
+  {
+   "id": "gula-aren",
+   "jenis": "Gula Aren",
+   "jenis_en": "Palm Sugar",
+   "simbol": "Ps",
+   "asal": "",
+   "kemasan": "Botol / Pouch",
+   "judul_pdf": "Gula Aren — Palm Sugar",
+   "segmen": "eceran",
+   "varian": [
+    {
+     "bentuk": "Balok",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 10000,
+     "img": "elemen-gula-aren"
+    },
+    {
+     "bentuk": "Balok",
+     "ukuran": "1 kg",
+     "kemasan": "Pouch",
+     "harga": 35000,
+     "img": "elemen-gula-aren"
+    },
+    {
+     "bentuk": "Semut",
+     "ukuran": "50 g",
+     "kemasan": "Pouch",
+     "harga": 7500,
+     "img": "elemen-gula-aren"
+    },
+    {
+     "bentuk": "Semut",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 15000,
+     "img": "elemen-gula-aren"
+    },
+    {
+     "bentuk": "Cair",
+     "ukuran": "150 ml",
+     "kemasan": "Botol",
+     "harga": 7500,
+     "img": "elemen-gula-aren"
+    },
+    {
+     "bentuk": "Cair",
+     "ukuran": "500 ml",
+     "kemasan": "Botol",
+     "harga": 35000,
+     "img": "elemen-gula-aren"
+    }
+   ]
+  },
+  {
+   "id": "gula-kelapa",
+   "jenis": "Gula Kelapa",
+   "jenis_en": "Coconut Sugar",
+   "simbol": "Cs",
+   "asal": "",
+   "kemasan": "Botol / Pouch",
+   "judul_pdf": "Gula Kelapa — Coconut Sugar",
+   "segmen": "eceran",
+   "varian": [
+    {
+     "bentuk": "Balok",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 10000,
+     "img": "elemen-gula-kelapa"
+    },
+    {
+     "bentuk": "Balok",
+     "ukuran": "1 kg",
+     "kemasan": "Pouch",
+     "harga": 35000,
+     "img": "elemen-gula-kelapa"
+    },
+    {
+     "bentuk": "Semut",
+     "ukuran": "50 g",
+     "kemasan": "Pouch",
+     "harga": 7500,
+     "img": "elemen-gula-kelapa"
+    },
+    {
+     "bentuk": "Semut",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 15000,
+     "img": "elemen-gula-kelapa"
+    },
+    {
+     "bentuk": "Cair",
+     "ukuran": "150 ml",
+     "kemasan": "Botol",
+     "harga": 7500,
+     "img": "elemen-gula-kelapa"
+    },
+    {
+     "bentuk": "Cair",
+     "ukuran": "500 ml",
+     "kemasan": "Botol",
+     "harga": 35000,
+     "img": "elemen-gula-kelapa"
+    }
+   ]
+  },
+  {
+   "id": "cabai",
+   "jenis": "Cabai",
+   "jenis_en": "Chili",
+   "simbol": "Ch",
+   "asal": "",
+   "kemasan": "Botol / Pouch",
+   "judul_pdf": "Cabai — Chili",
+   "segmen": "eceran",
+   "varian": [
+    {
+     "bentuk": "Kasar",
+     "ukuran": "50 g",
+     "kemasan": "Pouch",
+     "harga": 12500,
+     "img": "elemen-cabai"
+    },
+    {
+     "bentuk": "Kasar",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 22000,
+     "img": "elemen-cabai"
+    },
+    {
+     "bentuk": "Bubuk",
+     "ukuran": "50 g",
+     "kemasan": "Pouch",
+     "harga": 12500,
+     "img": "elemen-cabai"
+    },
+    {
+     "bentuk": "Bubuk",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 22000,
+     "img": "elemen-cabai"
+    }
+   ]
+  },
+  {
+   "id": "bawang-putih",
+   "jenis": "Bawang Putih",
+   "jenis_en": "Garlic",
+   "simbol": "Gf",
+   "asal": "",
+   "kemasan": "Botol / Pouch",
+   "judul_pdf": "Bawang Putih — Garlic",
+   "segmen": "eceran",
+   "varian": [
+    {
+     "bentuk": "Goreng",
+     "ukuran": "50 g",
+     "kemasan": "Pouch",
+     "harga": 15000,
+     "img": "elemen-bawang-putih"
+    },
+    {
+     "bentuk": "Goreng",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 25000,
+     "img": "elemen-bawang-putih"
+    },
+    {
+     "bentuk": "Bubuk",
+     "ukuran": "50 g",
+     "kemasan": "Pouch",
+     "harga": 15000,
+     "img": "elemen-bawang-putih"
+    },
+    {
+     "bentuk": "Bubuk",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 25000,
+     "img": "elemen-bawang-putih"
+    }
+   ]
+  },
+  {
+   "id": "ketumbar",
+   "jenis": "Ketumbar",
+   "jenis_en": "Coriander",
+   "simbol": "Co",
+   "asal": "",
+   "kemasan": "Botol / Pouch",
+   "judul_pdf": "Ketumbar — Coriander",
+   "segmen": "eceran",
+   "varian": [
+    {
+     "bentuk": "Butir",
+     "ukuran": "50 g",
+     "kemasan": "Pouch",
+     "harga": 10000,
+     "img": "elemen-ketumbar"
+    },
+    {
+     "bentuk": "Butir",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 20000,
+     "img": "elemen-ketumbar"
+    },
+    {
+     "bentuk": "Bubuk",
+     "ukuran": "50 g",
+     "kemasan": "Pouch",
+     "harga": 10000,
+     "img": "elemen-ketumbar"
+    },
+    {
+     "bentuk": "Bubuk",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 20000,
+     "img": "elemen-ketumbar"
+    }
+   ]
+  },
+  {
+   "id": "kemiri",
+   "jenis": "Kemiri",
+   "jenis_en": "Candlenut",
+   "simbol": "Cn",
+   "asal": "",
+   "kemasan": "Botol / Pouch",
+   "judul_pdf": "Kemiri — Candlenut",
+   "segmen": "eceran",
+   "varian": [
+    {
+     "bentuk": "Utuh",
+     "ukuran": "50 g",
+     "kemasan": "Pouch",
+     "harga": 12000,
+     "img": "elemen-kemiri"
+    },
+    {
+     "bentuk": "Utuh",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 22000,
+     "img": "elemen-kemiri"
+    },
+    {
+     "bentuk": "Bubuk",
+     "ukuran": "50 g",
+     "kemasan": "Pouch",
+     "harga": 12000,
+     "img": "elemen-kemiri"
+    },
+    {
+     "bentuk": "Bubuk",
+     "ukuran": "250 g",
+     "kemasan": "Pouch",
+     "harga": 22000,
+     "img": "elemen-kemiri"
+    }
+   ]
+  }
+ ]
+}

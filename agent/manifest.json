@@ -1,0 +1,54 @@
+{
+  "id": "elementia",
+  "name": "Elementia — Toko Rempah Tumpangsari",
+  "version": "1.0.0",
+  "description": "Toko daring rempah tumpangsari (11 komoditas, 25 varian, 100 SKU) dengan checkout, akun, pesanan, dan ongkir per provinsi. Statis + Cloudflare Worker + D1.",
+  "runtime": { "node": ">=22", "python": ">=3.10" },
+  "entrypoints": {
+    "cli": "tools/agent-cli.mjs",
+    "mcp": "tools/mcp-server.mjs",
+    "dev": "node tools-dev.mjs",
+    "build": "python build.py && python assemble.py dist",
+    "deploy": "npx wrangler deploy"
+  },
+  "commands": [
+    { "name": "info", "usage": "node tools/agent-cli.mjs info", "description": "Ringkasan merek, SKU, provinsi, perintah." },
+    { "name": "catalog search", "usage": "node tools/agent-cli.mjs catalog search \"lada bubuk\" --limit 5", "description": "Cari SKU." },
+    { "name": "catalog get", "usage": "node tools/agent-cli.mjs catalog get <sku>", "description": "Detail satu SKU." },
+    { "name": "rates", "usage": "node tools/agent-cli.mjs rates --provinsi Bali --kode-pos 80361 --items sku:qty", "description": "Hitung ongkir per kurir." },
+    { "name": "wilayah", "usage": "node tools/agent-cli.mjs wilayah --provinsi \"Jawa Barat\" --kabupaten \"Kota Bandung\" --kecamatan Cibiru", "description": "Telusuri wilayah dan kode pos." },
+    { "name": "orders", "usage": "node tools/agent-cli.mjs orders --status baru --limit 10", "description": "Pesanan terakhir (baca-saja)." }
+  ],
+  "mcp": {
+    "transport": "stdio",
+    "command": "node",
+    "args": ["tools/mcp-server.mjs"],
+    "tools": [
+      "project_info", "catalog_search", "catalog_get", "shipping_rates",
+      "wilayah_lookup", "wilayah_search", "orders_list"
+    ]
+  },
+  "data": {
+    "catalog": "assets/data/catalog.json",
+    "harga_sumber": "data/harga-2026.json",
+    "katalog_deskriptif": "data/katalog-v3.json",
+    "tarif_ongkir": "data/tarif-provinsi-2026-11.json",
+    "wilayah": "assets/data/wilayah/index.json",
+    "wilayah_detail": "assets/data/wilayah/{id}.json",
+    "resep": "data/resep.json",
+    "db_lokal": "data/local.db"
+  },
+  "secrets": [
+    { "name": "ADMIN_PASSWORD", "required": false, "note": "Kata sandi panel admin." },
+    { "name": "BITESHIP_API_KEY", "required": false, "note": "Ongkir real-time; bila kosong dipakai tabel tarif." },
+    { "name": "MIDTRANS_SERVER_KEY", "required": false, "note": "Pembayaran online." },
+    { "name": "KIRIMINAJA_API_KEY", "required": false, "note": "Belum dipakai: menunggu persetujuan Mitra API." }
+  ],
+  "invariants": [
+    "Harga hanya berasal dari data/harga-2026.json atau assets/data/catalog.json — jangan mengarang.",
+    "Berat kirim = berat_bruto_g = netto x 1.10; kg = ceil(total/1000), minimal 1.",
+    "Tarif ongkir adalah acuan snapshot KiriminAja, bukan real-time; sebutkan tanggalnya saat melaporkan.",
+    "Provinsi/kabupaten/kecamatan/kode pos harus berasal dari dropdown wilayah, bukan teks bebas.",
+    "Jangan menulis kredensial atau API key ke dalam repo."
+  ]
+}
