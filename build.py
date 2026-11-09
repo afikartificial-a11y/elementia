@@ -241,7 +241,7 @@ def prod_card(p):
 <div class="bk-prod__body"><span class="bk-tag">{SEG[p["segmen"]]} · {forms}</span><h3>{E(p["jenis"])} {forms}</h3>
 <div class="bk-prod__pack">{E(p["kemasan"])}</div>
 <div class="bk-prod__from">{"Harga" if same else "Mulai dari"}<strong>{rp(lo)}</strong></div>
-<ul class="bk-vars">{rows}</ul>
+<ul class="bk-vars">{rows}</div>
 {f'<p style="font-size:12px;color:var(--bk-muted);margin:10px 0 0">{E(p["catatan"])}</p>' if p.get("catatan") else ""}
  </div></article>'''
 
@@ -260,7 +260,7 @@ def kom_card(k):
     return f'''<article class="bk-kom reveal" data-kom="{k["slug"]}" data-status="{k["status"]}" data-text="{E(k["nama"] + " " + k["latin"] + " " + k["ringkas"] + " " + " ".join(k["pasangan"])).lower()}" style="--aksen:{k["aksen"]}">
  <a class="bk-kom__media" href="produk-{k["slug"]}.html" aria-label="{E(k["nama"])}">{kom_media(k)}{badge}</a>
  <div class="bk-kom__body"><h3><a href="produk-{k["slug"]}.html">{E(k["nama"])}</a></h3><em>{E(k["latin"])}</em><p class="bk-kom__desc">{E(k["ringkas"])}</p>
- <ul class="bk-kom__var">{"".join(f"<li>{E(v['nama'])}</li>" for v in k["varian"])}</ul>
+ <ul class="bk-kom__var">{"".join(f"<li>{E(v['nama'])}</li>" for v in k["varian"])}</div>
  <div class="bk-kom__foot"><span class="bk-kom__price">{kom_price(k)}</span><a class="bk-more" href="produk-{k["slug"]}.html">Detail</a></div></div></article>'''
 
 def persona_sky():
@@ -268,7 +268,7 @@ def persona_sky():
     def card(x, icon, href, label):
         lis = "".join(f'<li>{E(i)}</li>' for i in x["poin"])
         return f'''<article class="bk-persona__card reveal"><div class="bk-persona__ic">{I[icon]}</div>
- <h3>{E(x["judul"])}</h3><p>{E(x["sub"])}</p><ul class="bk-checks">{lis}</ul>
+ <h3>{E(x["judul"])}</h3><p>{E(x["sub"])}</p><ul class="bk-checks">{lis}</div>
  <a class="wp-block-button__link is-style-outline" href="{href}">{label}</a></article>'''
     return f'''<div class="wp-block-group alignfull bk-section bk-persona-wrap"><div class="bk-wrap">
  <div class="bk-head has-text-align-center reveal"><span class="bk-eyebrow">Untuk siapa</span><h2 class="bk-h2">Tiga dapur, satu standar</h2><p class="bk-lead">Rempah yang sama dipakai di dapur rumah, dapur profesional, dan lini produksi. Bedanya ukuran kemasan dan dokumen yang menyertainya.</p></div>
@@ -325,7 +325,7 @@ home += f'''
  <div class="wp-block-column reveal"><span class="bk-eyebrow">Tentang ELEMENTIA</span>
   <h2 class="bk-h2">Terjaga dari kebun sampai dapur</h2>
   <p>ELEMENTIA berawal dari lada Bangka Belitung sebagai <em>Bumbu Pusaka Nusantara</em>. Namanya kini dibaca lebih luas: <strong>Rempah Tumpangsari</strong> — karya pangan dari kebun Nusantara, dengan cara kerja yang tidak berubah.</p>
-  <ul class="bk-checks"><li>Bekerja langsung dengan petani binaan di Pulau Bangka dan Belitung</li><li>Lada putih berkualitas ekspor, lada hitam Lampung yang tersterilisasi</li><li>Dikemas di fasilitas bersertifikat HALAL &amp; HACCP</li></ul>
+  <ul class="bk-checks"><li>Bekerja langsung dengan petani binaan di Pulau Bangka dan Belitung</li><li>Lada putih berkualitas ekspor, lada hitam Lampung yang tersterilisasi</li><li>Dikemas di fasilitas bersertifikat HALAL &amp; HACCP</li></div>
   <div class="wp-block-buttons"><div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="tentang.html">Kenali kami</a></div></div></div>
 </div></div></div>
 
@@ -394,11 +394,11 @@ def var_rows(k):
         f = v["img"] if "." in v["img"] else v["img"] + ".webp"
         hv = hvar(k["nama"], v["nama"])
         out.append(
-            f'<li class="bk-varrow"><img src="assets/img/produk/{f}" alt="{E(k["nama"])} {E(v["nama"])}" width="96" height="96" loading="lazy">'
+            f'<a class="bk-varrow" href="produk-{k["slug"]}.html" aria-label="Buka {E(k["nama"])} {E(v["nama"])}"><img src="assets/img/produk/{f}" alt="{E(k["nama"])} {E(v["nama"])}" width="96" height="96" loading="lazy">'
             f'<div class="bk-varrow__txt"><strong>{E(v["nama"])}</strong><small>{E(v.get("ket", ""))} · {len(hvar(k["nama"], v["nama"]))} kemasan</small></div>'
             f'<span class="bk-varrow__price">{("Mulai " + rp(min(km["harga"] for km in hv))) if hv else "&mdash;"}</span>'
             f'<span class="bk-varrow__st {"is-ready" if ready else "is-soon"}">{"Siap dibeli" if ready else "Segera hadir"}</span>'
-            f'<a class="bk-more" href="produk-{k["slug"]}.html">Lihat</a></li>')
+            '</a>')
     return "".join(out)
 
 def kom_block(k):
@@ -409,7 +409,7 @@ def kom_block(k):
     return f'''<section class="bk-block reveal" data-kom="{k["slug"]}" data-status="{k["status"]}" data-text="{txt}" style="--aksen:{k["aksen"]}">
 <header class="bk-block__head"><div><span class="bk-eyebrow">{E(k["asal"])}</span><h3 class="bk-block__title">{E(k["nama"])}</h3><p class="bk-block__meta">{meta}</p></div>
 <div class="bk-block__side"><span class="bk-block__price">{price}</span><a class="bk-more" href="produk-{k["slug"]}.html">Detail produk &rarr;</a></div></header>
-<ul class="bk-varrows">{var_rows(k)}</ul></section>'''
+<div class="bk-varrows">{var_rows(k)}</div></section>'''
 
 _nkom = len(KOM); _nvar = sum(len(k["varian"]) for k in KOM)
 _nama_kom = ", ".join(k["nama"] for k in KOM[:-1]) + ", dan " + KOM[-1]["nama"]
@@ -562,7 +562,7 @@ kt += f'''<div class="wp-block-group alignfull bk-section"><div class="bk-wrap">
    <li><span class="bk-ic">{I["wa"].replace('<svg','<svg fill="currentColor"')}</span><div><small>WhatsApp</small><a href="{WA_HALO}" target="_blank" rel="noopener">{WA_TXT}</a></div></li>
    <li><span class="bk-ic">{I["mail"]}</span><div><small>Email</small><a href="mailto:{EMAIL}">{EMAIL}</a></div></li>
    <li><span class="bk-ic">{I["clock"]}</span><div><small>Jam Buka</small>{HOURS}</div></li>
-  </ul>
+  </div>
   <div class="wp-block-buttons"><div class="wp-block-button is-style-wa"><a class="wp-block-button__link" href="{WA_HALO}" target="_blank" rel="noopener">{I["wa"]} Chat WhatsApp</a></div>
    <div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="{TOKPED}" target="_blank" rel="noopener">Tokopedia</a></div><div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="{SHOPEE}" target="_blank" rel="noopener">Shopee</a></div></div>
   <p style="margin-top:22px;font-size:14px;color:var(--bk-muted)">Ikuti kami: <a href="{IG}" target="_blank" rel="noopener">Instagram | Elementia Official</a> · <a href="{FB}" target="_blank" rel="noopener">Facebook | Elementia Official</a></p></div>

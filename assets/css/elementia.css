@@ -861,3 +861,11 @@ footer,.bk-footer,.ct-footer{background:#262626!important;color:#E6E6E6!importan
 .bk-badge strong{color:#FFFFFF!important}
 .bk-badge span{color:#E6E6E6!important;overflow-wrap:anywhere}
 .bk-wa-float,.bk-fab .bk-wa-float{background:#262626!important}
+
+
+/* Baris varian = tautan utuh (tanpa tombol Lihat) */
+a.bk-varrow{text-decoration:none;color:inherit;cursor:pointer;transition:background .15s,border-color .15s,box-shadow .15s}
+a.bk-varrow:hover{background:#FBF7F2;border-color:#B87333;box-shadow:0 6px 18px -12px rgba(184,115,51,.55)}
+a.bk-varrow:focus-visible{outline:2px solid #B87333;outline-offset:2px}
+a.bk-varrow:active{transform:translateY(1px)}
+.bk-varrow .bk-more{display:none!important}

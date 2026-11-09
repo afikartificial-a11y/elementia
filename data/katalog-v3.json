@@ -66,7 +66,7 @@
     },
     {
      "img": "elemen-lada-putih.webp",
-     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+     "cap": "Satu bahan, tanpa campuran — Lada Putih"
     }
    ],
    "nama_en": "White Pepper",
@@ -142,7 +142,7 @@
     },
     {
      "img": "elemen-lada-hitam.webp",
-     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+     "cap": "Satu bahan, tanpa campuran — Lada Hitam"
     }
    ],
    "nama_en": "Black Pepper",
@@ -209,7 +209,7 @@
     },
     {
      "img": "elemen-kunyit.webp",
-     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+     "cap": "Satu bahan, tanpa campuran — Kunyit"
     }
    ],
    "nama_en": "Turmeric",
@@ -276,7 +276,7 @@
     },
     {
      "img": "elemen-sereh.webp",
-     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+     "cap": "Satu bahan, tanpa campuran — Sereh"
     }
    ],
    "nama_en": "Lemongrass",
@@ -343,7 +343,7 @@
     },
     {
      "img": "elemen-daun-salam.webp",
-     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+     "cap": "Satu bahan, tanpa campuran — Daun Salam"
     }
    ],
    "nama_en": "Bay Leaf",
@@ -421,7 +421,7 @@
     },
     {
      "img": "elemen-gula-aren.webp",
-     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+     "cap": "Satu bahan, tanpa campuran — Gula Aren"
     }
    ],
    "nama_en": "Palm Sugar",
@@ -491,7 +491,7 @@
    "galeri": [
     {
      "img": "elemen-gula-kelapa.webp",
-     "cap": "15 Cs — kartu elemen Coconut Sugar"
+     "cap": "17 Cs — kartu elemen Coconut Sugar"
     },
     {
      "img": "elemen-gula-kelapa.webp",
@@ -499,12 +499,12 @@
     },
     {
      "img": "elemen-gula-kelapa.webp",
-     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+     "cap": "Satu bahan, tanpa campuran — Gula Kelapa"
     }
    ],
    "nama_en": "Coconut Sugar",
    "simbol": "Cs",
-   "nomor": 15
+   "nomor": 17
   },
   {
    "slug": "cabai",
@@ -566,7 +566,7 @@
     },
     {
      "img": "elemen-cabai.webp",
-     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+     "cap": "Satu bahan, tanpa campuran — Cabai"
     }
    ],
    "nama_en": "Chili",
@@ -625,7 +625,7 @@
    "galeri": [
     {
      "img": "elemen-bawang-putih.webp",
-     "cap": "20 Gf — kartu elemen Garlic"
+     "cap": "21 Gf — kartu elemen Garlic"
     },
     {
      "img": "elemen-bawang-putih.webp",
@@ -633,12 +633,12 @@
     },
     {
      "img": "elemen-bawang-putih.webp",
-     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+     "cap": "Satu bahan, tanpa campuran — Bawang Putih"
     }
    ],
    "nama_en": "Garlic",
    "simbol": "Gf",
-   "nomor": 20
+   "nomor": 21
   },
   {
    "slug": "ketumbar",
@@ -692,7 +692,7 @@
    "galeri": [
     {
      "img": "elemen-ketumbar.webp",
-     "cap": "22 Co — kartu elemen Coriander"
+     "cap": "23 Co — kartu elemen Coriander"
     },
     {
      "img": "elemen-ketumbar.webp",
@@ -700,12 +700,12 @@
     },
     {
      "img": "elemen-ketumbar.webp",
-     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+     "cap": "Satu bahan, tanpa campuran — Ketumbar"
     }
    ],
    "nama_en": "Coriander",
    "simbol": "Co",
-   "nomor": 22
+   "nomor": 23
   },
   {
    "slug": "kemiri",
@@ -759,7 +759,7 @@
    "galeri": [
     {
      "img": "elemen-kemiri.webp",
-     "cap": "24 Cn — kartu elemen Candlenut"
+     "cap": "25 Cn — kartu elemen Candlenut"
     },
     {
      "img": "elemen-kemiri.webp",
@@ -767,12 +767,12 @@
     },
     {
      "img": "elemen-kemiri.webp",
-     "cap": "Tersedia botol grinder, botol shaker, dan pouch"
+     "cap": "Satu bahan, tanpa campuran — Kemiri"
     }
    ],
    "nama_en": "Candlenut",
    "simbol": "Cn",
-   "nomor": 24
+   "nomor": 25
   }
  ],
  "persona": {
