@@ -903,3 +903,17 @@ a.bk-varrow:active{transform:translateY(1px)}
 
 /* Label varian pada kartu resep beranda: chip solid agar selalu terbaca */
 .bk-recipe--ikon .bk-recipe__cap span{display:inline-block;background:#B87333;color:#fff;padding:3px 10px;border-radius:999px}
+
+/* Resep: kartu bergambar, tanpa kepala kelompok varian */
+.bk-rgrid--flat{grid-template-columns:repeat(2,1fr);gap:26px}
+.bk-rcard{padding:0;overflow:hidden}
+.bk-rcard__img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-bottom:1px solid #E6E6E6;background:#fff}
+.bk-rcard__body{padding:18px 20px 20px}
+.bk-rbuy--card{display:inline-block;margin:14px 0 0}
+@media (max-width:760px){.bk-rgrid--flat{grid-template-columns:1fr}}
+
+/* Kartu masakan beranda: gambar dummy 16:9 tampil utuh */
+.bk-recipe img{aspect-ratio:16/9!important;object-fit:cover}
+
+/* Kartu resep tidak memakai animasi reveal: selalu terlihat walau tanpa JS */
+.bk-rcard{opacity:1!important;transform:none!important;visibility:visible!important}

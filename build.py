@@ -387,7 +387,7 @@ home += f'''
 
 <div class="wp-block-group alignfull bk-section has-palette-color-6-background-color"><div class="bk-wrap">
  <div class="bk-head has-text-align-center reveal"><span class="bk-eyebrow">Masak dengan ELEMENTIA</span><h2 class="bk-h2">Ide masakan rumahan</h2><p class="bk-lead">Resep yang menunjukkan tempat lada bekerja paling baik.</p></div>
-  <div class="bk-recipes">{"".join(f'<a class="bk-recipe bk-recipe--ikon reveal" href="resep.html#{r["slug"]}"><img src="assets/img/produk/elemen-{r["komoditas"]}.webp" alt="{E(r["judul"])}" width="640" height="640" loading="lazy"><div class="bk-recipe__cap"><span>{E(r["komoditas"].replace("-", " ").title())} {E(r["varian"])}</span><h3>{E(r["judul"])}</h3></div></a>' for r in HOME_RECIPES)}</div>
+  <div class="bk-recipes">{"".join(f'<a class="bk-recipe reveal" href="resep.html#{r["slug"]}"><img src="assets/img/{r["img"]}" alt="{E(r["judul_lengkap"])}" width="1200" height="675" loading="lazy"><div class="bk-recipe__cap"><span>{E(r["komoditas"].replace("-", " ").title())} {E(r["varian"])}</span><h3>{E(r["judul_lengkap"])}</h3></div></a>' for r in HOME_RECIPES)}</div>
  <div class="wp-block-buttons is-content-justification-center" style="margin-top:50px"><div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="resep.html">Lihat semua resep</a></div></div>
 </div></div>
 ''' + cta_band() + foot()
@@ -485,50 +485,37 @@ write("harga.html", hg)
 KOM_BY_SLUG = {kk["slug"]: kk for kk in KOM}
 
 
+KOM_BY_SLUG = {kk["slug"]: kk for kk in KOM}
+
 rs = head("Resep Halal | Dapur ELEMENTIA", "50 resep halal untuk 25 varian ELEMENTIA — dua ide per varian. Bahan bertanda bisa diklik untuk langsung membeli.", "resep.html", img="assets/img/produk/elemen-lada-putih.webp")
 rs += page_hero("50 Resep Halal", "Dua ide masakan untuk setiap varian. Bahan bertanda ELEMENTIA bisa diklik untuk membeli.", F + "taburan.webp", "Resep", "Bahan ditaburkan di atas masakan")
 rs += '<div class="wp-block-group alignfull bk-section" style="padding-top:70px"><div class="bk-wrap">'
 rs += '<p class="bk-note">Semua resep untuk 2 porsi kecuali disebutkan lain. Nama bahan bertanda <span class="bk-tag">seperti ini</span> adalah produk ELEMENTIA — klik untuk membuka halaman pembelian.</p>'
+rs += '<div class="bk-rgrid bk-rgrid--flat">'
 
-_rg = []
 for _rr in RES_H["resep"]:
-    _rkey = (_rr["komoditas"], _rr["varian"])
-    if not _rg or _rg[-1][0] != _rkey:
-        _rg.append((_rkey, []))
-    _rg[-1][1].append(_rr)
+    _rbahan = ""
+    for _rb in _rr["bahan"]:
+        _rtags = ""
+        for _rt in _rb["tags"]:
+            _rtags += f'<a class="bk-tag" href="produk-{_rt["komoditas"]}.html" title="Beli {E(_rt["label"])}">{E(_rt["label"])}</a>'
+        _rq = (f'<b>{E(_rb["q"])}</b> ' if _rb["q"] else "")
+        _rbahan += f'<li>{_rq}{E(_rb["nama"])} {_rtags}</li>'
+    _rtips = f'<p class="bk-rtips"><b>Tips.</b> {E(_rr["tips"])}</p>' if _rr["tips"] else ""
+    _rlangkah = "".join(f"<li>{E(s)}</li>" for s in _rr["langkah"])
+    _rnama = KOM_BY_SLUG.get(_rr["komoditas"], {}).get("nama", _rr["komoditas"])
+    rs += f'<article class="bk-rcard" id="{_rr["slug"]}">'
+    rs += f'<img class="bk-rcard__img" src="assets/img/{_rr["img"]}" alt="{E(_rr["judul_lengkap"])}" width="1200" height="675" loading="lazy">'
+    rs += '<div class="bk-rcard__body">'
+    rs += f'<h3 class="bk-rcard__title">{E(_rr["judul_lengkap"])}</h3>'
+    rs += f'<p class="bk-rmeta">{E(_rr["waktu"])} &middot; {E(_rr["porsi"])}</p>'
+    rs += f'<details open><summary>Bahan ({len(_rr["bahan"])})</summary><ul class="bk-ing bk-ing--one">{_rbahan}</ul></details>'
+    rs += f'<details><summary>Cara membuat ({len(_rr["langkah"])})</summary><ol class="bk-steps-list">{_rlangkah}</ol></details>'
+    rs += _rtips
+    rs += f'<a class="bk-rbuy bk-rbuy--card" href="produk-{_rr["komoditas"]}.html">Beli {E(_rnama)} {E(_rr["varian"])} <span aria-hidden="true">&rarr;</span></a>'
+    rs += '</div></article>'
 
-for (_cslug, _cvar), _ritems in _rg:
-    _rk = KOM_BY_SLUG.get(_cslug, {})
-    _rnama = _rk.get("nama", _cslug)
-    _rno = "%02d" % _rk.get("nomor", 0)
-    _rsym = _rk.get("simbol", "")
-    rs += f'<div class="bk-rgroup" id="{_cslug}-{_cvar.lower()}">'
-    rs += f'<div class="bk-rgroup__head"><span class="bk-rtile">{_rno} {E(_rsym)}</span><div><h2 class="bk-h3">{E(_rnama)} · {E(_cvar)}</h2><p class="bk-rgroup__sub">{len(_ritems)} resep</p></div><a class="bk-rbuy" href="produk-{_cslug}.html">Beli {E(_rnama)} <span aria-hidden="true">&rarr;</span></a></div>'
-    rs += '<div class="bk-rgrid">'
-    for _rr in _ritems:
-        _rbahan = ""
-        for _rb in _rr["bahan"]:
-            _rtags = ""
-            for _rt in _rb["tags"]:
-                _rtags += f'<a class="bk-tag" href="produk-{_rt["komoditas"]}.html" title="Beli {E(_rt["label"])}">{E(_rt["label"])}</a>'
-            _rq = (f'<b>{E(_rb["q"])}</b> ' if _rb["q"] else "")
-            _rbahan += f'<li>{_rq}{E(_rb["nama"])} {_rtags}</li>'
-        _rtips = f'<p class="bk-rtips"><b>Tips.</b> {E(_rr["tips"])}</p>' if _rr["tips"] else ""
-        _rlangkah = "".join(f"<li>{E(s)}</li>" for s in _rr["langkah"])
-        rs += f'<article class="bk-rcard reveal" id="{_rr["slug"]}">'
-        rs += f'<h3 class="bk-rcard__title">{E(_rr["judul"])}</h3>'
-        rs += f'<p class="bk-rmeta">{E(_rr["waktu"])} &middot; {E(_rr["porsi"])}</p>'
-        rs += f'<details open><summary>Bahan ({len(_rr["bahan"])})</summary><ul class="bk-ing bk-ing--one">{_rbahan}</ul></details>'
-        rs += f'<details><summary>Cara membuat ({len(_rr["langkah"])})</summary><ol class="bk-steps-list">{_rlangkah}</ol></details>'
-        rs += _rtips + '</article>'
-    rs += '</div></div>'
-
-rs += "</div></div>"
-rs += '<div class="wp-block-group alignfull bk-section has-palette-color-6-background-color"><div class="bk-wrap"><div class="bk-head reveal"><span class="bk-eyebrow">Arsip</span><h2 class="bk-h2">Resep lain di dapur kami</h2><p class="bk-lead">Sembilan resep lama — tetap bisa dipakai, belum bertanda bahan.</p></div><div class="bk-recipes">'
-for r in RES:
-    _rtit = r["title"].capitalize() if r["title"].islower() else r["title"]
-    rs += f'<a class="bk-recipe reveal" href="resep.html#{r["slug"]}"><img src="assets/img/resep/{r["slug"]}.webp" alt="{E(_rtit)}" width="900" height="675" loading="lazy"><div class="bk-recipe__cap"><span>{E(r["lada"])}</span><h3>{E(_rtit)}</h3></div></a>'
-rs += "</div></div></div>"
+rs += '</div></div></div>'
 rs += cta_band() + foot()
 write("resep.html", rs)
 
