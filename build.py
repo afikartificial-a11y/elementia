@@ -241,7 +241,7 @@ def prod_card(p):
 <div class="bk-prod__body"><span class="bk-tag">{SEG[p["segmen"]]} · {forms}</span><h3>{E(p["jenis"])} {forms}</h3>
 <div class="bk-prod__pack">{E(p["kemasan"])}</div>
 <div class="bk-prod__from">{"Harga" if same else "Mulai dari"}<strong>{rp(lo)}</strong></div>
-<ul class="bk-vars">{rows}</div>
+<ul class="bk-vars">{rows}</ul>
 {f'<p style="font-size:12px;color:var(--bk-muted);margin:10px 0 0">{E(p["catatan"])}</p>' if p.get("catatan") else ""}
  </div></article>'''
 
@@ -256,11 +256,11 @@ def kom_media(k, w=640):
     return f'<div class="bk-ph" style="--aksen:{k["aksen"]}"><span>{E(k["nama"].split()[0])}</span><small>foto menyusul</small></div>'
 
 def kom_card(k):
-    badge = '' if k["status"]=="tersedia" else '<span class="bk-badge">Segera hadir</span>'
+    badge = '' if k["status"]=="tersedia" else '<span class="bk-badge bk-badge--pill">Segera hadir</span>'
     return f'''<article class="bk-kom reveal" data-kom="{k["slug"]}" data-status="{k["status"]}" data-text="{E(k["nama"] + " " + k["latin"] + " " + k["ringkas"] + " " + " ".join(k["pasangan"])).lower()}" style="--aksen:{k["aksen"]}">
  <a class="bk-kom__media" href="produk-{k["slug"]}.html" aria-label="{E(k["nama"])}">{kom_media(k)}{badge}</a>
  <div class="bk-kom__body"><h3><a href="produk-{k["slug"]}.html">{E(k["nama"])}</a></h3><em>{E(k["latin"])}</em><p class="bk-kom__desc">{E(k["ringkas"])}</p>
- <ul class="bk-kom__var">{"".join(f"<li>{E(v['nama'])}</li>" for v in k["varian"])}</div>
+ <ul class="bk-kom__var">{"".join(f"<li>{E(v['nama'])}</li>" for v in k["varian"])}</ul>
  <div class="bk-kom__foot"><span class="bk-kom__price">{kom_price(k)}</span><a class="bk-more" href="produk-{k["slug"]}.html">Detail</a></div></div></article>'''
 
 def persona_sky():
@@ -268,7 +268,7 @@ def persona_sky():
     def card(x, icon, href, label):
         lis = "".join(f'<li>{E(i)}</li>' for i in x["poin"])
         return f'''<article class="bk-persona__card reveal"><div class="bk-persona__ic">{I[icon]}</div>
- <h3>{E(x["judul"])}</h3><p>{E(x["sub"])}</p><ul class="bk-checks">{lis}</div>
+ <h3>{E(x["judul"])}</h3><p>{E(x["sub"])}</p><ul class="bk-checks">{lis}</ul>
  <a class="wp-block-button__link is-style-outline" href="{href}">{label}</a></article>'''
     return f'''<div class="wp-block-group alignfull bk-section bk-persona-wrap"><div class="bk-wrap">
  <div class="bk-head has-text-align-center reveal"><span class="bk-eyebrow">Untuk siapa</span><h2 class="bk-h2">Tiga dapur, satu standar</h2><p class="bk-lead">Rempah yang sama dipakai di dapur rumah, dapur profesional, dan lini produksi. Bedanya ukuran kemasan dan dokumen yang menyertainya.</p></div>
@@ -325,7 +325,7 @@ home += f'''
  <div class="wp-block-column reveal"><span class="bk-eyebrow">Tentang ELEMENTIA</span>
   <h2 class="bk-h2">Terjaga dari kebun sampai dapur</h2>
   <p>ELEMENTIA berawal dari lada Bangka Belitung sebagai <em>Bumbu Pusaka Nusantara</em>. Namanya kini dibaca lebih luas: <strong>Rempah Tumpangsari</strong> — karya pangan dari kebun Nusantara, dengan cara kerja yang tidak berubah.</p>
-  <ul class="bk-checks"><li>Bekerja langsung dengan petani binaan di Pulau Bangka dan Belitung</li><li>Lada putih berkualitas ekspor, lada hitam Lampung yang tersterilisasi</li><li>Dikemas di fasilitas bersertifikat HALAL &amp; HACCP</li></div>
+  <ul class="bk-checks"><li>Bekerja langsung dengan petani binaan di Pulau Bangka dan Belitung</li><li>Lada putih berkualitas ekspor, lada hitam Lampung yang tersterilisasi</li><li>Dikemas di fasilitas bersertifikat HALAL &amp; HACCP</li></ul>
   <div class="wp-block-buttons"><div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="tentang.html">Kenali kami</a></div></div></div>
 </div></div></div>
 
@@ -562,7 +562,7 @@ kt += f'''<div class="wp-block-group alignfull bk-section"><div class="bk-wrap">
    <li><span class="bk-ic">{I["wa"].replace('<svg','<svg fill="currentColor"')}</span><div><small>WhatsApp</small><a href="{WA_HALO}" target="_blank" rel="noopener">{WA_TXT}</a></div></li>
    <li><span class="bk-ic">{I["mail"]}</span><div><small>Email</small><a href="mailto:{EMAIL}">{EMAIL}</a></div></li>
    <li><span class="bk-ic">{I["clock"]}</span><div><small>Jam Buka</small>{HOURS}</div></li>
-  </div>
+  </ul>
   <div class="wp-block-buttons"><div class="wp-block-button is-style-wa"><a class="wp-block-button__link" href="{WA_HALO}" target="_blank" rel="noopener">{I["wa"]} Chat WhatsApp</a></div>
    <div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="{TOKPED}" target="_blank" rel="noopener">Tokopedia</a></div><div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="{SHOPEE}" target="_blank" rel="noopener">Shopee</a></div></div>
   <p style="margin-top:22px;font-size:14px;color:var(--bk-muted)">Ikuti kami: <a href="{IG}" target="_blank" rel="noopener">Instagram | Elementia Official</a> · <a href="{FB}" target="_blank" rel="noopener">Facebook | Elementia Official</a></p></div>

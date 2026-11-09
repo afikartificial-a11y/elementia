@@ -65,7 +65,7 @@ def pdp(k):
     pakai = "".join(f"<li>{E(x)}</li>" for x in k["pakai"])
     pas = " · ".join(f'<a href="resep.html">{E(x)}</a>' for x in k["pasangan"])
     desk = "".join(f"<p>{E(x)}</p>" for x in k["deskripsi"])
-    badge = "" if tersedia else '<span class="bk-badge">Segera hadir</span>'
+    badge = "" if tersedia else '<span class="bk-badge bk-badge--pill">Segera hadir</span>'
     price = f'<p class="bk-pdp__price">Mulai <strong>{rp(k["harga_mulai"])}</strong></p>' if k.get("harga_mulai") else '<p class="bk-pdp__price">Harga <strong>menyusul</strong></p>'
 
     pg = head(f'{k["nama"]} {k["nama_en"]} — ELEMENTIA',

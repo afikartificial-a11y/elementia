@@ -508,7 +508,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
  radial-gradient(120% 90% at 30% 20%, color-mix(in srgb, var(--aksen) 18%, #F7F7F7), #F7F7F7 70%);color:var(--aksen)}
 .bk-ph span{font-family:Staatliches,sans-serif;font-size:30px;letter-spacing:.04em;text-transform:uppercase;opacity:.85}
 .bk-ph small{font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.6}
-.bk-badge{position:absolute;left:12px;top:12px;background:#333333;color:#fff;font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:5px 9px;border-radius:999px}
+.bk-badge--pill{position:absolute;left:12px;top:12px;background:#333333;color:#fff;font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:5px 9px;border-radius:999px}
 .bk-kom__body{padding:18px 18px 20px;display:flex;flex-direction:column;gap:6px;flex:1}
 .bk-kom__body h3{margin:0;font-size:19px;line-height:1.2}
 .bk-kom__body h3 a{color:inherit;text-decoration:none}
@@ -857,9 +857,9 @@ footer,.bk-footer,.ct-footer{background:#262626!important;color:#E6E6E6!importan
 .has-palette-color-6-background-color{background-color:#F7F7F7!important}
 
 /* Badge/badge lab: teks terang di atas charcoal */
-.bk-badge{background:#262626!important;color:#FFFFFF!important}
-.bk-badge strong{color:#FFFFFF!important}
-.bk-badge span{color:#E6E6E6!important;overflow-wrap:anywhere}
+.bk-badge--pill{background:#262626!important;color:#FFFFFF!important}
+.bk-badge--pill strong{color:#FFFFFF!important}
+.bk-badge--pill span{color:#E6E6E6!important;overflow-wrap:anywhere}
 .bk-wa-float,.bk-fab .bk-wa-float{background:#262626!important}
 
 
@@ -869,3 +869,11 @@ a.bk-varrow:hover{background:#FBF7F2;border-color:#B87333;box-shadow:0 6px 18px 
 a.bk-varrow:focus-visible{outline:2px solid #B87333;outline-offset:2px}
 a.bk-varrow:active{transform:translateY(1px)}
 .bk-varrow .bk-more{display:none!important}
+
+/* ===== Perbaikan layout beranda ===== */
+/* Badge kepercayaan: 3 kartu mengisi baris penuh, bukan menyisakan kolom kosong */
+.bk-badges{grid-template-columns:repeat(auto-fit,minmax(210px,1fr))!important}
+/* Navigasi desktop 1440: rapatkan agar tidak meluber 73px */
+@media (min-width:1181px) and (max-width:1520px){
+  .header-menu-1 .menu>li>.ct-menu-link{padding-inline:10px!important;font-size:15px!important}
+}
