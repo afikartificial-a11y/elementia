@@ -55,7 +55,7 @@ def menu_items(path):
 def head(title, desc, path, img=F+"kebun-aerial-1200.webp", extra="", preload=None, noindex=False):
     url = SITE + "/" + ("" if path=="index.html" else path)
     pre = f'<link rel="preload" as="image" href="{preload}" fetchpriority="high">' if preload else ""
-    logo = '<a href="index.html" class="site-logo-container" rel="home"><img width="360" height="226" src="assets/img/logo-light.webp" class="default-logo" alt="ELEMENTIA — Pure & Essential"></a>'
+    logo = '<a href="index.html" class="site-logo-container" rel="home"><img width="360" height="226" src="assets/img/logo.webp" class="default-logo" alt="ELEMENTIA — Pure & Essential"></a>'
     cta = f'<div class="ct-header-cta" data-id="button"><a href="{WA_PL}" class="ct-button" data-size="medium" target="_blank" rel="noopener">{I["wa"]} Pesan via WhatsApp</a></div>'
     shop = f'<div class="bk-shopnav"><a href="akun.html" class="bk-icon-link" data-account-link aria-label="Akun saya">{I["user"]}<span class="bk-icon-label" data-account-label>Masuk</span></a><a href="keranjang.html" class="bk-icon-link" aria-label="Keranjang belanja">{I["cart"]}<span class="bk-cart-count" data-cart-count hidden>0</span></a></div>'
     return f'''<!doctype html>
@@ -66,7 +66,7 @@ def head(title, desc, path, img=F+"kebun-aerial-1200.webp", extra="", preload=No
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">{"<meta name=\"robots\" content=\"noindex\">" if noindex else ""}
 <link rel="canonical" href="{url}">
-<meta name="theme-color" content="#8d241e">
+<meta name="theme-color" content="#B87333">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="ELEMENTIA — Rempah Tumpangsari">
 <meta property="og:locale" content="id_ID">
@@ -92,7 +92,7 @@ def head(title, desc, path, img=F+"kebun-aerial-1200.webp", extra="", preload=No
 <div class="ct-drawer-canvas" data-location="start"><div id="offcanvas" class="ct-panel ct-header" data-behaviour="modal" role="dialog" aria-label="Menu navigasi" inert="">
   <div class="ct-panel-actions"><button class="ct-toggle-close" data-type="type-1" aria-label="Tutup menu">{I["close"]}</button></div>
   <div class="ct-panel-content" data-device="mobile"><div class="ct-panel-content-inner">
-    <a href="index.html" class="site-logo-container" data-id="offcanvas-logo" rel="home"><img width="360" height="226" src="assets/img/logo-light.webp" class="default-logo" alt="ELEMENTIA"></a>
+    <a href="index.html" class="site-logo-container" data-id="offcanvas-logo" rel="home"><img width="360" height="226" src="assets/img/logo.webp" class="default-logo" alt="ELEMENTIA"></a>
     <nav class="mobile-menu menu-container" data-id="mobile-menu" data-interaction="click" data-toggle-type="type-1" aria-label="Menu utama"><ul>{menu_items(path)}</ul></nav>
     {cta}
   </div></div>

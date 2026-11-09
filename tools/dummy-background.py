@@ -10,9 +10,9 @@ ROOT = r"D:\Home\Grok Bot\elementia"
 FOTO = os.path.join(ROOT, "assets", "img", "foto")
 BAK = os.path.join(ROOT, "archive", "img-asli", "foto")
 
-DARK = (15, 58, 32)
-DARK2 = (27, 94, 50)
-GOLD = (201, 161, 59)
+DARK = (255, 255, 255)
+DARK2 = (247, 247, 247)
+GOLD = (184, 115, 51)
 CREAM = (251, 250, 245)
 
 
@@ -34,7 +34,7 @@ def make(src, dst):
         c = tuple(int(DARK[i] + (DARK2[i] - DARK[i]) * t) for i in range(3))
         d.line([(0, y), (w, y)], fill=c)
     # garis emas tipis di tepi atas
-    d.rectangle([0, 0, w, max(3, int(h * 0.006))], fill=GOLD)
+    d.rectangle([0, 0, w, max(2, int(h * 0.004))], fill=GOLD)
 
     # Tanpa teks: latar dipakai di belakang judul hero, teks akan terpotong oleh object-fit.
     # Status placeholder ditandai lewat alt teks di HTML dan dokumentasi proyek.

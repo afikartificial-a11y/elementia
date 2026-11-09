@@ -7,8 +7,8 @@ ROOT = r"D:\Home\Grok Bot\elementia"
 SRC = os.path.join(ROOT, "brand-src")
 OUT = os.path.join(ROOT, "assets", "img", "elemen")
 IMG = os.path.join(ROOT, "assets", "img")
-CREAM = (251, 248, 243)
-NAVY = (42, 59, 69)
+CREAM = (255, 255, 255)
+NAVY = (51, 51, 51)
 
 
 def font(size, bold=False):
@@ -78,7 +78,7 @@ if len(groups) == len(SLUGS):
         crop = icons.crop((max(0, x0 - pad), max(0, y0 - pad),
                            min(icons.size[0], x1 + pad), min(icons.size[1], y1 + pad)))
         side = max(crop.size)
-        canvas = Image.new("RGB", (side, side), CREAM)
+        canvas = Image.new("RGB", (side, side), (255, 255, 255))
         canvas.paste(crop, ((side - crop.size[0]) // 2, (side - crop.size[1]) // 2))
         canvas = canvas.resize((640, 640), Image.LANCZOS)
         canvas.save(os.path.join(OUT, slug + ".webp"), "WEBP", quality=92, method=6)
@@ -118,8 +118,8 @@ for y in range(lh):
         else:
             alpha = min(255, int((225 - lum) * 3.4))
         if alpha:
-            dpx[x, y] = (42, 59, 69, alpha)
-            lpx[x, y] = (250, 247, 240, alpha)
+            dpx[x, y] = (51, 51, 51, alpha)
+            lpx[x, y] = (255, 255, 255, alpha)
 
 dark.save(os.path.join(IMG, "logo.webp"), "WEBP", quality=95, method=6)
 dark.save(os.path.join(IMG, "logo.png"))
@@ -137,8 +137,8 @@ d.text((600, 520), "Pure Elements for Your Daily Dish", font=font(38), fill=(120
 og.save(os.path.join(IMG, "logo-og.png"))
 
 # favicon: huruf E pada kotak navy
-fav = Image.new("RGB", (256, 256), (42, 59, 69))
+fav = Image.new("RGB", (256, 256), (38, 38, 38))
 d = ImageDraw.Draw(fav)
-d.text((128, 132), "E", font=font(150, True), fill=CREAM, anchor="mm")
+d.text((128, 132), "E", font=font(150, True), fill=(255, 255, 255), anchor="mm")
 fav.save(os.path.join(IMG, "favicon.png"))
 print("logo & favicon selesai")
