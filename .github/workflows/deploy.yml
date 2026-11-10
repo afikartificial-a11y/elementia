@@ -69,7 +69,10 @@ jobs:
         run: |
           code=$(curl -s -o /tmp/home.html -w "%{http_code}" "$SITE_URL/")
           echo "HTTP $code"
-          grep -q "Lima rempah" /tmp/home.html && echo "beranda v3 terpasang" || { echo "::error::Beranda tidak memuat penanda v3"; exit 1; }
+          # penanda hero beranda saat ini: "Satu bahan. Takaran presisi."
+          grep -q "Satu bahan" /tmp/home.html && echo "beranda terpasang" || { echo "::error::Beranda tidak memuat penanda hero"; exit 1; }
+          code2=$(curl -s -o /tmp/produk.html -w "%{http_code}" "$SITE_URL/produk.html")
+          test "$code2" = "200" || { echo "::error::Halaman katalog tidak 200 (HTTP $code2)"; exit 1; }
           api=$(curl -s "$SITE_URL/api/config")
           echo "config: $api"
           echo "$api" | grep -q '"ok":true' || { echo "::error::API tidak merespons"; exit 1; }
