@@ -73,6 +73,10 @@ Repo → Settings → Secrets and variables → Actions → **New repository sec
 
 Setelah itu setiap push ke `main` otomatis: build → migrasi D1 → deploy → uji asap.
 
+Selama ketiga secret itu belum diisi, workflow tetap **hijau**: langkah build & bundel jalan,
+langkah D1/deploy/uji-asap dilewati (ada pengumuman `::notice::` di log). Jadi push kapan pun aman
+dilakukan tanpa membuat Actions merah.
+
 ## 5. Alternatif: Cloudflare Workers Builds (tanpa Actions)
 
 Kalau lebih suka tombol di dashboard: Workers & Pages → Create → **Workers** → **Connect to Git** → pilih repo → isi:
@@ -91,6 +95,7 @@ Catatan: Workers Builds harus punya Python di image-nya. Jika build gagal karena
 
 `.github/workflows/deploy.yml`:
 
+0. cek tiga secret Cloudflare → set `deploy=true/false` (kalau kosong, langkah 4–7 dilewati)
 1. `npm ci` di `worker/build` (esbuild + pdf-lib)
 2. `python build.py` → 12 halaman HTML + sitemap
 3. `python assemble.py dist` → `dist/public` + `dist/worker.js` (katalog harga di-embed)
