@@ -137,8 +137,8 @@ http.createServer(async (req, res) => {
     res.writeHead(500, { "content-type": "text/plain" });
     res.end("harness error: " + e.message);
   }
-}).listen(PORT, "127.0.0.1", () => {
-  console.log(`Toko + API lokal: http://127.0.0.1:${PORT}`);
+}).listen(PORT, () => {
+  console.log(`Toko + API lokal: http://localhost:${PORT} atau http://127.0.0.1:${PORT}`);
   console.log(MEMORY
     ? "D1: in-memory — data hilang saat proses berhenti (mode --memory)."
     : "D1: file " + DBFILE + " — persisten, skema & migrasi sudah diterapkan.");

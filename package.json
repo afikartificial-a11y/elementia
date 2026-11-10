@@ -2,6 +2,7 @@
   "name": "elementia-store",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "Toko rempah tumpangsari Elementia — statis + Cloudflare Worker + D1. Bisa dipanggil lewat CLI dan MCP.",
   "engines": { "node": ">=22" },
   "bin": { "elementia": "tools/agent-cli.mjs" },
