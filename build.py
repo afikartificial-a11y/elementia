@@ -80,10 +80,10 @@ def head(title, desc, path, img=F+"kebun-aerial-1200.webp", extra="", preload=No
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&amp;family=Staatliches&amp;display=swap">
-<link rel="stylesheet" id="blocksy-dynamic-global-css" href="assets/css/blocksy/global.css?v=20261108d">
-<link rel="stylesheet" id="ct-main-styles-css" href="assets/css/blocksy/main.min.css?v=20261108d">
+<link rel="stylesheet" id="blocksy-dynamic-global-css" href="assets/css/blocksy/global.css?v=20261111a">
+<link rel="stylesheet" id="ct-main-styles-css" href="assets/css/blocksy/main.min.css?v=20261111a">
 <link rel="stylesheet" id="ct-back-to-top-styles-css" href="assets/css/blocksy/back-to-top.min.css">
-<link rel="stylesheet" id="elementia-css" href="assets/css/elementia.css?v=20261108d">
+<link rel="stylesheet" id="elementia-css" href="assets/css/elementia.css?v=20261111a">
 {pre}
 {extra}
 </head>
@@ -143,8 +143,8 @@ def foot():
 <a class="bk-fab__btn" href="keranjang.html" aria-label="Buka keranjang" title="Keranjang"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M2.5 3.5h2.2l2.3 11.2h11.3l2-8.2H6.2"/></svg><span class="bk-fab__badge" data-cart-count hidden></span></a>
 <a class="bk-wa-float" href="{WA_HALO}" target="_blank" rel="noopener" aria-label="Chat WhatsApp ELEMENTIA">{I["wa"]}</a>
 </div>
-<script src="assets/js/main.js?v=20261108d" defer></script>
-<script src="assets/js/shop.js?v=20261108d" defer></script>
+<script src="assets/js/main.js?v=20261111a" defer></script>
+<script src="assets/js/shop.js?v=20261111a" defer></script>
 </body>
 </html>
 '''
@@ -423,7 +423,7 @@ _nama_kom = ", ".join(k["nama"] for k in KOM[:-1]) + ", dan " + KOM[-1]["nama"]
 pg = head(f"Katalog Rempah — {_nkom} Komoditas, {_nvar} Varian | ELEMENTIA",
   f"{_nkom} komoditas tumpangsari dalam {_nvar} varian: {_nama_kom}. Kemasan 50 g sampai 25 kg.",
   "produk.html", img=F+"sulur-lada.webp",
-  extra='<script src="assets/js/katalog.js?v=20261108d" defer></script>')
+  extra='<script src="assets/js/katalog.js?v=20261111a" defer></script>')
 pg += page_hero("Katalog Rempah","Sebelas komoditas, dua puluh lima varian — dari lada butir sampai gula aren cair. Pilih komoditas, lalu tentukan bentuk dan kemasan.",F+"sulur-lada.webp","Produk","Sulur tanaman lada di kebun")
 
 kom_chips = "".join(f'<button class="bk-chip" data-kf="{k["slug"]}" aria-pressed="false">{E(k["nama"])}</button>' for k in KOM)

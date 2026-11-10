@@ -22,7 +22,7 @@ Berasal dari dua generasi sebelumnya: **Bukara** (100 SKU, identitas lama) dan *
 | Situs live | https://elementia-preview.afik-artificial.workers.dev |
 | Worker | `elementia-preview` |
 | Database | D1 `elementia-preview-db` (`53fd1f4e-240f-4601-809b-55f0576d045d`) |
-| Repo | git lokal, commit terakhir `973de9b` |
+| Repo | git lokal + GitHub `afikartificial-a11y/elementia` (commit terakhir: `git log -1`) |
 | Bahasa | Indonesia (seluruh konten situs) |
 | Runtime | Node ≥ 22, Python ≥ 3.10 |
 
@@ -108,6 +108,8 @@ Server MCP menyediakan 7 tool: `project_info`, `catalog_search`, `catalog_get`,
 
 | Commit | Isi |
 |---|---|
+| `11 Nov 2026` | admin: panel permintaan penawaran B2B (filter status, ubah status, chat WA, ekspor CSV) + API `/api/admin/leads*`; naikkan versi aset `?v=20261111a` |
+| `cdad731` | CI: SITE_URL + regex `database_id` D1 untuk GitHub Actions |
 | `973de9b` | bersihkan berkas tambal sementara |
 | `7c821d1` | resep: hapus kepala kelompok varian, 50 gambar dummy 16:9, kartu lepas dari animasi |
 | `90437bf` | resep: 50 resep halal + 85 tag bahan bertaut ke produk |
@@ -119,7 +121,8 @@ Server MCP menyediakan 7 tool: `project_info`, `catalog_search`, `catalog_get`,
 ## 8. Status
 
 **Selesai:** rebranding, palet, katalog 50 SKU, ikon 11 elemen, dropdown wilayah,
-ongkir 34 provinsi, 50 resep + tag bahan + gambar dummy, halaman produk, checkout, D1.
+ongkir 34 provinsi, 50 resep + tag bahan + gambar dummy, halaman produk, checkout, D1,
+panel lead B2B di admin (daftar, filter, status, chat WA, ekspor CSV).
 
 **Belum:**
 

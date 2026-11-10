@@ -461,6 +461,23 @@ table.bk-price{min-width:640px;font-size:13px}
 .bk-lbl-bar select{margin-left:4px}
 .bk-lbl-pick{display:flex;gap:6px;align-items:center;font-size:13px}
 
+/* panel lead B2B — form permintaan penawaran */
+.bk-lead-head{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:flex-start;margin:0 0 14px}
+.bk-lead-head .bk-chip{padding:8px 14px;font-size:13px;border-width:1px;flex-shrink:0}
+.bk-lead-filter{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.bk-lead-filter .bk-chip{padding:6px 12px;font-size:13px;border-width:1px}
+.bk-lead-filter .bk-chip.is-on{background:var(--theme-palette-color-4);border-color:var(--theme-palette-color-4);color:#fff}
+.bk-lead{display:grid;grid-template-columns:1fr 240px;gap:20px;padding:18px 0;border-top:1px solid var(--theme-palette-color-5)}
+.bk-lead:first-child{border-top:0;padding-top:2px}
+.bk-lead small{display:block;color:var(--bk-muted);font-size:12px;margin-top:4px}
+.bk-lead p{font-size:14px;margin:6px 0 0}
+.bk-lead__note{margin-top:10px!important;padding-left:12px;border-left:3px solid var(--theme-palette-color-1);font-style:italic}
+.bk-status.is-lead-dihubungi{background:#e3edfb;color:#1d4f9a}
+.bk-status.is-lead-penawaran{background:#fff4d6;color:#7a5a00}
+.bk-status.is-lead-deal{background:#e3f1d6;color:#245c12}
+.bk-status.is-lead-batal{background:#fdecea;color:#8A5A1E}
+@media (max-width:999.98px){.bk-lead{grid-template-columns:1fr}}
+
 /* ================= Tema warna logo Elementia (v5) =================
    merah #B87333 · merah tua #262626 · hijau tua #1B5E32 / #262626 · hijau muda #7DB52A · emas #C9A13B */
 :root{

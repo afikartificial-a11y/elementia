@@ -7,6 +7,10 @@ import { buildLabelsPdf, SIZES as LABEL_SIZES } from "./labels.js";
 const BY_SKU = Object.fromEntries(CATALOG.items.map(i => [i.sku, i]));
 const STATUSES = ["baru", "menunggu_wa", "dibayar", "dikirim", "selesai", "batal"];
 const STAT_LABEL = { baru: "Menunggu pembayaran", menunggu_wa: "Menunggu konfirmasi WA", dibayar: "Dibayar", dikirim: "Dikirim", selesai: "Selesai", batal: "Dibatalkan" };
+// Lead B2B dari form /bisnis.html + halaman bisnis. Hanya lewat panel admin (tanpa akun pembeli).
+const LEAD_STATUSES = ["baru", "dihubungi", "penawaran", "deal", "batal"];
+const LEAD_LABEL = { baru: "Baru", dihubungi: "Sudah dihubungi", penawaran: "Penawaran dikirim", deal: "Deal", batal: "Batal" };
+const LEAD_MAX = 300;
 const DIRECT = "langsung:elementia"; // kirim langsung oleh Elementia — khusus pesanan via WhatsApp
 const CARGO_MIN_G = 5000, CARGO_MIN_KG = 10, REMIND_AFTER = 2 * 3600, REMIND_MAX = 6;
 // Kurir yang diminta ke Biteship (kode resmi). Gudang asal: Kawasan Industri De Prima Terra Blok A1 No. 1A,
@@ -29,6 +33,13 @@ function cookies(req) { const o = {}; (req.headers.get("cookie") || "").split(/;
 function setCookie(name, val, maxAge) { return `${name}=${encodeURIComponent(val)}; Path=/; HttpOnly; Secure; SameSite=Lax${maxAge != null ? `; Max-Age=${maxAge}` : ""}`; }
 const s = (v, max = 200) => String(v ?? "").trim().slice(0, max);
 const rp = n => "Rp " + n.toLocaleString("id-ID");
+// sel CSV: dibungkus kutip ganda; awalan formula Excel dinetralkan (HP seperti +62 tetap utuh)
+function csvCell(v) {
+  let x = String(v ?? "");
+  if (/^[=@]/.test(x) || (/^[+-]/.test(x) && !/^[+-][\d\s()]/.test(x))) x = "'" + x;
+  return '"' + x.replace(/"/g, '""') + '"';
+}
+const wib = t => new Date(((+t || 0) + 7 * 3600) * 1000).toISOString().replace("T", " ").slice(0, 16);
 
 async function hashPassword(pw) {
   const salt = crypto.getRandomValues(new Uint8Array(16));
@@ -516,6 +527,35 @@ async function api(req, env, url) {
       const name = orders.length === 1 ? `label-${orders[0].id}.pdf` : `label-${st || "pilihan"}-${orders.length}-pesanan.pdf`;
       return new Response(pdf, { headers: { "content-type": "application/pdf", "content-disposition": `attachment; filename="${name}"`, "cache-control": "no-store" } });
     }
+    if (p === "/api/admin/leads" && m === "GET") { // lead B2B dari form permintaan penawaran
+      const st = url.searchParams.get("status");
+      const lim = Math.min(LEAD_MAX, Math.max(1, parseInt(url.searchParams.get("limit") || "50", 10) || 50));
+      const { results } = await (st && LEAD_STATUSES.includes(st)
+        ? env.DB.prepare("SELECT * FROM leads WHERE status=? ORDER BY created_at DESC, id DESC LIMIT ?").bind(st, lim)
+        : env.DB.prepare("SELECT * FROM leads ORDER BY created_at DESC, id DESC LIMIT ?").bind(lim)).all();
+      const counts = { semua: 0 }; LEAD_STATUSES.forEach(k => { counts[k] = 0; });
+      for (const r of (await env.DB.prepare("SELECT status, COUNT(*) AS n FROM leads GROUP BY status").all()).results) {
+        counts.semua += r.n; counts[r.status] = r.n;
+      }
+      for (const l of results) {
+        delete l.ip; // alamat IP tidak perlu tampil di panel
+        const num = String(l.phone || "").replace(/\D/g, "").replace(/^0/, "62");
+        l.wa_url = num ? waLink(num, `Halo ${l.name}, saya dari ELEMENTIA menindaklanjuti permintaan penawaran ${l.company ? "dari " + l.company : "Anda"}.`) : null;
+        l.tanggal = wib(l.created_at);
+      }
+      return json({ ok: true, leads: results, counts, total: counts.semua, statuses: LEAD_STATUSES, labels: LEAD_LABEL });
+    }
+    if (p === "/api/admin/leads.csv" && m === "GET") { // ekspor untuk diolah di Excel/Sheets
+      const st = url.searchParams.get("status");
+      const { results } = await (st && LEAD_STATUSES.includes(st)
+        ? env.DB.prepare("SELECT * FROM leads WHERE status=? ORDER BY created_at DESC, id DESC").bind(st)
+        : env.DB.prepare("SELECT * FROM leads ORDER BY created_at DESC, id DESC")).all();
+      const head = ["ID", "Tanggal (WIB)", "Status", "Nama", "Usaha", "Jabatan", "WhatsApp", "Email", "Kota", "Komoditas", "Volume", "Catatan", "Sumber"];
+      const rows = results.map(l => [l.id, wib(l.created_at), LEAD_LABEL[l.status] || l.status, l.name, l.company, l.role, l.phone, l.email, l.city, l.commodities, l.volume, l.note, l.source].map(csvCell).join(","));
+      const csv = "\uFEFF" + [head.map(csvCell).join(","), ...rows].join("\r\n") + "\r\n";
+      const name = `lead-b2b-${st && LEAD_STATUSES.includes(st) ? st + "-" : ""}${new Date(Date.now() + 7 * 3600e3).toISOString().slice(0, 10)}.csv`;
+      return new Response(csv, { headers: { "content-type": "text/csv; charset=utf-8", "content-disposition": `attachment; filename="${name}"`, "cache-control": "no-store" } });
+    }
     if (p === "/api/admin/notifications" && m === "GET") {
       const { results } = await env.DB.prepare("SELECT * FROM notifications ORDER BY id DESC LIMIT 100").all();
       return json({ ok: true, notifications: results });
@@ -542,6 +582,14 @@ async function api(req, env, url) {
       if (!r.meta.changes) return err("Pesanan tidak ditemukan.", 404);
       if (status === "dibayar" && prev && prev.status !== "dibayar") await notifyAdmin(env, am[1], "paid");
       return json({ ok: true });
+    }
+    const lmm = p.match(/^\/api\/admin\/leads\/(\d+)$/);
+    if (lmm && m === "POST") {
+      const status = s(body.status, 20);
+      if (!LEAD_STATUSES.includes(status)) return err("Status lead tidak valid.");
+      const r = await env.DB.prepare("UPDATE leads SET status=? WHERE id=?").bind(status, +lmm[1]).run();
+      if (!r.meta.changes) return err("Lead tidak ditemukan.", 404);
+      return json({ ok: true, status });
     }
   }
   return err("Tidak ditemukan.", 404);

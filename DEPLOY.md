@@ -89,7 +89,9 @@ npx wrangler rollback --name elementia-preview <deployment-id>
 
 - `GET /api/config` masih `payment_mode: simulasi`, `shipping_mode: simulasi` — kunci Midtrans/Biteship belum diisi.
 - Empat komoditas (sereh, kunyit, cabai, daun salam) masih "harga menyusul" dan fotonya placeholder.
-- Tabel `leads` sudah ada dan menerima permintaan penawaran, tapi belum ada layar admin untuk membacanya.
+- Tabel `leads` sudah dibaca lewat panel admin (`/admin.html` → "Permintaan penawaran (B2B)":
+  filter status, ubah status, chat WhatsApp, unduh CSV), tetapi belum ada notifikasi otomatis
+  saat lead baru masuk — admin perlu membuka panel untuk melihatnya.
 - `data/local.db` (data uji lokal) tidak ikut ter-commit — `data/` hanya berisi pricelist & katalog.
 
 ---
@@ -110,4 +112,15 @@ Sudah live, langsung dari mesin ini memakai OAuth Wrangler (bukan lewat CI, kare
 
 Verifikasi: 5 halaman 200; /api/config ok; /api/quote 400 tanpa nama, 201 saat valid; 1 baris uji masuk tabel leads (id=1 "Uji Deploy"); checkout menolak keranjang kosong dan kurir tak dikenal.
 
-Belum: repo GitHub (CI belum aktif), MIDTRANS dan BITESHIP (masih simulasi), domain kustom, dan hapus baris uji leads.
+Belum: MIDTRANS dan BITESHIP (masih simulasi), domain kustom, hapus baris uji leads,
+serta notifikasi otomatis untuk lead B2B baru.
+
+## Status tambahan - 11 November 2026
+
+- Repo GitHub sudah tersambung (`afikartificial-a11y/elementia`); workflow
+  `.github/workflows/deploy.yml` aktif setelah tiga secret Cloudflare diisi.
+- Panel admin bertambah: **permintaan penawaran B2B** — daftar lead dari `/bisnis.html`,
+  filter per status (Baru / Sudah dihubungi / Penawaran dikirim / Deal / Batal), ubah status,
+  tombol chat WhatsApp, dan ekspor CSV (UTF-8 + BOM, aman dibuka di Excel).
+- Endpoint baru: `GET /api/admin/leads`, `POST /api/admin/leads/:id`, `GET /api/admin/leads.csv`
+  (semua di balik login admin).

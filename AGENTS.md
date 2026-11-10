@@ -3,10 +3,12 @@
 Proyek ini adalah toko daring **Elementia**, hasil duplikasi proyek Elementia, dan bisa dipanggil agen mana pun.
 Baca ini sebelum mengubah apa pun.
 
-> **Status: kerangka, belum siap tayang.** Identitas masih placeholder (`PT Origin Eka Manufaktur`,
-> `Rempah Tumpangsari`, nomor telepon nol). Katalog masih katalog Elementia (11 komoditas, 100 SKU),
-> foto masih milik Elementia, dan database D1 belum dibuat (`database_id: "__D1_ID__"`).
-> Daftar lengkap ada di `site.config.json` → `_todo`.
+> **Status: pratinjau live, belum siap transaksi nyata.** Situs jalan di
+> https://elementia-preview.afik-artificial.workers.dev (Worker `elementia-preview` + D1
+> `elementia-preview-db`). Katalog 11 komoditas / 50 SKU. Yang masih placeholder: nomor WhatsApp
+> & telepon `000-0000-0000`, alamat gudang Tegalluar (menentukan ongkir), foto produk (ikon
+> elemen), foto masakan (dummy), pembayaran & ongkir mode `simulasi`, serta domain `elementia.id`.
+> Daftar lengkap ada di `site.config.json` → `_todo` dan `HANDOFF.md` §8.
 
 ## 1. Panggilan cepat
 
@@ -35,12 +37,17 @@ Tool yang tersedia: `project_info`, `catalog_search`, `catalog_get`, `shipping_r
 | Bagian | Berkas | Catatan |
 |---|---|---|
 | Generator halaman | `build.py`, `shop_pages.py`, `v3_pages.py` | Sumber HTML; **jangan** sunting `*.html` hasil build |
-| Data | `assets/data/catalog.json` (100 SKU), `data/harga-2026.json`, `data/tarif-provinsi-2026-11.json`, `assets/data/wilayah/` | Sumber kebenaran |
+| Data | `assets/data/catalog.json` (50 SKU, hasil build), `data/harga-2026.json`, `data/tarif-provinsi-2026-11.json`, `assets/data/wilayah/` | Sumber kebenaran |
 | Frontend | `assets/js/*.js`, `assets/css/elementia.css` | `shop.js` = keranjang, checkout, wilayah bertingkat |
 | Backend | `worker/worker.src.js` + `worker/schema.sql` | Cloudflare Worker + D1 |
 | Rakit & deploy | `assemble.py dist`, `npx wrangler deploy` | `dist/` hasil, jangan disunting |
 
 Alur build: `python build.py` → `python assemble.py dist` → deploy `dist/worker.js` + `dist/public`.
+
+Panel admin (`/admin.html`, perlu `ADMIN_PASSWORD`): daftar pesanan + ubah status/resi, unduh label
+PDF, log notifikasi WA, dan panel **permintaan penawaran B2B** (lead dari `/bisnis.html`) dengan
+filter status, ubah status, chat WhatsApp, serta unduh CSV. Endpoint: `GET /api/admin/leads`,
+`POST /api/admin/leads/:id`, `GET /api/admin/leads.csv`.
 
 ## 3. Aturan yang tidak boleh dilanggar
 

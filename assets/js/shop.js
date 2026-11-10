@@ -1,4 +1,4 @@
-/* elementia shop.js v20261104b */
+/* elementia shop.js v20261111a */
 /* ELEMENTIA toko: keranjang (localStorage + akun), checkout, akun, pembayaran simulasi, admin */
 (function () {
   var KEY = 'bk_cart_v1', CAT = null, ME = undefined;
@@ -360,12 +360,14 @@
   // ---------- Admin ----------
   function pageAdmin() {
     var root = $('#admin-root'); if (!root) return;
+    var WA = '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>';
+    var leadFilter = '';
     function list() {
       api('/api/admin/orders').then(function (d) {
         if (d._status === 401) return;
         var paid = d.orders.filter(function (o) { return o.status === 'dibayar'; }), waq = d.orders.filter(function (o) { return o.status === 'menunggu_wa'; });
         var ago = function (t) { var m = Math.floor((Date.now() / 1000 - t) / 60); return m < 60 ? m + ' menit lalu' : Math.floor(m / 60) + ' jam lalu'; };
-        var WA = '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>';
+
         var alert = '<section class="bk-alert" role="alert" aria-live="polite"><h2 class="bk-h3">Pesanan dibayar — segera proses <span class="bk-alert-count">' + paid.length + '</span></h2>' +
           (paid.length ? '<ul>' + paid.map(function (o) { return '<li><span><a href="#' + o.id + '"><strong>' + esc(o.id) + '</strong></a> · ' + esc(o.name) + ' · <strong>' + rp(o.total) + '</strong><br><small>Dibayar ' + ago(o.paid_at || o.created_at) + ' · ' + esc(o.courier_service) + (o.reminder_count ? ' · pengingat ke-' + o.reminder_count : '') + '</small></span><span class="bk-acts"><a class="bk-wa-btn" target="_blank" rel="noopener" href="' + esc(o.wa_admin_url) + '">' + WA + ' Kirim ringkasan ke WA admin</a><a class="bk-wa-btn is-ghost" target="_blank" rel="noopener" href="' + esc(o.wa_buyer_url) + '">Chat pembeli</a></span></li>'; }).join('') + '</ul>' : '<p class="bk-muted" style="margin:0">Tidak ada pesanan dibayar yang menunggu diproses. 👍</p>') +
           '<p class="bk-muted" style="font-size:12px;margin:10px 0 0">Notifikasi WA otomatis ke ' + esc(d.admin_wa) + ': <strong>' + (d.wa_provider === 'mock' ? 'MODE UJI (mock — dicatat di log, belum terkirim)' : d.wa_provider) + '</strong>. Pengingat ulang tiap 2 jam selama status masih “dibayar”.</p></section>' +
@@ -377,7 +379,8 @@
             '<p>' + esc(o.name) + ' · ' + esc(o.phone) + ' · ' + esc(o.email) + '<br><strong>Kirim ke:</strong> ' + esc(o.penerima || o.name) + ' (' + esc(o.hp_penerima || o.phone) + ')<br>' + esc(o.alamat) + ', Kec. ' + esc(o.kecamatan) + ', ' + esc(o.kota) + ', ' + esc(o.provinsi) + ' ' + esc(o.kode_pos) + (o.catatan ? '<br><em>Catatan: ' + esc(o.catatan) + '</em>' : '') + '</p>' +
             '<p class="bk-muted">' + o.items.map(function (i) { return esc(i.name) + ' ×' + i.qty; }).join(', ') + '</p><p class="bk-muted" style="font-size:13px"><strong>Pengiriman:</strong> ' + esc(o.courier_service) + (o.channel === 'whatsapp' ? '' : ' — ' + rp(o.shipping_cost)) + ' · <strong>Total ' + rp(o.total) + '</strong>' + (o.channel === 'whatsapp' ? ' (ongkir disepakati via WA)' : '') + '</p></div>' +
             '<div class="bk-admin-ctl"><label class="bk-lbl-pick"><input type="checkbox" class="lbl-cb" value="' + esc(o.id) + '"> Pilih label</label><button type="button" class="bk-chip" data-lbl="' + esc(o.id) + '">Download label (PDF)</button><label>Status<select name="status">' + d.statuses.map(function (s) { return '<option value="' + s + '"' + (s === o.status ? ' selected' : '') + '>' + (d.labels[s] || s) + '</option>'; }).join('') + '</select></label><label>No. resi<input name="resi" value="' + esc(o.resi || '') + '"></label><button class="wp-block-button__link" type="submit">Simpan</button><span class="bk-saved" aria-live="polite"></span></div></form>';
-        }).join('') + '</div>' + '<details class="bk-panel" style="margin-top:20px"><summary><strong>Log notifikasi WA admin</strong> (' + d.notifications.length + ')</summary><ul class="bk-notif">' + d.notifications.map(function (n) { return '<li><span>' + esc(n.order_id) + ' · ' + (n.kind === 'reminder' ? 'pengingat' : 'dibayar') + '</span><span>' + esc(n.provider) + ' / ' + esc(n.status) + (n.error ? ' — ' + esc(n.error) : '') + '</span><span>' + new Date(n.created_at * 1000).toLocaleString('id-ID') + '</span></li>'; }).join('') + '</ul></details>';
+        }).join('') + '</div>' + '<details class="bk-panel" style="margin-top:20px"><summary><strong>Log notifikasi WA admin</strong> (' + d.notifications.length + ')</summary><ul class="bk-notif">' + d.notifications.map(function (n) { return '<li><span>' + esc(n.order_id) + ' · ' + (n.kind === 'reminder' ? 'pengingat' : 'dibayar') + '</span><span>' + esc(n.provider) + ' / ' + esc(n.status) + (n.error ? ' — ' + esc(n.error) : '') + '</span><span>' + new Date(n.created_at * 1000).toLocaleString('id-ID') + '</span></li>'; }).join('') + '</ul></details>' +
+          '<section class="bk-panel bk-leads" id="adm-leads" aria-live="polite"><p class="bk-muted" style="margin:0">Memuat permintaan penawaran…</p></section>';
         $('#adm-out').addEventListener('click', function () { api('/api/admin/logout', { method: 'POST', body: {} }).then(function () { location.reload(); }); });
         function lblUrl(q) { return '/api/admin/labels?' + q + '&size=' + $('#lbl-size').value + ($('#lbl-harga').checked ? '&harga=1' : ''); }
         function lblGo(q) { var a = document.createElement('a'); a.href = lblUrl(q); a.download = ''; document.body.appendChild(a); a.click(); a.remove(); }
@@ -386,9 +389,50 @@
         $$('.lbl-cb').forEach(function (c) { c.addEventListener('change', function () { var n = lblSel().length; $('#lbl-n').textContent = n; $('#lbl-sel').disabled = !n; }); });
         $('#lbl-sel').addEventListener('click', function () { lblGo('ids=' + encodeURIComponent(lblSel().join(','))); });
         $('#lbl-paid').addEventListener('click', function () { if (!d.orders.some(function (o) { return o.status === 'dibayar'; })) { alert('Belum ada pesanan berstatus Dibayar.'); return; } lblGo('status=dibayar'); });
-        $$('.bk-admin-row').forEach(function (fr) { fr.addEventListener('submit', function (e) { e.preventDefault(); api('/api/admin/orders/' + fr.dataset.id, { method: 'POST', body: { status: fr.status.value, resi: fr.resi.value } }).then(function (r) { fr.querySelector('.bk-saved').textContent = r.ok ? 'Tersimpan ✓' : r.error; if (r.ok) setTimeout(list, 600); }); }); });
-      });
-    }
+         $$('.bk-admin-row').forEach(function (fr) { fr.addEventListener('submit', function (e) { e.preventDefault(); api('/api/admin/orders/' + fr.dataset.id, { method: 'POST', body: { status: fr.status.value, resi: fr.resi.value } }).then(function (r) { fr.querySelector('.bk-saved').textContent = r.ok ? 'Tersimpan ✓' : r.error; if (r.ok) setTimeout(list, 600); }); }); });
+         leadsPanel(); // panel lead baru ada setelah kerangka di atas terpasang
+       });
+     }
+
+     // Permintaan penawaran (form /bisnis.html). Dulu hanya masuk tabel D1 tanpa layar admin.
+     function leadsPanel() {
+       var box = $('#adm-leads'); if (!box) return;
+       api('/api/admin/leads?limit=100' + (leadFilter ? '&status=' + encodeURIComponent(leadFilter) : '')).then(function (d) {
+         if (!d.ok) { box.innerHTML = '<p class="bk-muted" style="margin:0">' + esc(d.error || 'Permintaan penawaran gagal dimuat.') + '</p>'; return; }
+         var chips = ['semua'].concat(d.statuses).map(function (k) {
+           var on = (leadFilter || 'semua') === k;
+           return '<button type="button" class="bk-chip' + (on ? ' is-on' : '') + '" data-lf="' + (k === 'semua' ? '' : k) + '">' + esc(k === 'semua' ? 'Semua' : (d.labels[k] || k)) + ' (' + (d.counts[k] || 0) + ')</button>';
+         }).join('');
+         box.innerHTML = '<div class="bk-lead-head"><div><h2 class="bk-h3" style="margin:0">Permintaan penawaran (B2B)' +
+           (d.counts.baru ? ' <span class="bk-alert-count">' + d.counts.baru + '</span>' : '') + '</h2>' +
+           '<p class="bk-muted" style="font-size:13px;margin:6px 0 0">' + d.total + ' lead tersimpan · ' + d.leads.length + ' ditampilkan</p></div>' +
+           '<a class="bk-chip" href="/api/admin/leads.csv' + (leadFilter ? '?status=' + encodeURIComponent(leadFilter) : '') + '">Unduh CSV</a></div>' +
+           '<div class="bk-lead-filter">' + chips + '</div>' +
+           (d.leads.length ? '<div class="bk-lead-list">' + d.leads.map(function (l) {
+             return '<article class="bk-lead" data-id="' + l.id + '"><div>' +
+               '<strong>' + esc(l.name) + '</strong> <span class="bk-status is-lead-' + esc(l.status) + '">' + esc(d.labels[l.status] || l.status) + '</span>' +
+               '<small>' + esc(l.tanggal) + ' WIB · form ' + esc(l.source) + '</small>' +
+               '<p><strong>' + esc(l.company) + '</strong>' + (l.role ? ' · ' + esc(l.role) : '') + '<br>' + esc(l.phone) + (l.email ? ' · ' + esc(l.email) : '') + (l.city ? ' · ' + esc(l.city) : '') + '</p>' +
+               (l.commodities ? '<p class="bk-muted">Komoditas: ' + esc(l.commodities) + '</p>' : '') +
+               (l.volume ? '<p class="bk-muted">Kebutuhan: ' + esc(l.volume) + '</p>' : '') +
+               (l.note ? '<p class="bk-lead__note">“' + esc(l.note) + '”</p>' : '') +
+               '</div><div class="bk-admin-ctl">' +
+               (l.wa_url ? '<a class="bk-wa-btn" target="_blank" rel="noopener" href="' + esc(l.wa_url) + '">' + WA + ' Chat lead</a>' : '') +
+               '<label>Status<select name="lead-status">' + d.statuses.map(function (k) { return '<option value="' + k + '"' + (k === l.status ? ' selected' : '') + '>' + esc(d.labels[k] || k) + '</option>'; }).join('') + '</select></label>' +
+               '<button type="button" class="wp-block-button__link" data-lead-save="' + l.id + '">Simpan</button>' +
+               '<span class="bk-saved" aria-live="polite"></span></div></article>';
+           }).join('') + '</div>' : '<p class="bk-muted" style="margin:0">Belum ada permintaan penawaran' + (leadFilter ? ' berstatus ini' : '') + '.</p>');
+         $$('[data-lf]', box).forEach(function (b) { b.addEventListener('click', function () { leadFilter = b.dataset.lf; leadsPanel(); }); });
+         $$('[data-lead-save]', box).forEach(function (b) { b.addEventListener('click', function () {
+           var row = b.closest('.bk-lead'), sel = row.querySelector('[name=lead-status]'), out = row.querySelector('.bk-saved');
+           b.disabled = true; out.textContent = 'Menyimpan…';
+           api('/api/admin/leads/' + b.dataset.leadSave, { method: 'POST', body: { status: sel.value } }).then(function (r) {
+             b.disabled = false; out.textContent = r.ok ? 'Tersimpan ✓' : (r.error || 'Gagal menyimpan');
+             if (r.ok) setTimeout(leadsPanel, 500);
+           });
+         }); });
+       });
+     }
     var f = $('#admin-login');
     f.addEventListener('submit', function (e) { e.preventDefault(); var er = f.querySelector('.bk-error'); er.hidden = true; api('/api/admin/login', { method: 'POST', body: { password: f.password.value } }).then(function (d) { if (!d.ok) { er.textContent = d.error; er.hidden = false; return; } list(); }); });
     list();
