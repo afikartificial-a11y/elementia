@@ -15,7 +15,7 @@ Baca ini sebelum mengubah apa pun.
 ```bash
 node tools/agent-cli.mjs info
 node tools/agent-cli.mjs catalog search "lada bubuk" --limit 5
-node tools/agent-cli.mjs rates --provinsi Bali --kode-pos 80361 --items lada-putih-butir-pouch-500g:2
+node tools/agent-cli.mjs rates --provinsi Bali --kode-pos 80361 --items lada-putih-butir-pouch-250g:2
 node tools/agent-cli.mjs wilayah --provinsi "Jawa Barat" --kabupaten "Kota Bandung" --kecamatan Cibiru
 node tools/agent-cli.mjs orders --status baru --limit 10
 ```
@@ -70,7 +70,7 @@ filter status, ubah status, chat WhatsApp, serta unduh CSV. Endpoint: `GET /api/
 ```bash
 python build.py && python assemble.py dist
 node --check dist/worker.js
-node tools/agent-cli.mjs rates --provinsi Bali --kode-pos 80361 --items lada-putih-butir-pouch-500g:5
+node tools/agent-cli.mjs rates --provinsi Bali --kode-pos 80361 --items lada-putih-butir-pouch-250g:5
 ```
 
 Uji lokal: `node tools-dev.mjs` (http://127.0.0.1:8787, SQLite di `data/local.db`; `--memory` untuk sementara).
