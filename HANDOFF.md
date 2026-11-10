@@ -84,6 +84,8 @@ tools-dev.mjs   → server lokal SQLite persisten (data/local.db)
 python build.py && python assemble.py dist   # bangun ulang
 node tools-dev.mjs                            # lokal http://127.0.0.1:8787
 npx wrangler@4 deploy                         # deploy
+pwsh -File tools/push-github.ps1 -CheckOnly    # cek kesiapan push (tidak mengubah apa pun)
+pwsh -File tools/push-github.ps1               # build → commit → push ke GitHub
 node tools/agent-cli.mjs info                 # ringkasan proyek (JSON)
 node tools/agent-cli.mjs catalog search lada
 node tools/agent-cli.mjs rates --provinsi Bali --kode-pos 80361 --items lada-putih-butir-pouch-250g:2
@@ -171,6 +173,7 @@ agent/manifest.json       kapabilitas + perintah
 agent/SKILL.md            skill siap pasang
 tools/agent-cli.mjs       CLI
 tools/mcp-server.mjs      server MCP
+tools/push-github.ps1     preflight + commit + push ke GitHub (aman: tidak menyentuh Cloudflare)
 tools/build-brand-assets.py   potong ikon + buat logo
 tools/build-catalog-data.py   bangun katalog dari ringkasan produk
 tools/build-resep.py          parse resep .md → JSON

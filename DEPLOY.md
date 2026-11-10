@@ -2,7 +2,10 @@
 
 Alur: **push ke GitHub → GitHub Actions membangun situs → `wrangler deploy` ke Cloudflare Workers → uji asap otomatis.**
 
-Yang saya belum bisa lakukan sendiri: repo ini belum punya remote GitHub, dan mesin ini tidak punya token Cloudflare (`CLOUDFLARE_API_TOKEN` kosong, `gh` tidak terpasang, 0 koneksi terotorisasi). Semua langkah di bawah sudah disiapkan sebagai file — tinggal dijalankan dengan kredensial Anda.
+Keadaan 11 Nov 2026: remote GitHub **sudah** tersambung (`afikartificial-a11y/elementia`, publik,
+masih kosong — belum ada commit terkirim), dan mesin ini punya OAuth Wrangler aktif sehingga
+`npx wrangler deploy` bisa jalan langsung tanpa token. GitHub Actions baru bekerja setelah tiga
+secret Cloudflare diisi (§4); tanpa itu push tetap aman, hanya tidak men-deploy.
 
 ---
 
@@ -35,12 +38,30 @@ npx wrangler secret put MIDTRANS_SERVER_KEY --name elementia-preview # opsional
 
 ## 3. Push repo
 
+Remote `origin` sudah terpasang. Ada dua cara:
+
 ```powershell
+# cara singkat: periksa dulu (tidak mengubah apa pun), lalu push
 cd "D:\Home\Grok Bot\elementia"
-git remote add origin https://github.com/<akun>/<repo>.git
-git branch -M main
+pwsh -File tools/push-github.ps1 -CheckOnly
+pwsh -File tools/push-github.ps1 -Message "chore: perbarui situs"
+```
+
+Skrip itu memeriksa remote, memastikan berkas rahasia (`.env`, `ADMIN_PASSWORD.txt`,
+`data/local.db`) tidak ter-track, mencari token yang nyasar, menjalankan
+`build.py` + `assemble.py` + `node --check`, lalu commit (kalau ada perubahan) dan
+`git push -u origin main`. Push pertama sekaligus menyetel upstream, setelah itu cukup `git push`.
+
+Manual, bila lebih suka:
+
+```powershell
+git add -A
+git commit -m "..."
 git push -u origin main
 ```
+
+Catatan: repo ini **publik**. Jangan pernah commit `.env`, `ADMIN_PASSWORD.txt`, atau
+`data/local.db`; semuanya sudah masuk `.gitignore`.
 
 ## 4. Tambahkan 3 secret di GitHub
 
