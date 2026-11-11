@@ -5,7 +5,7 @@ import json, html, os, urllib.parse as U
 E = html.escape
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = "https://elementia.id"
-WA = "6280000000000"
+WA = "6289527358906"
 def wa(msg): return f"https://wa.me/{WA}?text=" + U.quote(msg)
 WA_HALO = wa("Halo ELEMENTIA, saya ingin bertanya tentang produk lada.")
 WA_GROSIR = wa("Halo ELEMENTIA, saya ingin memesan lada kemasan 25 kg (grosir). Mohon info stok dan pengiriman.")
@@ -15,7 +15,7 @@ SHOPEE = "https://shopee.co.id/elementia_100"
 IG = "https://www.instagram.com/elementiaofficial/"
 FB = "https://www.facebook.com/people/Bumbu-Pusaka-Nusantara/100082871965412/"
 EMAIL = "halo@elementia.id"
-TEL = "+622287319273"; TEL_TXT = "000-0000-0000"; WA_TXT = "0800-0000-0000"
+TEL = "+622287319273"; TEL_TXT = "000-0000-0000"; WA_TXT = "0895-2735-8906"
 HOURS = "Senin – Sabtu : 9 pagi – 4 sore"
 ADDR = ["Kawasan Industri De Prima Terra Blok A1 No. 1A,", "Kelurahan Tegalluar, Kecamatan Bojongsoang,", "Kabupaten Bandung – 40288", "Jawa Barat – Indonesia"]
 ADDR_Q = "Kawasan Industri De Prima Terra Blok A1 No. 1A, Kel. Tegalluar, Kec. Bojongsoang, Kab. Bandung 40288"
@@ -580,7 +580,7 @@ faqs = [("Kenapa harus Lada ELEMENTIA?",["100% murni menggunakan produk lada tan
  ("Terbuat dari apa produk tersebut?",["Lada putih bubuk dan lada hitam bubuk menggunakan 100% lada tanpa bahan tambahan apa pun.","Lada putih bubuk berasal dari lada putih Bangka dan Belitung dengan kualitas ekspor.","Lada hitam bubuk berasal dari lada hitam Lampung yang telah tersterilisasi."]),
  ("Apakah bumbu tersebut aman dikonsumsi?",["Kami melakukan uji lab secara berkala untuk memastikan kualitas dan keamanan produk hingga ke tangan konsumen.","Uji lab meliputi kandungan piperine (senyawa yang memengaruhi tingkat kepedasan), kadar air, hingga cemaran mikroorganisme.","Produk ELEMENTIA bersertifikat HALAL, dan proses pengolahannya tersertifikasi HACCP."]),
  ("Berapa lama umur simpan produk?",["Umur simpan produk lada kami adalah 2 tahun. Disarankan dihabiskan paling lambat 6 bulan setelah kemasan dibuka untuk menghindari perubahan rasa dan penggumpalan."])]
-kt = head("Kontak & FAQ | ELEMENTIA Rempah Tumpangsari","Hubungi ELEMENTIA: telepon 000-0000-0000, WhatsApp 0800-0000-0000, email halo@elementia.id. Kantor pusat di Bojongsoang, Kabupaten Bandung. Jawaban pertanyaan umum tentang lada ELEMENTIA.","kontak.html", img=F+"kebun-jalan.webp",
+kt = head("Kontak & FAQ | ELEMENTIA Rempah Tumpangsari","Hubungi ELEMENTIA: telepon 000-0000-0000, WhatsApp 0895-2735-8906, email halo@elementia.id. Kantor pusat di Bojongsoang, Kabupaten Bandung. Jawaban pertanyaan umum tentang lada ELEMENTIA.","kontak.html", img=F+"kebun-jalan.webp",
   extra='<script type="application/ld+json">'+json.dumps({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":" ".join(a)}} for q,a in faqs]},ensure_ascii=False)+'</script>')
 kt += page_hero("Kontak","Kami senang dengan kunjungan Anda. Pelayanan terbaik untuk semua pelanggan kami di Indonesia.",F+"kebun-jalan.webp","Kontak","Kebun lada dari udara")
 kt += f'''<div class="wp-block-group alignfull bk-section"><div class="bk-wrap"><div class="wp-block-columns are-vertically-aligned-top" style="align-items:stretch">

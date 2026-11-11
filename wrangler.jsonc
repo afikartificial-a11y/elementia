@@ -25,7 +25,7 @@
   "observability": { "enabled": true },
   "triggers": { "crons": ["*/15 * * * *"] },
   "vars": {
-    "ADMIN_WA": "6280000000000",
+    "ADMIN_WA": "6289527358906",
     "PUBLIC_URL": "https://elementia-preview.afik-artificial.workers.dev"
   }
   // Secrets (set sekali, tidak ikut repo):

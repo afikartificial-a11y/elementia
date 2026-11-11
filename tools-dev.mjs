@@ -108,7 +108,7 @@ function serveStatic(req) {
 const env = {
   DB,
   ASSETS: { fetch: async (req) => serveStatic(req) },
-  ADMIN_WA: process.env.ADMIN_WA || "6285138361551",
+  ADMIN_WA: process.env.ADMIN_WA || "6289527358906",
   PUBLIC_URL: process.env.PUBLIC_URL || `http://127.0.0.1:${PORT}`,
   ADMIN_PASSWORD: process.env.ADMIN_PASSWORD || "admin-lokal",
   // BITESHIP_API_KEY / MIDTRANS_SERVER_KEY sengaja dibiarkan kosong → mode simulasi

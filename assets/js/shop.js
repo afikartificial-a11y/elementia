@@ -66,7 +66,7 @@
   });
   function waCart(m, c) {
     var lines = Object.keys(c).filter(function (k) { return m[k]; }).map(function (k) { return '- ' + m[k].nama + ' x' + c[k] + ' (' + rp(m[k].harga * c[k]) + ')'; });
-    return 'https://wa.me/6280000000000?text=' + encodeURIComponent('Halo ELEMENTIA, saya ingin memesan:\n' + lines.join('\n') + '\nAlamat kirim: ...');
+    return 'https://wa.me/6289527358906?text=' + encodeURIComponent('Halo ELEMENTIA, saya ingin memesan:\n' + lines.join('\n') + '\nAlamat kirim: ...');
   }
   function lines(m, c) {
     var sub = 0, w = 0, rows = Object.keys(c).filter(function (k) { return m[k]; }).map(function (k) { var i = m[k]; sub += i.harga * c[k]; w += i.berat_g * c[k]; return { i: i, q: c[k] }; });

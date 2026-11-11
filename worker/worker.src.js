@@ -262,7 +262,7 @@ const fmtRp = n => "Rp " + Number(n || 0).toLocaleString("id-ID").replace(/,/g, 
 const fmtKg = g => (g >= 1000 ? (Math.round(g / 10) / 100).toString().replace(".", ",") + " kg" : g + " g");
 const variant = sku => { const c = BY_SKU[sku]; return c ? `${c.bentuk}, ${c.kemasan}` : ""; };
 const baseUrl = env => (env.PUBLIC_URL || "https://elementia-preview.nsntr.workers.dev").replace(/\/$/, "");
-const adminWa = env => String(env.ADMIN_WA || "6280000000000").replace(/\D/g, "");
+const adminWa = env => String(env.ADMIN_WA || "6289527358906").replace(/\D/g, "");
 function addrLines(o) { // alamat pengiriman lengkap — satu sumber untuk pesan WA pembeli, notifikasi admin & halaman admin
   const L = [`Penerima: ${o.penerima || o.name}`];
   const hp = o.hp_penerima || o.phone; if (hp) L.push(`No. HP penerima: ${hp}`);
